@@ -24,6 +24,7 @@ MANIFEST
 
 # Jupyter Notebooks
 .ipynb_checkpoints
+06_upload_model.ipynb
 
 # Virtual Env
 venv/

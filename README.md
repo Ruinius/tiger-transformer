@@ -2,6 +2,8 @@
 
 A fine-tuned transformer model designed to standardize financial statement line items (Balance Sheet and Income Statement).
 
+[🤗 Model on Hugging Face](https://huggingface.co/Ruinius/tiger-transformer)
+
 ## Overview
 
 This project supports a classification step for a financial analysis AI agent. The primary goals were:
@@ -74,5 +76,4 @@ The files `notebooks/bs_mapping_history.csv` and `notebooks/is_mapping_history.c
 
 ## Acknowledgments & Licensing
 This project is a fine-tuned version of the FinBERT-Pretrain model developed by Yang et al. (HKUST).
-
-The base model and this fine-tuned version are licensed under the Apache License 2.0.
+Licensed under the **Apache License 2.0**. Same as the base FinBERT model.
