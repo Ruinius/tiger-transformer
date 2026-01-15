@@ -1,0 +1,22 @@
+row_name,section,is_calculated,standardized_name,company
+Subscription (Net revenue),income_statement,false,revenue_subscription,ADSK
+Maintenance (Net revenue),income_statement,false,revenue_maintenance,ADSK
+Total subscription and maintenance revenue,income_statement,true,revenue_subtotal,ADSK
+Other (Net revenue),income_statement,false,revenue_other,ADSK
+Total net revenue,income_statement,true,total_revenue,ADSK
+Cost of subscription and maintenance revenue,income_statement,false,cost_of_revenue_subscription_and_maintenance,ADSK
+Cost of other revenue,income_statement,false,cost_of_revenue_other,ADSK
+Amortization of developed technologies,income_statement,false,amortization_of_developed_technologies,ADSK
+Total cost of revenue,income_statement,true,total_cost_of_revenue,ADSK
+Gross profit,income_statement,true,gross_profit,ADSK
+Marketing and sales,income_statement,false,sales_and_marketing_expense,ADSK
+Research and development,income_statement,false,research_and_development_expense,ADSK
+General and administrative,income_statement,false,general_and_administrative_expense,ADSK
+Amortization of purchased intangibles,income_statement,false,amortization_of_purchased_intangibles_opex,ADSK
+"Restructuring, other exit costs, and facility reductions",income_statement,false,restructuring_and_other_exit_costs,ADSK
+Total operating expenses,income_statement,true,total_operating_expenses,ADSK
+Income from operations,income_statement,true,operating_income,ADSK
+"Interest and other (loss) income, net",income_statement,false,other_non_operating_income_expense_net,ADSK
+Income before income taxes,income_statement,true,pretax_income,ADSK
+Provision for income taxes,income_statement,false,income_tax_provision,ADSK
+Net income,income_statement,true,net_income,ADSK

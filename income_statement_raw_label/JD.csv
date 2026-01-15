@@ -1,0 +1,18 @@
+row_name,section,is_calculated,standardized_name,company
+Net revenues,income_statement,False,revenue_header,JD
+Net product revenues,income_statement,False,product_revenue,JD
+Net service revenues,income_statement,False,service_revenue,JD
+Total net revenues,income_statement,True,total_revenue,JD
+Cost of revenues,income_statement,False,cost_of_revenue,JD
+Fulfillment,income_statement,False,fulfillment_expense,JD
+Marketing,income_statement,False,marketing_expense,JD
+Research and development,income_statement,False,research_and_development_expense,JD
+General and administrative,income_statement,False,general_and_administrative_expense,JD
+Gain on sale of development properties,income_statement,False,operating_gains_other,JD
+Income from operations,income_statement,True,operating_income,JD
+Share of results of equity investees,income_statement,False,equity_method_investment_earnings_net,JD
+Interest expense,income_statement,False,interest_expense,JD
+"Others, net",income_statement,False,other_non_operating_income_expense_net,JD
+Income before tax,income_statement,True,income_before_taxes,JD
+Income tax expenses,income_statement,False,income_tax_provision,JD
+Net income,income_statement,True,net_income,JD

@@ -1,0 +1,26 @@
+row_name,section,is_calculated,standardized_name,company
+Cash and cash equivalents,current_assets,False,cash_and_equivalents,AVGO
+"Trade accounts receivable, net",current_assets,False,accounts_receivable,AVGO
+Inventory,current_assets,False,inventory,AVGO
+Other current assets,current_assets,False,other_current_assets,AVGO
+Total current assets,current_assets,True,total_current_assets,AVGO
+"Property, plant and equipment, net",noncurrent_assets,False,property_plant_equipment,AVGO
+Goodwill,noncurrent_assets,False,goodwill,AVGO
+"Intangible assets, net",noncurrent_assets,False,intangibles_net,AVGO
+Other long-term assets,noncurrent_assets,False,other_noncurrent_assets,AVGO
+Total assets,noncurrent_assets,True,total_assets,AVGO
+Accounts payable,current_liabilities,False,accounts_payable,AVGO
+Employee compensation and benefits,current_liabilities,False,accrued_compensation,AVGO
+Short-term debt,current_liabilities,False,short_term_debt,AVGO
+Other current liabilities,current_liabilities,False,other_current_liabilities,AVGO
+Total current liabilities,current_liabilities,True,total_current_liabilities,AVGO
+Long-term debt,noncurrent_liabilities,False,long_term_debt,AVGO
+Other long-term liabilities,noncurrent_liabilities,False,other_noncurrent_liabilities,AVGO
+Total liabilities,noncurrent_liabilities,True,total_liabilities,AVGO
+Preferred stock,stockholders_equity,False,preferred_stock,AVGO
+Common stock,stockholders_equity,False,common_stock,AVGO
+Additional paid-in capital,stockholders_equity,False,additional_paid_in_capital,AVGO
+Retained earnings,stockholders_equity,False,retained_earnings,AVGO
+Accumulated other comprehensive income,stockholders_equity,False,aoci,AVGO
+Total stockholders' equity,stockholders_equity,True,total_equity,AVGO
+Total liabilities and equity,stockholders_equity,True,total_liabilities_and_equity,AVGO

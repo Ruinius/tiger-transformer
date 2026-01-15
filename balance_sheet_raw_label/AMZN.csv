@@ -1,0 +1,25 @@
+row_name,section,is_calculated,standardized_name,company
+Cash and cash equivalents,current_assets,false,cash_and_equivalents,AMZN
+Marketable securities,current_assets,false,short_term_investments,AMZN
+Inventories,current_assets,false,inventory,AMZN
+"Accounts receivable, net and other",current_assets,false,accounts_receivable_net,AMZN
+Total current assets,current_assets,true,total_current_assets,AMZN
+"Property and equipment, net",noncurrent_assets,false,property_plant_and_equipment,AMZN
+Operating leases,noncurrent_assets,false,operating_lease_assets,AMZN
+Goodwill,noncurrent_assets,false,goodwill,AMZN
+Other assets,noncurrent_assets,false,other_noncurrent_assets,AMZN
+Total assets,noncurrent_assets,true,total_assets,AMZN
+Accounts payable,current_liabilities,false,accounts_payable,AMZN
+Accrued expenses and other,current_liabilities,false,accrued_liabilities,AMZN
+Unearned revenue (current),current_liabilities,false,deferred_revenue_current,AMZN
+Total current liabilities,current_liabilities,true,total_current_liabilities,AMZN
+Long-term lease liabilities,noncurrent_liabilities,false,operating_lease_liabilities_noncurrent,AMZN
+Long-term debt,noncurrent_liabilities,false,long_term_debt,AMZN
+Other long-term liabilities,noncurrent_liabilities,false,other_noncurrent_liabilities,AMZN
+Common stock,stockholders_equity,false,common_stock,AMZN
+"Treasury stock, at cost",stockholders_equity,false,treasury_stock,AMZN
+Additional paid-in capital,stockholders_equity,false,additional_paid_in_capital,AMZN
+Accumulated other comprehensive income (loss),stockholders_equity,false,accumulated_other_comprehensive_income,AMZN
+Retained earnings,stockholders_equity,false,retained_earnings,AMZN
+Total stockholders' equity,stockholders_equity,true,total_equity,AMZN
+Total liabilities and stockholders' equity,stockholders_equity,true,total_liabilities_and_equity,AMZN

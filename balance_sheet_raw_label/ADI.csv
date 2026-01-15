@@ -1,0 +1,32 @@
+row_name,section,is_calculated,standardized_name,company
+Cash and cash equivalents,current_assets,false,cash_and_equivalents,ADI
+Short-term investments,current_assets,false,short_term_investments,ADI
+Accounts receivable,current_assets,false,accounts_receivable_net,ADI
+Inventories,current_assets,false,inventory,ADI
+Prepaid expenses and other current assets,current_assets,false,prepaid_and_other_current_assets,ADI
+Total current assets,current_assets,true,total_current_assets,ADI
+"Net property, plant and equipment",noncurrent_assets,false,property_plant_and_equipment,ADI
+Goodwill,noncurrent_assets,false,goodwill,ADI
+"Intangible assets, net",noncurrent_assets,false,intangible_assets_net,ADI
+Deferred tax assets,noncurrent_assets,false,deferred_tax_assets_noncurrent,ADI
+Other assets,noncurrent_assets,false,other_noncurrent_assets,ADI
+Total non-current assets,noncurrent_assets,true,total_noncurrent_assets,ADI
+TOTAL ASSETS,noncurrent_assets,true,total_assets,ADI
+Accounts payable,current_liabilities,false,accounts_payable,ADI
+Income taxes payable,current_liabilities,false,taxes_payable_current,ADI
+"Debt, current",current_liabilities,false,short_term_debt,ADI
+Commercial paper notes,current_liabilities,false,commercial_paper,ADI
+Accrued liabilities,current_liabilities,false,accrued_liabilities,ADI
+Total current liabilities,current_liabilities,true,total_current_liabilities,ADI
+Long-term debt,noncurrent_liabilities,false,long_term_debt,ADI
+Deferred income taxes,noncurrent_liabilities,false,deferred_tax_liabilities,ADI
+Income taxes payable (non-current),noncurrent_liabilities,false,taxes_payable_noncurrent,ADI
+Other non-current liabilities,noncurrent_liabilities,false,other_noncurrent_liabilities,ADI
+Total non-current liabilities,noncurrent_liabilities,true,total_noncurrent_liabilities,ADI
+Preferred stock,stockholders_equity,false,preferred_stock,ADI
+Common stock,stockholders_equity,false,common_stock,ADI
+Capital in excess of par value,stockholders_equity,false,additional_paid_in_capital,ADI
+Retained earnings,stockholders_equity,false,retained_earnings,ADI
+Accumulated other comprehensive loss,stockholders_equity,false,accumulated_other_comprehensive_income,ADI
+Total shareholders' equity,stockholders_equity,true,total_equity,ADI
+TOTAL LIABILITIES AND SHAREHOLDERS' EQUITY,stockholders_equity,true,total_liabilities_and_equity,ADI

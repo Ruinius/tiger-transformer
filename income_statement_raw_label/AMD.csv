@@ -1,0 +1,17 @@
+row_name,section,is_calculated,standardized_name,company
+Net revenue,income_statement,false,revenue,AMD
+Cost of sales,income_statement,false,cost_of_goods_sold,AMD
+Amortization of acquisition-related intangibles (COS),income_statement,false,amortization_of_acquired_intangibles,AMD
+Total cost of sales,income_statement,true,total_cost_of_sales,AMD
+Gross profit,income_statement,true,gross_profit,AMD
+Research and development,income_statement,false,research_and_development_expense,AMD
+"Marketing, general and administrative",income_statement,false,selling_general_and_administrative_expense,AMD
+Amortization of acquisition-related intangibles (OpEx),income_statement,false,amortization_of_intangibles_opex,AMD
+Total operating expenses,income_statement,true,total_operating_expenses,AMD
+Operating income (loss),income_statement,true,operating_income,AMD
+Interest expense,income_statement,false,interest_expense,AMD
+"Other income (expense), net",income_statement,false,other_non_operating_income_expense_net,AMD
+Income from continuing operations before income taxes and equity income,income_statement,true,pretax_income,AMD
+Income tax provision (benefit),income_statement,false,income_tax_provision,AMD
+Equity income in investee,income_statement,false,equity_method_investment_activity,AMD
+"Income from continuing operations, net of tax",income_statement,true,net_income,AMD

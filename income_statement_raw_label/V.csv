@@ -1,0 +1,17 @@
+row_name,section,is_calculated,standardized_name,company
+Net revenue,income_statement,false,revenue,V
+Personnel,income_statement,false,personnel_expense,V
+Marketing,income_statement,false,marketing_expense,V
+Network and processing,income_statement,false,network_and_processing_expense,V
+Professional fees,income_statement,false,professional_fees_expense,V
+Depreciation and amortization,income_statement,false,depreciation_and_amortization_opex,V
+General and administrative,income_statement,false,general_and_administrative_expense,V
+Litigation provision,income_statement,false,litigation_provision_operating,V
+Total operating expenses,income_statement,true,total_operating_expenses,V
+Operating income,income_statement,true,operating_income,V
+Interest expense,income_statement,false,interest_expense,V
+Investment income (expense) and other,income_statement,false,investment_income_and_other_non_operating,V
+Total non-operating income (expense),income_statement,true,total_non_operating_income_expense,V
+Income before income taxes,income_statement,true,pretax_income,V
+Income tax provision,income_statement,false,income_tax_provision,V
+Net income,income_statement,true,net_income,V

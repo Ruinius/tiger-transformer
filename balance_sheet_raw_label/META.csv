@@ -1,0 +1,26 @@
+row_name,section,is_calculated,standardized_name,company
+Cash and cash equivalents,current_assets,False,cash_and_equivalents,META
+Marketable securities,current_assets,False,short_term_investments,META
+"Accounts receivable, net",current_assets,False,accounts_receivable,META
+Prepaid expenses and other current assets,current_assets,False,prepaid_expenses,META
+Total current assets,current_assets,True,total_current_assets,META
+Non-marketable equity securities,noncurrent_assets,False,long_term_investments,META
+"Property and equipment, net",noncurrent_assets,False,property_plant_equipment,META
+Operating lease right-of-use assets,noncurrent_assets,False,right_of_use_assets,META
+Goodwill,noncurrent_assets,False,goodwill,META
+Other assets,noncurrent_assets,False,other_noncurrent_assets,META
+Total assets,noncurrent_assets,True,total_assets,META
+Accounts payable,current_liabilities,False,accounts_payable,META
+"Operating lease liabilities, current",current_liabilities,False,current_lease_liabilities,META
+Accrued expenses and other current liabilities,current_liabilities,False,accrued_liabilities,META
+Total current liabilities,current_liabilities,True,total_current_liabilities,META
+"Operating lease liabilities, non-current",noncurrent_liabilities,False,long_term_lease_liabilities,META
+Long-term debt,noncurrent_liabilities,False,long_term_debt,META
+Long-term income taxes,noncurrent_liabilities,False,long_term_income_tax_payable,META
+Other liabilities,noncurrent_liabilities,False,other_noncurrent_liabilities,META
+Total liabilities,noncurrent_liabilities,True,total_liabilities,META
+Common stock and additional paid-in capital,equity,False,common_stock_and_apic,META
+Accumulated other comprehensive loss,equity,False,aoci,META
+Retained earnings,equity,False,retained_earnings,META
+Total stockholders' equity,equity,True,total_equity,META
+Total liabilities and stockholders' equity,equity,True,total_liabilities_and_equity,META

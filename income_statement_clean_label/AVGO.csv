@@ -1,0 +1,18 @@
+row_name,section,is_calculated,standardized_name,company
+Net revenue,income_statement,False,revenue,AVGO 
+Cost of revenue,income_statement,False,cost_of_revenue,AVGO 
+Amortization of acquisition-related intangible assets,income_statement,False,amortization_acquired,AVGO 
+Restructuring charges,income_statement,False,restructuring_and_impairment_charges,AVGO 
+Total cost of revenue,income_statement,True,total_cost_of_revenue,AVGO 
+Gross margin,income_statement,True,gross_profit,AVGO 
+Research and development,income_statement,False,research_and_development_expense,AVGO 
+"Selling, general and administrative",income_statement,False,sales_general_and_administrative_expense,AVGO 
+Amortization of acquisition-related intangible assets,income_statement,False,amortization_acquired,AVGO 
+Restructuring and other charges,income_statement,False,restructuring_and_impairment_charges,AVGO 
+Total operating expenses,income_statement,True,total_operating_expenses,AVGO 
+Operating income,income_statement,True,operating_income,AVGO 
+Interest expense,income_statement,False,interest_expense,AVGO 
+"Other income, net",income_statement,False,other_income_expense_net,AVGO 
+Income from continuing operations before income taxes,income_statement,True,income_before_taxes,AVGO 
+Provision for (benefit from) income taxes,income_statement,False,income_tax_provision,AVGO 
+Income from continuing operations,income_statement,True,net_income,AVGO 

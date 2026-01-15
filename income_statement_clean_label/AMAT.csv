@@ -1,0 +1,15 @@
+row_name,section,is_calculated,standardized_name,company
+Net revenue,income_statement,False,revenue,AMAT
+Cost of products sold,income_statement,False,cost_of_revenue,AMAT
+Gross profit,income_statement,True,gross_profit,AMAT
+"Research, development and engineering",income_statement,False,research_and_development_expense,AMAT
+Marketing and selling,income_statement,False,sales_and_marketing_expense,AMAT
+General and administrative,income_statement,False,general_and_administrative_expense,AMAT
+Restructuring charges,income_statement,False,restructuring_and_impairment_charges,AMAT
+Total operating expenses,income_statement,True,total_operating_expenses,AMAT
+Income from operations,income_statement,True,operating_income,AMAT
+Interest expense,income_statement,False,interest_expense,AMAT
+"Interest and other income (expense), net",income_statement,False,other_income_expense_net,AMAT
+Income before income taxes,income_statement,True,income_before_taxes,AMAT
+Provision for income taxes,income_statement,False,income_tax_provision,AMAT
+Net income,income_statement,True,net_income,AMAT

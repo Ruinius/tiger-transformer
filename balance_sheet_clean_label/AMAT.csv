@@ -1,0 +1,23 @@
+row_name,section,is_calculated,standardized_name,company
+Cash and cash equivalents,current_assets,False,cash_and_equivalents,AMAT
+Short-term investments,current_assets,False,short_term_investments,AMAT
+"Accounts receivable, net",current_assets,False,accounts_receivable,AMAT
+Inventories,current_assets,False,inventory,AMAT
+Other current assets,current_assets,False,other_current_assets,AMAT
+Total current assets,current_assets,True,total_current_assets,AMAT
+Long-term investments,noncurrent_assets,False,long_term_investments,AMAT
+"Property, plant and equipment, net",noncurrent_assets,False,property_plant_equipment,AMAT
+Goodwill,noncurrent_assets,False,goodwill,AMAT
+"Purchased technology and other intangible assets, net",noncurrent_assets,False,intangibles_net,AMAT
+Deferred income taxes and other assets,noncurrent_assets,False,deferred_tax_assets,AMAT
+Total assets,noncurrent_assets,True,total_assets,AMAT
+Short-term debt,current_liabilities,False,short_term_debt,AMAT
+Accounts payable and accrued expenses,current_liabilities,False,accounts_payable,AMAT
+Contract liabilities,current_liabilities,False,current_deferred_revenue,AMAT
+Total current liabilities,current_liabilities,True,total_current_liabilities,AMAT
+Long-term debt,noncurrent_liabilities,False,long_term_debt,AMAT
+Income taxes payable,noncurrent_liabilities,False,long_term_income_taxes_payable,AMAT
+Other liabilities,noncurrent_liabilities,False,other_noncurrent_liabilities,AMAT
+Total liabilities,noncurrent_liabilities,True,total_liabilities,AMAT
+Total stockholders' equity,stockholders_equity,True,total_equity,AMAT
+Total liabilities and stockholders' equity,stockholders_equity,True,total_liabilities_and_equity,AMAT

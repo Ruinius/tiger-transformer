@@ -1,0 +1,18 @@
+row_name,section,is_calculated,standardized_name,company
+Cash and cash equivalents,current_assets,False,cash_and_equivalents,UNP
+Short-term investments,current_assets,False,short_term_investments,UNP
+Other current assets,current_assets,False,other_current_assets,UNP
+Investments,noncurrent_assets,False,long_term_investments,UNP
+"Properties, net",noncurrent_assets,False,property_plant_equipment,UNP
+Operating lease assets,noncurrent_assets,False,operating_lease_assets,UNP
+Other assets,noncurrent_assets,False,other_noncurrent_assets,UNP
+Total assets,noncurrent_assets,True,total_assets,UNP
+Debt due within one year,current_liabilities,False,short_term_debt,UNP
+Other current liabilities,current_liabilities,False,other_current_liabilities,UNP
+Debt due after one year,noncurrent_liabilities,False,long_term_debt,UNP
+Operating lease liabilities,noncurrent_liabilities,False,long_term_lease_liabilities,UNP
+Deferred income taxes,noncurrent_liabilities,False,deferred_tax_liabilities,UNP
+Other long-term liabilities,noncurrent_liabilities,False,other_noncurrent_liabilities,UNP
+Total liabilities,noncurrent_liabilities,True,total_liabilities,UNP
+Total common shareholders' equity,equity,True,total_equity,UNP
+Total liabilities and common shareholders' equity,equity,True,total_liabilities_and_equity,UNP

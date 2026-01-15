@@ -1,0 +1,15 @@
+row_name,section,is_calculated,standardized_name,company
+Sales,income_statement,false,revenue,APD
+Cost of sales,income_statement,false,cost_of_goods_sold,APD
+Facility exit and asset disposal charges,income_statement,false,asset_impairment_charges,APD
+Selling and administrative,income_statement,false,selling_and_administrative_expense,APD
+Research and development,income_statement,false,research_and_development_expense,APD
+Business optimization and other charges,income_statement,false,restructuring_expense,APD
+"Other income (expense), net",income_statement,false,other_operating_income_expense_net,APD
+Operating Income (Loss),income_statement,true,operating_income,APD
+Equity affiliates' income,income_statement,false,equity_method_investment_activity,APD
+Interest expense,income_statement,false,interest_expense,APD
+Interest income,income_statement,false,interest_income,APD
+Income From Continuing Operations Before Taxes,income_statement,true,pretax_income,APD
+Income tax provision,income_statement,false,income_tax_provision,APD
+Income From Continuing Operations,income_statement,true,net_income,APD

@@ -1,0 +1,16 @@
+row_name,section,is_calculated,standardized_name,company
+Revenue,income_statement,false,revenue,BABA
+Cost of revenue,income_statement,false,cost_of_goods_sold,BABA
+Product development expenses,income_statement,false,research_and_development_expense,BABA
+Sales and marketing expenses,income_statement,false,selling_and_marketing_expense,BABA
+General and administrative expenses,income_statement,false,general_and_administrative_expense,BABA
+Amortization and impairment of intangible assets,income_statement,false,amortization_and_impairment_of_intangibles,BABA
+"Other gains, net",income_statement,false,other_operating_gains_net,BABA
+Income from operations,income_statement,true,operating_income,BABA
+"Interest and investment income, net",income_statement,false,interest_and_investment_income_net,BABA
+Interest expense,income_statement,false,interest_expense,BABA
+"Other (expense) income, net",income_statement,false,other_income_expense_net,BABA
+Income before income tax and share of results of equity method investees,income_statement,true,pretax_income,BABA
+Income tax expenses,income_statement,false,income_tax_provision,BABA
+Share of results of equity method investees,income_statement,false,equity_method_investment_activity,BABA
+Net income,income_statement,true,net_income,BABA

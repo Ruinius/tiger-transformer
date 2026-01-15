@@ -1,0 +1,25 @@
+row_name,section,is_calculated,standardized_name,company
+Cash and cash equivalents,current_assets,False,cash_and_equivalents,NFLX
+Short-term investments,current_assets,False,short_term_investments,NFLX
+Other current assets,current_assets,False,other_current_assets,NFLX
+Total current assets,current_assets,True,total_current_assets,NFLX
+"Content assets, net",noncurrent_assets,False,content_assets_net,NFLX
+"Property and equipment, net",noncurrent_assets,False,property_plant_equipment,NFLX
+Other non-current assets,noncurrent_assets,False,other_noncurrent_assets,NFLX
+Total assets,noncurrent_assets,True,total_assets,NFLX
+Current content liabilities,current_liabilities,False,current_content_liabilities,NFLX
+Accounts payable,current_liabilities,False,accounts_payable,NFLX
+Accrued expenses and other liabilities,current_liabilities,False,accrued_liabilities,NFLX
+Deferred revenue,current_liabilities,False,current_deferred_revenue,NFLX
+Short-term debt,current_liabilities,False,short_term_debt,NFLX
+Total current liabilities,current_liabilities,True,total_current_liabilities,NFLX
+Non-current content liabilities,noncurrent_liabilities,False,long_term_content_liabilities,NFLX
+Long-term debt,noncurrent_liabilities,False,long_term_debt,NFLX
+Other non-current liabilities,noncurrent_liabilities,False,other_noncurrent_liabilities,NFLX
+Total liabilities,noncurrent_liabilities,True,total_liabilities,NFLX
+Common stock,equity,False,common_stock,NFLX
+Treasury stock at cost,equity,False,treasury_stock,NFLX
+Accumulated other comprehensive income (loss),equity,False,aoci,NFLX
+Retained earnings,equity,False,retained_earnings,NFLX
+Total stockholders' equity,equity,True,total_equity,NFLX
+Total liabilities and stockholders' equity,equity,True,total_liabilities_and_equity,NFLX

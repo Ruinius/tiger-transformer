@@ -1,0 +1,17 @@
+row_name,section,is_calculated,standardized_name,company
+Revenue,income_statement,false,revenue,ADI
+Cost of sales,income_statement,false,cost_of_goods_sold,ADI
+Gross margin,income_statement,true,gross_profit,ADI
+Research and development,income_statement,false,research_and_development_expense,ADI
+"Selling, marketing, general and administrative",income_statement,false,selling_general_and_administrative_expense,ADI
+Amortization of intangibles,income_statement,false,amortization_of_intangibles_opex,ADI
+"Special charges, net",income_statement,false,restructuring_charges,ADI
+Total operating expenses,income_statement,true,total_operating_expenses,ADI
+Operating income,income_statement,true,operating_income,ADI
+Interest expense,income_statement,false,interest_expense,ADI
+Interest income,income_statement,false,interest_income,ADI
+"Other, net",income_statement,false,other_non_operating_income_expense_net,ADI
+Total nonoperating expense (income),income_statement,true,total_non_operating_income_expense,ADI
+Income before income taxes,income_statement,true,pretax_income,ADI
+Provision for income taxes,income_statement,false,income_tax_provision,ADI
+Net income,income_statement,true,net_income,ADI

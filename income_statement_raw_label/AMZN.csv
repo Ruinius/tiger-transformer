@@ -1,0 +1,20 @@
+row_name,section,is_calculated,standardized_name,company
+Net product sales,income_statement,false,product_revenue,AMZN
+Net service sales,income_statement,false,service_revenue,AMZN
+Total net sales,income_statement,true,total_revenue,AMZN
+Cost of sales,income_statement,false,cost_of_goods_sold,AMZN
+Fulfillment,income_statement,false,fulfillment_expense,AMZN
+Technology and infrastructure,income_statement,false,technology_and_infrastructure_expense,AMZN
+Sales and marketing,income_statement,false,sales_and_marketing_expense,AMZN
+General and administrative,income_statement,false,general_and_administrative_expense,AMZN
+"Other operating expense (income), net",income_statement,false,other_operating_income_expense_net,AMZN
+Total operating expenses,income_statement,true,total_operating_expenses,AMZN
+Operating income,income_statement,true,operating_income,AMZN
+Interest income,income_statement,false,interest_income,AMZN
+Interest expense,income_statement,false,interest_expense,AMZN
+"Other income (expense), net",income_statement,false,other_non_operating_income_expense_net,AMZN
+Total non-operating income (expense),income_statement,true,total_non_operating_income_expense,AMZN
+Income before income taxes,income_statement,true,pretax_income,AMZN
+Provision for income taxes,income_statement,false,income_tax_provision,AMZN
+"Equity-method investment activity, net of tax",income_statement,false,equity_method_investment_activity,AMZN
+Net income,income_statement,true,net_income,AMZN

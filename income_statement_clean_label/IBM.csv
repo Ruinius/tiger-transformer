@@ -1,0 +1,19 @@
+row_name,section,is_calculated,standardized_name,company
+REVENUE:,income_statement,False,revenue_header,IBM
+Software,income_statement,False,segment_revenue,IBM
+Consulting,income_statement,False,segment_revenue,IBM
+Infrastructure,income_statement,False,segment_revenue,IBM
+Financing,income_statement,False,segment_revenue,IBM
+Other,income_statement,False,segment_revenue,IBM
+TOTAL REVENUE,income_statement,True,total_revenue,IBM
+GROSS PROFIT,income_statement,True,gross_profit,IBM
+EXPENSE AND OTHER INCOME:,income_statement,False,operating_expenses_header,IBM
+SG&A,income_statement,False,sales_general_and_administrative_expense,IBM
+R&D,income_statement,False,research_and_development_expense,IBM
+Intellectual property and custom development income,income_statement,False,ip_and_development_income,IBM
+Other (income) and expense,income_statement,False,other_operating_income_expense_net,IBM
+Interest expense,income_statement,False,interest_expense,IBM
+TOTAL EXPENSE AND OTHER INCOME,income_statement,True,total_other_income_expense_net,IBM
+INCOME/(LOSS) FROM CONTINUING OPERATIONS BEFORE INCOME TAXES,income_statement,True,income_before_taxes,IBM
+Provision for/(Benefit from) income taxes,income_statement,False,income_tax_provision,IBM
+INCOME/(LOSS) FROM CONTINUING OPERATIONS,income_statement,True,net_income,IBM

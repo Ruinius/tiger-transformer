@@ -1,0 +1,39 @@
+row_name,section,is_calculated,standardized_name,company
+Cash and cash equivalents,current_assets,False,cash_and_equivalents,BABA
+Short-term investments,current_assets,False,short_term_investments,BABA
+Restricted cash and escrow receivables,current_assets,False,restricted_cash,BABA
+Equity securities and other investments (current),current_assets,False,equity_method_investments,BABA
+"Prepayments, receivables and other assets (current)",current_assets,False,prepaid_expenses,BABA
+Total current assets,current_assets,True,total_current_assets,BABA
+Equity securities and other investments (non-current),noncurrent_assets,False,equity_method_investments,BABA
+"Prepayments, receivables and other assets (non-current)",noncurrent_assets,False,other_noncurrent_assets,BABA
+Investment in equity method investees,noncurrent_assets,False,equity_method_investments,BABA
+"Property and equipment, net",noncurrent_assets,False,property_plant_equipment,BABA
+"Intangible assets, net",noncurrent_assets,False,intangibles_net,BABA
+Goodwill,noncurrent_assets,False,goodwill,BABA
+Total assets,noncurrent_assets,True,total_assets,BABA
+Current bank borrowings,current_liabilities,False,short_term_debt,BABA
+Income tax payable,current_liabilities,False,current_income_taxes_payable,BABA
+"Accrued expenses, accounts payable and other liabilities",current_liabilities,False,accounts_payable,BABA
+Merchant deposits,current_liabilities,False,advances_from_customers,BABA
+Deferred revenue and customer advances,current_liabilities,False,current_deferred_revenue,BABA
+Total current liabilities,current_liabilities,True,total_current_liabilities,BABA
+Deferred revenue (non-current),noncurrent_liabilities,False,long_term_deferred_revenue,BABA
+Deferred tax liabilities,noncurrent_liabilities,False,deferred_tax_liabilities,BABA
+Non-current bank borrowings,noncurrent_liabilities,False,long_term_debt,BABA
+Non-current unsecured senior notes,noncurrent_liabilities,False,long_term_debt,BABA
+Non-current convertible unsecured senior notes,noncurrent_liabilities,False,convertible_debt,BABA
+Non-current exchangeable bonds,noncurrent_liabilities,False,convertible_debt,BABA
+Other liabilities,noncurrent_liabilities,False,other_noncurrent_liabilities,BABA
+Total liabilities,noncurrent_liabilities,True,total_liabilities,BABA
+Mezzanine equity,stockholders_equity,False,preferred_stock,BABA
+Ordinary shares,stockholders_equity,False,common_stock,BABA
+Additional paid-in capital,stockholders_equity,False,additional_paid_in_capital,BABA
+Treasury shares at cost,stockholders_equity,False,treasury_stock,BABA
+Statutory reserves,stockholders_equity,False,statutory_reserves,BABA
+Accumulated other comprehensive income (loss),stockholders_equity,False,aoci,BABA
+Retained earnings,stockholders_equity,False,retained_earnings,BABA
+Total shareholders' equity,stockholders_equity,True,total_parent_equity,BABA
+Noncontrolling interests,stockholders_equity,False,noncontrolling_interests,BABA
+Total equity,stockholders_equity,True,total_equity,BABA
+"Total liabilities, mezzanine equity and equity",stockholders_equity,True,total_liabilities_and_equity,BABA

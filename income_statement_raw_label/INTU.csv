@@ -1,0 +1,20 @@
+row_name,section,is_calculated,standardized_name,company
+Net revenue:,income_statement,False,revenue_header,INTU
+Service,income_statement,False,service_revenue,INTU
+Product and other,income_statement,False,product_and_other_revenue,INTU
+Total net revenue,income_statement,True,total_revenue,INTU
+Costs and expenses:,income_statement,False,costs_and_expenses_header,INTU
+Cost of service revenue,income_statement,False,cost_of_service_revenue,INTU
+Cost of product and other revenue,income_statement,False,cost_of_product_and_other_revenue,INTU
+Amortization of acquired technology,income_statement,False,amortization_of_acquired_technology_operating,INTU
+Selling and marketing,income_statement,False,selling_and_marketing_expense,INTU
+Research and development,income_statement,False,research_and_development_expense,INTU
+General and administrative,income_statement,False,general_and_administrative_expense,INTU
+Amortization of other acquired intangible assets,income_statement,False,amortization_of_intangibles_operating,INTU
+Total costs and expenses,income_statement,True,total_operating_expenses,INTU
+Operating income,income_statement,True,operating_income,INTU
+Interest expense,income_statement,False,interest_expense,INTU
+"Interest and other income, net",income_statement,False,interest_and_other_income,INTU
+Income before income taxes,income_statement,True,income_before_taxes,INTU
+Income tax provision,income_statement,False,income_tax_provision,INTU
+Net income,income_statement,True,net_income,INTU

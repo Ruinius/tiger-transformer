@@ -1,0 +1,30 @@
+row_name,section,is_calculated,standardized_name,company
+Cash and cash equivalents,current_assets,False,cash_and_equivalents,LOW
+Short-term investments,current_assets,False,short_term_investments,LOW
+Merchandise inventory - net,current_assets,False,inventory,LOW
+Other current assets,current_assets,False,other_current_assets,LOW
+Total current assets,current_assets,True,total_current_assets,LOW
+"Property, less accumulated depreciation",noncurrent_assets,False,property_plant_equipment,LOW
+Operating lease right-of-use assets,noncurrent_assets,False,right_of_use_assets,LOW
+Long-term investments,noncurrent_assets,False,long_term_investments,LOW
+Deferred income taxes net,noncurrent_assets,False,deferred_tax_assets,LOW
+Other assets,noncurrent_assets,False,other_noncurrent_assets,LOW
+Total assets,noncurrent_assets,True,total_assets,LOW
+Current maturities of long-term debt,current_liabilities,False,current_portion_long_term_debt,LOW
+Current operating lease liabilities,current_liabilities,False,current_lease_liabilities,LOW
+Accounts payable,current_liabilities,False,accounts_payable,LOW
+Accrued compensation and employee benefits,current_liabilities,False,accrued_compensation,LOW
+Deferred revenue,current_liabilities,False,current_deferred_revenue,LOW
+Other current liabilities,current_liabilities,False,other_current_liabilities,LOW
+Total current liabilities,current_liabilities,True,total_current_liabilities,LOW
+"Long-term debt, excluding current maturities",noncurrent_liabilities,False,long_term_debt,LOW
+Noncurrent operating lease liabilities,noncurrent_liabilities,False,long_term_lease_liabilities,LOW
+Deferred revenue Lowe's protection plans,noncurrent_liabilities,False,long_term_deferred_revenue,LOW
+Other liabilities,noncurrent_liabilities,False,other_noncurrent_liabilities,LOW
+Total liabilities,noncurrent_liabilities,True,total_liabilities,LOW
+Common stock,equity,False,common_stock,LOW
+Capital in excess of par value,equity,False,additional_paid_in_capital,LOW
+Accumulated deficit,equity,False,retained_earnings_deficit,LOW
+Accumulated other comprehensive income,equity,False,aoci,LOW
+Total shareholders' deficit,equity,True,total_equity,LOW
+Total liabilities and shareholders' deficit,equity,True,total_liabilities_and_equity,LOW

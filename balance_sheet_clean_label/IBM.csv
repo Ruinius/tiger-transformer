@@ -1,0 +1,44 @@
+row_name,section,is_calculated,standardized_name,company
+ASSETS:,assets,False,assets_header,IBM
+Current Assets:,current_assets,False,current_assets_header,IBM
+Cash and cash equivalents,current_assets,False,cash_and_equivalents,IBM
+Restricted cash,current_assets,False,restricted_cash,IBM
+Marketable securities,current_assets,False,short_term_investments,IBM
+"Notes and accounts receivable trade, net",current_assets,False,accounts_receivable,IBM
+Short-term financing receivables,current_assets,False,current_notes_receivables,IBM
+"Other accounts receivable, net",current_assets,False,accounts_receivable,IBM
+Inventories,current_assets,False,inventory,IBM
+Deferred costs,current_assets,False,prepaid_expenses,IBM
+Prepaid expenses and other current assets,current_assets,False,prepaid_expenses,IBM
+Total Current Assets,current_assets,True,total_current_assets,IBM
+"Property, plant and equipment, net",noncurrent_assets,False,property_plant_equipment,IBM
+"Operating right-of-use assets, net",noncurrent_assets,False,operating_lease_assets,IBM
+"Long-term financing receivables, net",noncurrent_assets,False,noncurrent_notes_receivables,IBM
+Prepaid pension assets,noncurrent_assets,False,pension_assets,IBM
+Deferred costs,noncurrent_assets,False,deferred_costs_noncurrent,IBM
+Deferred taxes,noncurrent_assets,False,deferred_tax_assets,IBM
+Goodwill,noncurrent_assets,False,goodwill,IBM
+"Intangibles, net",noncurrent_assets,False,intangibles_net,IBM
+Investments and sundry assets,noncurrent_assets,False,other_noncurrent_assets,IBM
+Total Assets,noncurrent_assets,True,total_assets,IBM
+LIABILITIES:,liabilities,False,liabilities_header,IBM
+Current Liabilities:,current_liabilities,False,current_liabilities_header,IBM
+Taxes,current_liabilities,False,current_income_taxes_payable,IBM
+Short-term debt,current_liabilities,False,short_term_debt,IBM
+Accounts payable,current_liabilities,False,accounts_payable,IBM
+Compensation and benefits,current_liabilities,False,accrued_compensation,IBM
+Deferred income,current_liabilities,False,current_deferred_revenue,IBM
+Operating lease liabilities,current_liabilities,False,current_lease_liabilities,IBM
+Other liabilities,current_liabilities,False,other_current_liabilities,IBM
+Total Current Liabilities,current_liabilities,True,total_current_liabilities,IBM
+Long-term debt,noncurrent_liabilities,False,long_term_debt,IBM
+Retirement-related obligations,noncurrent_liabilities,False,pension_liabilities,IBM
+Deferred income,noncurrent_liabilities,False,noncurrent_deferred_revenue,IBM
+Operating lease liabilities,noncurrent_liabilities,False,long_term_lease_liabilities,IBM
+Other liabilities,noncurrent_liabilities,False,other_noncurrent_liabilities,IBM
+Total Liabilities,noncurrent_liabilities,True,total_liabilities,IBM
+EQUITY:,equity,False,equity_header,IBM
+Total IBM Stockholders' Equity,equity,False,parent_equity,IBM
+Noncontrolling interests,equity,False,noncontrolling_interests,IBM
+Total Equity,equity,True,total_equity,IBM
+Total Liabilities and Equity,equity,True,total_liabilities_and_equity,IBM

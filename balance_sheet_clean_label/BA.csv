@@ -1,0 +1,45 @@
+row_name,section,is_calculated,standardized_name,company
+Assets:,assets,False,assets_header,BA
+Current assets:,current_assets,False,current_assets_header,BA
+Cash and cash equivalents,current_assets,False,cash_and_equivalents,BA
+Short-term and other investments,current_assets,False,short_term_investments,BA
+"Accounts receivable, net",current_assets,False,accounts_receivable,BA
+"Unbilled receivables, net",current_assets,False,accrued_revenue,BA
+"Current portion of financing receivables, net",current_assets,False,current_notes_receivables,BA
+Inventories,current_assets,False,inventory,BA
+"Other current assets, net",current_assets,False,other_current_assets,BA
+Assets held for sale,current_assets,False,assets_held_for_sale,BA
+Total current assets,current_assets,True,total_current_assets,BA
+"Financing receivables and operating lease equipment, net",noncurrent_assets,False,noncurrent_notes_receivables,BA
+"Property, plant and equipment, net",noncurrent_assets,False,property_plant_equipment,BA
+Goodwill,noncurrent_assets,False,goodwill,BA
+"Acquired intangible assets, net",noncurrent_assets,False,intangibles_net,BA
+Deferred income taxes,noncurrent_assets,False,deferred_tax_assets,BA
+Investments,noncurrent_assets,False,long_term_investments,BA
+"Other assets, net",noncurrent_assets,False,other_noncurrent_assets,BA
+Total assets,noncurrent_assets,True,total_assets,BA
+Liabilities and equity:,liabilities,False,liabilities_equity_header,BA
+Current liabilities:,current_liabilities,False,current_liabilities_header,BA
+Accounts payable,current_liabilities,False,accounts_payable,BA
+Accrued liabilities,current_liabilities,False,accrued_liabilities,BA
+Advances and progress billings,current_liabilities,False,current_deferred_revenue,BA
+Short-term debt and current portion of long-term debt,current_liabilities,False,current_portion_long_term_debt,BA
+Liabilities held for sale,current_liabilities,False,liabilities_held_for_sale,BA
+Total current liabilities,current_liabilities,True,total_current_liabilities,BA
+Deferred income taxes,noncurrent_liabilities,False,deferred_tax_liabilities,BA
+Accrued retiree health care,noncurrent_liabilities,False,pension_liabilities,BA
+"Accrued pension plan liability, net",noncurrent_liabilities,False,pension_liabilities,BA
+Other long-term liabilities,noncurrent_liabilities,False,other_noncurrent_liabilities,BA
+Long-term debt,noncurrent_liabilities,False,long_term_debt,BA
+Total liabilities,noncurrent_liabilities,True,total_liabilities,BA
+Shareholders' equity:,equity,False,equity_header,BA
+Mandatory convertible preferred stock,equity,False,preferred_stock,BA
+Common stock,equity,False,common_stock,BA
+Additional paid-in capital,equity,False,additional_paid_in_capital,BA
+"Treasury stock, at cost",equity,False,treasury_stock,BA
+Retained earnings,equity,False,retained_earnings,BA
+Accumulated other comprehensive loss,equity,False,aoci,BA
+Total shareholders' deficit,equity,True,total_parent_equity,BA
+Noncontrolling interests,equity,False,noncontrolling_interests,BA
+Total equity,equity,True,total_equity,BA
+Total liabilities and equity,equity,True,total_liabilities_and_equity,BA

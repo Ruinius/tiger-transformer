@@ -1,0 +1,35 @@
+row_name,section,is_calculated,standardized_name,company
+Cash and cash equivalents,current_assets,false,cash_and_equivalents,MA
+Restricted cash and restricted cash equivalents,current_assets,false,restricted_cash,MA
+Restricted security deposits held for customers,current_assets,false,customer_restricted_deposits,MA
+Investments,current_assets,false,short_term_investments,MA
+Accounts receivable,current_assets,false,accounts_receivable,MA
+Settlement assets,current_assets,false,settlement_assets,MA
+Prepaid expenses and other current assets,current_assets,false,prepaid_and_other_current_assets,MA
+Total current assets,current_assets,true,total_current_assets,MA
+"Property, equipment and right-of-use assets, net",noncurrent_assets,false,property_plant_and_equipment,MA
+Deferred income taxes,noncurrent_assets,false,deferred_tax_assets_noncurrent,MA
+Goodwill,noncurrent_assets,false,goodwill,MA
+"Other intangible assets, net",noncurrent_assets,false,intangible_assets_net,MA
+Other assets,noncurrent_assets,false,other_noncurrent_assets,MA
+Total Assets,noncurrent_assets,true,total_assets,MA
+Accounts payable,current_liabilities,false,accounts_payable,MA
+Settlement obligations,current_liabilities,false,settlement_obligations,MA
+Restricted security deposits held for customers (liability),current_liabilities,false,customer_restricted_deposits_liability,MA
+Accrued litigation,current_liabilities,false,accrued_litigation_current,MA
+Accrued expenses,current_liabilities,false,accrued_liabilities,MA
+Short-term debt,current_liabilities,false,short_term_debt,MA
+Other current liabilities,current_liabilities,false,other_current_liabilities,MA
+Total current liabilities,current_liabilities,true,total_current_liabilities,MA
+Long-term debt,noncurrent_liabilities,false,long_term_debt,MA
+Deferred income taxes,noncurrent_liabilities,false,deferred_tax_liabilities,MA
+Other liabilities,noncurrent_liabilities,false,other_noncurrent_liabilities,MA
+Total Liabilities,noncurrent_liabilities,true,total_liabilities,MA
+Additional paid-in-capital,stockholders_equity,false,additional_paid_in_capital,MA
+"Class A treasury stock, at cost",stockholders_equity,false,treasury_stock,MA
+Retained earnings,stockholders_equity,false,retained_earnings,MA
+Accumulated other comprehensive income (loss),stockholders_equity,false,accumulated_other_comprehensive_income,MA
+Mastercard Incorporated Stockholders' Equity,stockholders_equity,true,total_parent_equity,MA
+Non-controlling interests,stockholders_equity,false,noncontrolling_interest,MA
+Total Equity,stockholders_equity,true,total_equity,MA
+Total Liabilities and Equity,stockholders_equity,true,total_liabilities_and_equity,MA

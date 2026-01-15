@@ -1,0 +1,18 @@
+row_name,section,is_calculated,standardized_name,company
+Cash and short-term investments,current_assets,False,cash_and_equivalents,UNH
+"Accounts receivable, net",current_assets,False,accounts_receivable,UNH
+Other current assets,current_assets,False,other_current_assets,UNH
+Total current assets,current_assets,True,total_current_assets,UNH
+Long-term investments,noncurrent_assets,False,long_term_investments,UNH
+Other long-term assets,noncurrent_assets,False,other_noncurrent_assets,UNH
+Total assets,noncurrent_assets,True,total_assets,UNH
+Medical costs payable,current_liabilities,False,medical_costs_payable,UNH
+Short-term borrowings and current maturities of long-term debt,current_liabilities,False,current_portion_long_term_debt,UNH
+Other current liabilities,current_liabilities,False,other_current_liabilities,UNH
+Total current liabilities,current_liabilities,True,total_current_liabilities,UNH
+"Long-term debt, less current maturities",noncurrent_liabilities,False,long_term_debt,UNH
+Other long-term liabilities,noncurrent_liabilities,False,other_noncurrent_liabilities,UNH
+Total liabilities,noncurrent_liabilities,True,total_liabilities,UNH
+Redeemable noncontrolling interests,stockholders_equity,False,noncontrolling_interests,UNH
+Equity,stockholders_equity,True,total_equity,UNH
+"Total liabilities, redeemable noncontrolling interests and equity",stockholders_equity,True,total_liabilities_and_equity,UNH

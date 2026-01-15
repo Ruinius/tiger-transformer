@@ -1,0 +1,14 @@
+row_name,section,is_calculated,standardized_name,company
+Revenues,income_statement,false,revenue,ACN
+Cost of services,income_statement,false,cost_of_revenue,ACN
+Sales and marketing,income_statement,false,sales_and_marketing_expense,ACN
+General and administrative costs,income_statement,false,general_and_administrative_expense,ACN
+Business optimization costs,income_statement,false,restructuring_expense,ACN
+Total operating expenses,income_statement,true,total_operating_expenses,ACN
+OPERATING INCOME,income_statement,true,operating_income,ACN
+Interest income,income_statement,false,interest_income,ACN
+Interest expense,income_statement,false,interest_expense,ACN
+"Other income (expense), net",income_statement,false,other_non_operating_income_expense_net,ACN
+INCOME BEFORE INCOME TAXES,income_statement,true,pretax_income,ACN
+Income tax expense,income_statement,false,income_tax_provision,ACN
+NET INCOME,income_statement,true,net_income,ACN

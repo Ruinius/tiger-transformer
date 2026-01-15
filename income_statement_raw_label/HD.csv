@@ -1,0 +1,14 @@
+row_name,section,is_calculated,standardized_name,company
+Net sales,income_statement,false,revenue,HD
+Cost of sales,income_statement,false,cost_of_goods_sold,HD
+Gross profit,income_statement,true,gross_profit,HD
+"Selling, general and administrative",income_statement,false,selling_general_and_administrative_expense,HD
+Depreciation and amortization,income_statement,false,depreciation_and_amortization_opex,HD
+Total operating expenses,income_statement,true,total_operating_expenses,HD
+Operating income,income_statement,true,operating_income,HD
+"Interest income and other, net",income_statement,false,interest_and_other_income_net,HD
+Interest expense,income_statement,false,interest_expense,HD
+"Interest and other, net",income_statement,true,total_non_operating_interest_and_other_net,HD
+Earnings before provision for income taxes,income_statement,true,pretax_income,HD
+Provision for income taxes,income_statement,false,income_tax_provision,HD
+Net earnings,income_statement,true,net_income,HD

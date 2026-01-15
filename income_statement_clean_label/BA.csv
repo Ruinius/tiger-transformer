@@ -1,0 +1,20 @@
+row_name,section,is_calculated,standardized_name,company
+Revenues:,income_statement,False,revenue_header,BA
+Sales of products,income_statement,False,segment_revenue,BA
+Sales of services,income_statement,False,segment_revenue,BA
+Total revenues,income_statement,True,total_revenue,BA
+Costs and Expenses:,income_statement,False,costs_and_expenses_header,BA
+Cost of products,income_statement,False,segment_cost_of_revenue,BA
+Cost of services,income_statement,False,segment_cost_of_revenue,BA
+Total costs and expenses,income_statement,True,total_cost_of_revenue,BA
+"Income/(loss) from operating investments, net",income_statement,False,investment_income_net,BA
+General and administrative expense,income_statement,False,general_and_administrative_expense,BA
+"Research and development expense, net",income_statement,False,research_and_development_expense,BA
+"Gain/(loss) on dispositions, net",income_statement,False,gain_loss_divestitures,BA
+Loss from operations,income_statement,True,operating_income,BA
+Non-Operating Items:,income_statement,False,non_operating_header,BA
+"Other income, net",income_statement,False,other_income_expense_net,BA
+Interest and debt expense,income_statement,False,interest_expense,BA
+Loss before income taxes,income_statement,True,income_before_taxes,BA
+Income tax (expense)/benefit,income_statement,False,income_tax_provision,BA
+Net loss,income_statement,True,net_income,BA

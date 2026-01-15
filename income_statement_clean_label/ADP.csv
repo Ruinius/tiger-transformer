@@ -1,0 +1,16 @@
+row_name,section,is_calculated,standardized_name,company
+"Revenues, other than interest on funds held for clients and PEO revenues",income_statement,False,segment_revenue,ADP
+Interest on funds held for clients,income_statement,False,segment_revenue,ADP
+PEO revenues,income_statement,False,segment_revenue,ADP
+Total revenues,income_statement,True,total_revenue,ADP
+Operating expenses,income_statement,False,operating_expenses,ADP
+Research and development,income_statement,False,research_and_development_expense,ADP
+Depreciation and amortization,income_statement,False,depreciation_expense,ADP
+Total costs of revenues,income_statement,True,total_operating_expenses,ADP
+"Selling, general, and administrative expenses",income_statement,False,sales_general_and_administrative_expense,ADP
+Interest expense,income_statement,False,interest_expense,ADP
+Total expenses,income_statement,True,total_expenses,ADP
+"Other income, net",income_statement,False,other_income_expense_net,ADP
+Earnings before income taxes,income_statement,True,income_before_taxes,ADP
+Provision for income taxes,income_statement,False,income_tax_provision,ADP
+Net earnings,income_statement,True,net_income,ADP

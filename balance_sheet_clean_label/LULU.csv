@@ -1,0 +1,25 @@
+row_name,section,is_calculated,standardized_name,company
+Cash and cash equivalents,current_assets,False,cash_and_equivalents,LULU
+Inventories,current_assets,False,inventory,LULU
+Prepaid and receivable income taxes,current_assets,False,current_income_tax_receivable,LULU
+Other current assets,current_assets,False,other_current_assets,LULU
+Total current assets,current_assets,True,total_current_assets,LULU
+"Property and equipment, net",noncurrent_assets,False,property_plant_equipment,LULU
+Right-of-use lease assets,noncurrent_assets,False,operating_lease_assets,LULU
+"Goodwill and intangible assets, net",noncurrent_assets,False,goodwill,LULU
+Deferred income taxes and other non-current assets,noncurrent_assets,False,deferred_tax_assets,LULU
+Total assets,noncurrent_assets,True,total_assets,LULU
+Accounts payable,current_liabilities,False,accounts_payable,LULU
+Accrued liabilities and other,current_liabilities,False,other_current_liabilities,LULU
+Accrued compensation and related expenses,current_liabilities,False,accrued_compensation,LULU
+Current lease liabilities,current_liabilities,False,current_lease_liabilities,LULU
+Current income taxes payable,current_liabilities,False,current_income_taxes_payable,LULU
+Unredeemed gift card liability,current_liabilities,False,current_deferred_revenue,LULU
+Other current liabilities,current_liabilities,False,other_current_liabilities,LULU
+Total current liabilities,current_liabilities,True,total_current_liabilities,LULU
+Non-current lease liabilities,noncurrent_liabilities,False,long_term_lease_liabilities,LULU
+Non-current income taxes payable,noncurrent_liabilities,False,long_term_income_taxes_payable,LULU
+Deferred income tax liability,noncurrent_liabilities,False,deferred_tax_liabilities,LULU
+Other non-current liabilities,noncurrent_liabilities,False,other_noncurrent_liabilities,LULU
+Stockholders' equity,equity,True,total_equity,LULU
+Total liabilities and stockholders' equity,equity,True,total_liabilities_and_equity,LULU

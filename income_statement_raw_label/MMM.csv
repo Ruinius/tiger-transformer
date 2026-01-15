@@ -1,0 +1,14 @@
+row_name,section,is_calculated,standardized_name,company
+Net sales,income_statement,False,revenue,MMM
+Operating expenses:,income_statement,False,operating_expenses_header,MMM
+Cost of sales,income_statement,False,cost_of_goods_sold,MMM
+"Selling, general and administrative expenses",income_statement,False,selling_general_and_administrative_expense,MMM
+"Research, development and related expenses",income_statement,False,research_and_development_expense,MMM
+Loss on business divestitures,income_statement,False,operating_loss_divestitures,MMM
+Total operating expenses,income_statement,True,total_operating_expenses,MMM
+Operating income,income_statement,True,operating_income,MMM
+Non-Operating Items:,income_statement,False,non_operating_header,MMM
+"Other expense (income), net",income_statement,False,other_income_expense_net,MMM
+Income from continuing operations before income taxes,income_statement,True,income_before_taxes,MMM
+Provision for income taxes,income_statement,False,income_tax_provision,MMM
+Income from continuing operations of consolidated group,income_statement,True,net_income_continuing_operations,MMM

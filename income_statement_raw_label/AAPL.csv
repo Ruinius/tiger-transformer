@@ -1,0 +1,16 @@
+row_name,section,is_calculated,standardized_name,company
+Products (Net sales),income_statement,false,product_revenue,AAPL
+Services (Net sales),income_statement,false,service_revenue,AAPL
+Total net sales,income_statement,true,total_revenue,AAPL
+Products (Cost of sales),income_statement,false,cost_of_revenue_product,AAPL
+Services (Cost of sales),income_statement,false,cost_of_revenue_service,AAPL
+Total cost of sales,income_statement,true,total_cost_of_sales,AAPL
+Gross margin,income_statement,true,gross_profit,AAPL
+Research and development,income_statement,false,research_and_development_expense,AAPL
+"Selling, general and administrative",income_statement,false,selling_general_and_administrative_expense,AAPL
+Total operating expenses,income_statement,true,total_operating_expenses,AAPL
+Operating income,income_statement,true,operating_income,AAPL
+"Other income/(expense), net",income_statement,false,other_income_expense_net,AAPL
+Income before provision for income taxes,income_statement,true,pretax_income,AAPL
+Provision for income taxes,income_statement,false,income_tax_provision,AAPL
+Net income,income_statement,true,net_income,AAPL

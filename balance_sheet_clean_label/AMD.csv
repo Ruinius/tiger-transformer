@@ -1,0 +1,31 @@
+row_name,section,is_calculated,standardized_name,company
+Cash and cash equivalents,current_assets,False,cash_and_equivalents,AMD
+Short-term investments,current_assets,False,short_term_investments,AMD
+"Accounts receivable, net",current_assets,False,accounts_receivable,AMD
+Inventories,current_assets,False,inventory,AMD
+Assets held for sale,current_assets,False,assets_held_for_sale,AMD
+Prepaid expenses and other current assets,current_assets,False,prepaid_expenses,AMD
+Total current assets,current_assets,True,total_current_assets,AMD
+"Property and equipment, net",noncurrent_assets,False,property_plant_equipment,AMD
+Goodwill,noncurrent_assets,False,goodwill,AMD
+"Acquisition-related intangibles, net",noncurrent_assets,False,intangibles_net,AMD
+Deferred tax assets,noncurrent_assets,False,deferred_tax_assets,AMD
+Other non-current assets,noncurrent_assets,False,other_noncurrent_assets,AMD
+Total Assets,noncurrent_assets,True,total_assets,AMD
+Accounts payable,current_liabilities,False,accounts_payable,AMD
+Accrued liabilities,current_liabilities,False,accrued_liabilities,AMD
+"Current portion of long-term debt, net",current_liabilities,False,current_portion_long_term_debt,AMD
+Liabilities held for sale,current_liabilities,False,liabilities_held_for_sale,AMD
+Other current liabilities,current_liabilities,False,other_current_liabilities,AMD
+Total current liabilities,current_liabilities,True,total_current_liabilities,AMD
+Long-term debt,noncurrent_liabilities,False,long_term_debt,AMD
+Long-term operating lease liabilities,noncurrent_liabilities,False,long_term_lease_liabilities,AMD
+Deferred tax liabilities,noncurrent_liabilities,False,deferred_tax_liabilities,AMD
+Other long-term liabilities,noncurrent_liabilities,False,other_noncurrent_liabilities,AMD
+"Common stock, par value $0.01",stockholders_equity,False,common_stock,AMD
+Additional paid-in capital,stockholders_equity,False,additional_paid_in_capital,AMD
+"Treasury stock, at cost",stockholders_equity,False,treasury_stock,AMD
+Retained earnings,stockholders_equity,False,retained_earnings,AMD
+Accumulated other comprehensive loss,stockholders_equity,False,aoci,AMD
+Total stockholders' equity,stockholders_equity,True,total_equity,AMD
+Total Liabilities and Stockholders' Equity,stockholders_equity,True,total_liabilities_and_equity,AMD

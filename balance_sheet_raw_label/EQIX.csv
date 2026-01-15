@@ -1,0 +1,36 @@
+row_name,section,is_calculated,standardized_name,company
+Cash and cash equivalents,current_assets,false,cash_and_equivalents,EQIX
+Short-term investments,current_assets,false,short_term_investments,EQIX
+"Accounts receivable, net",current_assets,false,accounts_receivable_net,EQIX
+Other current assets,current_assets,false,other_current_assets,EQIX
+Total current assets,current_assets,true,total_current_assets,EQIX
+"Property, plant and equipment, net",noncurrent_assets,false,property_plant_and_equipment,EQIX
+Operating lease right-of-use assets,noncurrent_assets,false,operating_lease_assets,EQIX
+Goodwill,noncurrent_assets,false,goodwill,EQIX
+"Intangible assets, net",noncurrent_assets,false,intangible_assets_net,EQIX
+Other assets,noncurrent_assets,false,other_noncurrent_assets,EQIX
+Total assets,noncurrent_assets,true,total_assets,EQIX
+Accounts payable and accrued expenses,current_liabilities,false,accounts_payable_and_accrued_expenses,EQIX
+"Accrued property, plant and equipment",current_liabilities,false,accrued_capex_liabilities,EQIX
+Current portion of operating lease liabilities,current_liabilities,false,operating_lease_liabilities_current,EQIX
+Current portion of finance lease liabilities,current_liabilities,false,finance_lease_liabilities_current,EQIX
+Current portion of mortgage and loans payable,current_liabilities,false,mortgage_and_loans_payable_current,EQIX
+Current portion of senior notes,current_liabilities,false,current_debt,EQIX
+Other current liabilities,current_liabilities,false,other_current_liabilities,EQIX
+Total current liabilities,current_liabilities,true,total_current_liabilities,EQIX
+"Operating lease liabilities, less current portion",noncurrent_liabilities,false,operating_lease_liabilities_noncurrent,EQIX
+"Finance lease liabilities, less current portion",noncurrent_liabilities,false,finance_lease_liabilities_noncurrent,EQIX
+"Mortgage and loans payable, less current portion",noncurrent_liabilities,false,mortgage_and_loans_payable_noncurrent,EQIX
+"Senior notes, less current portion",noncurrent_liabilities,false,long_term_debt,EQIX
+Other liabilities,noncurrent_liabilities,false,other_noncurrent_liabilities,EQIX
+Total liabilities,noncurrent_liabilities,true,total_liabilities,EQIX
+Redeemable non-controlling interest,stockholders_equity,false,noncontrolling_interest,EQIX
+Common stock,stockholders_equity,false,common_stock,EQIX
+Additional paid-in capital,stockholders_equity,false,additional_paid_in_capital,EQIX
+Treasury stock,stockholders_equity,false,treasury_stock,EQIX
+Accumulated dividends,stockholders_equity,false,stock_dividends,EQIX
+Accumulated other comprehensive loss,stockholders_equity,false,accumulated_other_comprehensive_income,EQIX
+Retained earnings,stockholders_equity,false,retained_earnings,EQIX
+Non-controlling interests,stockholders_equity,false,noncontrolling_interest,EQIX
+Total stockholders' equity,stockholders_equity,true,total_equity,EQIX
+"Total liabilities, redeemable non-controlling interest and stockholders' equity",stockholders_equity,true,total_liabilities_mezzanine_and_equity,EQIX

@@ -1,0 +1,16 @@
+row_name,section,is_calculated,standardized_name,company
+Cash and cash equivalents,current_assets,false,cash_and_equivalents,KBH
+Receivables,current_assets,false,accounts_receivable,KBH
+Inventories,current_assets,false,inventory,KBH
+Investments in unconsolidated joint ventures,noncurrent_assets,false,equity_method_investments,KBH
+"Property and equipment, net",noncurrent_assets,false,property_plant_and_equipment,KBH
+"Deferred tax assets, net",noncurrent_assets,false,deferred_tax_assets_noncurrent,KBH
+Other assets,noncurrent_assets,false,other_noncurrent_assets,KBH
+Financial services (Assets),current_assets,false,financial_services_assets,KBH
+Total assets,noncurrent_assets,true,total_assets,KBH
+Accounts payable,current_liabilities,false,accounts_payable,KBH
+Accrued expenses and other liabilities,current_liabilities,false,accrued_liabilities,KBH
+Notes payable,noncurrent_liabilities,false,long_term_debt,KBH
+Financial services (Liabilities),current_liabilities,false,financial_services_liabilities,KBH
+Stockholders' equity,stockholders_equity,true,total_equity,KBH
+Total liabilities and stockholders' equity,stockholders_equity,true,total_liabilities_and_equity,KBH

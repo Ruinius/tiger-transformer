@@ -1,0 +1,14 @@
+row_name,section,is_calculated,standardized_name,company
+NET SALES,income_statement,false,revenue,SWK
+Cost of sales,income_statement,false,cost_of_goods_sold,SWK
+Gross profit,income_statement,true,gross_profit,SWK
+"Selling, general and administrative",income_statement,false,selling_general_and_administrative_expense,SWK
+Other - net,income_statement,false,other_operating_income_expense_net,SWK
+Loss on sale of business,income_statement,false,loss_on_business_disposal_operating,SWK
+Asset impairment charges,income_statement,false,impairment_charges_operating,SWK
+Restructuring charges,income_statement,false,restructuring_costs,SWK
+Income from operations,income_statement,true,operating_income,SWK
+Interest-net,income_statement,false,interest_expense_net,SWK
+EARNINGS FROM CONTINUING OPERATIONS BEFORE INCOME TAXES,income_statement,true,pretax_income,SWK
+Income taxes on continuing operations,income_statement,false,income_tax_provision,SWK
+NET EARNINGS FROM CONTINUING OPERATIONS,income_statement,true,net_income,SWK

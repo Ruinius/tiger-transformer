@@ -1,0 +1,13 @@
+row_name,section,is_calculated,standardized_name,company
+Revenue,income_statement,False,revenue,META
+Costs and expenses:,income_statement,False,costs_and_expenses_header,META
+Cost of revenue,income_statement,False,cost_of_revenue,META
+Research and development,income_statement,False,research_and_development_expense,META
+Marketing and sales,income_statement,False,sales_and_marketing_expense,META
+General and administrative,income_statement,False,general_and_administrative_expense,META
+Total costs and expenses,income_statement,True,total_operating_expenses,META
+Income from operations,income_statement,True,operating_income,META
+"Interest and other income, net",income_statement,False,interest_and_other_income,META
+Income before provision for income taxes,income_statement,True,income_before_taxes,META
+Provision for income taxes,income_statement,False,income_tax_provision,META
+Net income,income_statement,True,net_income,META

@@ -1,0 +1,13 @@
+row_name,section,is_calculated,standardized_name,company
+Revenues,income_statement,False,revenue,GOOG
+Costs and expenses:,income_statement,False,costs_and_expenses_header,GOOG
+Cost of revenues,income_statement,False,cost_of_revenue,GOOG
+Research and development,income_statement,False,research_and_development_expense,GOOG
+Sales and marketing,income_statement,False,sales_and_marketing_expense,GOOG
+General and administrative,income_statement,False,general_and_administrative_expense,GOOG
+Total costs and expenses,income_statement,True,total_operating_expenses,GOOG
+Income from operations,income_statement,True,operating_income,GOOG
+"Other income (expense), net",income_statement,False,other_income_expense_net,GOOG
+Income before income taxes,income_statement,True,income_before_taxes,GOOG
+Provision for income taxes,income_statement,False,income_tax_provision,GOOG
+Net income,income_statement,True,net_income,GOOG

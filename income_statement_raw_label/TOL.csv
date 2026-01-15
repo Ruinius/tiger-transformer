@@ -1,0 +1,16 @@
+row_name,section,is_calculated,standardized_name,company
+Home sales (Revenue),income_statement,false,revenue_home_sales,TOL
+Land sales and other (Revenue),income_statement,false,revenue_land_sales_and_other,TOL
+Total Revenues,income_statement,true,total_revenue,TOL
+Home sales (Cost of revenues),income_statement,false,cost_of_home_sales,TOL
+Land sales and other (Cost of revenues),income_statement,false,cost_of_land_sales_and_other,TOL
+Total Cost of revenues,income_statement,true,total_cost_of_revenue,TOL
+Gross margin - home sales,income_statement,true,gross_profit_home_sales,TOL
+Gross margin - land sales and other,income_statement,true,gross_profit_land_sales_and_other,TOL
+"Selling, general and administrative expenses",income_statement,false,selling_general_and_administrative_expense,TOL
+Income from operations,income_statement,true,operating_income,TOL
+Income (loss) from unconsolidated entities,income_statement,false,equity_method_investment_income,TOL
+Other income - net,income_statement,false,other_non_operating_income_expense_net,TOL
+Income before income taxes,income_statement,true,pretax_income,TOL
+Income tax provision,income_statement,false,income_tax_provision,TOL
+Net income,income_statement,true,net_income,TOL

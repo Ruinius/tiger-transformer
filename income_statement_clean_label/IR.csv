@@ -1,0 +1,17 @@
+row_name,section,is_calculated,standardized_name,company
+Revenues,income_statement,False,revenue,IR
+Cost of sales,income_statement,False,cost_of_revenue,IR
+Gross Profit,income_statement,True,gross_profit,IR
+Selling and administrative expenses,income_statement,False,sales_general_and_administrative_expense,IR
+Amortization of intangible assets,income_statement,False,amortization_acquired,IR
+Impairment of goodwill,income_statement,False,restructuring_and_impairment_charges,IR
+Impairment of other intangible assets,income_statement,False,restructuring_and_impairment_charges,IR
+"Other operating expense, net",income_statement,False,other_operating_expense,IR
+Operating Income,income_statement,True,operating_income,IR
+Interest expense,income_statement,False,interest_expense,IR
+Loss on extinguishment of debt,income_statement,False,debt_extinguishment_gain_loss,IR
+"Other income, net",income_statement,False,other_income_expense_net,IR
+Income Before Income Taxes,income_statement,True,income_before_taxes,IR
+Provision for income taxes,income_statement,False,income_tax_provision,IR
+Loss on equity method investments,income_statement,False,investment_income_net,IR
+Net Income,income_statement,True,net_income,IR

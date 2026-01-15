@@ -1,0 +1,28 @@
+row_name,section,is_calculated,standardized_name,company
+Cash and cash equivalents,current_assets,false,cash_and_equivalents,TOL
+Inventory,current_assets,false,inventory,TOL
+"Property, construction and office equipment - net",noncurrent_assets,false,property_plant_and_equipment,TOL
+"Receivables, prepaid expenses and other assets",current_assets,false,receivables_prepaid_and_other_assets,TOL
+Real estate and related assets held for sale,current_assets,false,assets_held_for_sale,TOL
+Mortgage loans held for sale,current_assets,false,mortgage_loans_held_for_sale,TOL
+Customer deposits held in escrow,current_assets,false,customer_deposits_escrow_assets,TOL
+Investments in unconsolidated entities,noncurrent_assets,false,equity_method_investments,TOL
+Total assets,noncurrent_assets,true,total_assets,TOL
+Loans payable,current_liabilities,false,loans_payable,TOL
+Senior notes,noncurrent_liabilities,false,long_term_debt,TOL
+Mortgage company loan facility,current_liabilities,false,mortgage_facility_debt,TOL
+Customer deposits,current_liabilities,false,customer_deposits_liabilities,TOL
+Accounts payable,current_liabilities,false,accounts_payable,TOL
+Accrued expenses,current_liabilities,false,accrued_liabilities,TOL
+Liabilities related to assets held for sale,current_liabilities,false,liabilities_held_for_sale,TOL
+Income taxes payable,current_liabilities,false,taxes_payable_current,TOL
+Total liabilities,noncurrent_liabilities,true,total_liabilities,TOL
+Common stock,stockholders_equity,false,common_stock,TOL
+Additional paid-in capital,stockholders_equity,false,additional_paid_in_capital,TOL
+Retained earnings,stockholders_equity,false,retained_earnings,TOL
+"Treasury stock, at cost",stockholders_equity,false,treasury_stock,TOL
+Accumulated other comprehensive income,stockholders_equity,false,accumulated_other_comprehensive_income,TOL
+Total stockholders' equity,stockholders_equity,true,total_parent_equity,TOL
+Noncontrolling interest,stockholders_equity,false,noncontrolling_interest,TOL
+Total equity,stockholders_equity,true,total_equity,TOL
+Total liabilities and equity,stockholders_equity,true,total_liabilities_and_equity,TOL

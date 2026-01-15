@@ -1,0 +1,15 @@
+row_name,section,is_calculated,standardized_name,company
+Total revenues,income_statement,true,total_revenue,KBH
+Homebuilding revenues,income_statement,false,revenue_homebuilding,KBH
+Financial services revenues,income_statement,false,revenue_financial_services,KBH
+Costs and expenses (Homebuilding),income_statement,false,cost_of_revenue_homebuilding,KBH
+Operating income (Homebuilding),income_statement,true,operating_income_homebuilding,KBH
+Interest income and other,income_statement,false,interest_income_and_other_non_operating,KBH
+Equity in income of unconsolidated joint ventures,income_statement,false,equity_method_investment_income,KBH
+Homebuilding pretax income,income_statement,true,pretax_income_homebuilding,KBH
+Financial services expenses,income_statement,false,expenses_financial_services,KBH
+Financial services equity in income of unconsolidated joint venture,income_statement,false,equity_method_investment_income_financial_services,KBH
+Financial services pretax income,income_statement,true,pretax_income_financial_services,KBH
+Total pretax income,income_statement,true,pretax_income,KBH
+Income tax expense,income_statement,false,income_tax_provision,KBH
+Net income,income_statement,true,net_income,KBH

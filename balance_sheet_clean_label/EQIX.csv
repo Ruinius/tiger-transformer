@@ -1,0 +1,36 @@
+row_name,section,is_calculated,standardized_name,company
+Cash and cash equivalents,current_assets,False,cash_and_equivalents,EQIX
+Short-term investments,current_assets,False,short_term_investments,EQIX
+"Accounts receivable, net",current_assets,False,accounts_receivable,EQIX
+Other current assets,current_assets,False,other_current_assets,EQIX
+Total current assets,current_assets,True,total_current_assets,EQIX
+"Property, plant and equipment, net",noncurrent_assets,False,property_plant_equipment,EQIX
+Operating lease right-of-use assets,noncurrent_assets,False,operating_lease_assets,EQIX
+Goodwill,noncurrent_assets,False,goodwill,EQIX
+"Intangible assets, net",noncurrent_assets,False,intangibles_net,EQIX
+Other assets,noncurrent_assets,False,other_noncurrent_assets,EQIX
+Total assets,noncurrent_assets,True,total_assets,EQIX
+Accounts payable and accrued expenses,current_liabilities,False,accounts_payable,EQIX
+"Accrued property, plant and equipment",current_liabilities,False,accrued_liabilities,EQIX
+Current portion of operating lease liabilities,current_liabilities,False,current_lease_liabilities,EQIX
+Current portion of finance lease liabilities,current_liabilities,False,current_lease_liabilities,EQIX
+Current portion of mortgage and loans payable,current_liabilities,False,current_portion_long_term_debt,EQIX
+Current portion of senior notes,current_liabilities,False,current_portion_long_term_debt,EQIX
+Other current liabilities,current_liabilities,False,other_current_liabilities,EQIX
+Total current liabilities,current_liabilities,True,total_current_liabilities,EQIX
+"Operating lease liabilities, less current portion",noncurrent_liabilities,False,long_term_lease_liabilities,EQIX
+"Finance lease liabilities, less current portion",noncurrent_liabilities,False,long_term_lease_liabilities,EQIX
+"Mortgage and loans payable, less current portion",noncurrent_liabilities,False,long_term_debt,EQIX
+"Senior notes, less current portion",noncurrent_liabilities,False,long_term_debt,EQIX
+Other liabilities,noncurrent_liabilities,False,other_noncurrent_liabilities,EQIX
+Total liabilities,noncurrent_liabilities,True,total_liabilities,EQIX
+Redeemable non-controlling interest,stockholders_equity,False,noncontrolling_interests,EQIX
+Common stock,stockholders_equity,False,common_stock,EQIX
+Additional paid-in capital,stockholders_equity,False,additional_paid_in_capital,EQIX
+Treasury stock,stockholders_equity,False,treasury_stock,EQIX
+Accumulated dividends,stockholders_equity,False,stock_dividends,EQIX
+Accumulated other comprehensive loss,stockholders_equity,False,aoci,EQIX
+Retained earnings,stockholders_equity,False,retained_earnings,EQIX
+Non-controlling interests,stockholders_equity,False,noncontrolling_interests,EQIX
+Total stockholders' equity,stockholders_equity,True,total_equity,EQIX
+"Total liabilities, redeemable non-controlling interest and stockholders' equity",stockholders_equity,True,total_liabilities_and_equity,EQIX

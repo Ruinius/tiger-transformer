@@ -1,0 +1,28 @@
+row_name,section,is_calculated,standardized_name,company
+ASSETS,assets,False,assets_header,NKE
+Current assets:,current_assets,False,current_assets_header,NKE
+Cash and equivalents,current_assets,False,cash_and_equivalents,NKE
+Short-term investments,current_assets,False,short_term_investments,NKE
+"Accounts receivable, net",current_assets,False,accounts_receivable,NKE
+Inventories,current_assets,False,inventory,NKE
+Prepaid expenses and other current assets,current_assets,False,prepaid_expenses,NKE
+Total current assets,current_assets,True,total_current_assets,NKE
+"Property, plant and equipment, net",noncurrent_assets,False,property_plant_equipment,NKE
+"Operating lease right-of-use assets, net",noncurrent_assets,False,right_of_use_assets,NKE
+"Identifiable intangible assets, net",noncurrent_assets,False,intangibles_net,NKE
+Goodwill,noncurrent_assets,False,goodwill,NKE
+Deferred income taxes and other assets,noncurrent_assets,False,deferred_tax_assets_noncurrent,NKE
+TOTAL ASSETS,noncurrent_assets,True,total_assets,NKE
+LIABILITIES AND SHAREHOLDERS' EQUITY,liabilities,False,liabilities_equity_header,NKE
+Current liabilities:,current_liabilities,False,current_liabilities_header,NKE
+Current portion of long-term debt,current_liabilities,False,current_portion_long_term_debt,NKE
+Accounts payable,current_liabilities,False,accounts_payable,NKE
+Current portion of operating lease liabilities,current_liabilities,False,current_lease_liabilities,NKE
+Accrued liabilities,current_liabilities,False,accrued_liabilities,NKE
+Income taxes payable,current_liabilities,False,current_income_taxes_payable,NKE
+Total current liabilities,current_liabilities,True,total_current_liabilities,NKE
+Long-term debt,noncurrent_liabilities,False,long_term_debt,NKE
+Operating lease liabilities,noncurrent_liabilities,False,long_term_lease_liabilities,NKE
+Deferred income taxes and other liabilities,noncurrent_liabilities,False,deferred_tax_liabilities,NKE
+Shareholders' equity,equity,True,total_equity,NKE
+TOTAL LIABILITIES AND SHAREHOLDERS' EQUITY,equity,True,total_liabilities_and_equity,NKE

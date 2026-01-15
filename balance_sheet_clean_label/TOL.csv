@@ -1,0 +1,28 @@
+row_name,section,is_calculated,standardized_name,company
+Cash and cash equivalents,current_assets,False,cash_and_equivalents,TOL
+Inventory,current_assets,False,inventory,TOL
+"Property, construction and office equipment - net",noncurrent_assets,False,property_plant_equipment,TOL
+"Receivables, prepaid expenses and other assets",current_assets,False,prepaid_expenses,TOL
+Real estate and related assets held for sale,current_assets,False,assets_held_for_sale,TOL
+Mortgage loans held for sale,current_assets,False,mortgage_inventory,TOL
+Customer deposits held in escrow,current_assets,False,funds_held_for_clients,TOL
+Investments in unconsolidated entities,noncurrent_assets,False,equity_method_investments,TOL
+Total assets,noncurrent_assets,True,total_assets,TOL
+Loans payable,current_liabilities,False,short_term_debt,TOL
+Senior notes,noncurrent_liabilities,False,long_term_debt,TOL
+Mortgage company loan facility,current_liabilities,False,short_term_debt,TOL
+Customer deposits,current_liabilities,False,client_funds_obligations,TOL
+Accounts payable,current_liabilities,False,accounts_payable,TOL
+Accrued expenses,current_liabilities,False,accrued_liabilities,TOL
+Liabilities related to assets held for sale,current_liabilities,False,liabilities_held_for_sale,TOL
+Income taxes payable,current_liabilities,False,current_income_taxes_payable,TOL
+Total liabilities,noncurrent_liabilities,True,total_liabilities,TOL
+Common stock,stockholders_equity,False,common_stock,TOL
+Additional paid-in capital,stockholders_equity,False,additional_paid_in_capital,TOL
+Retained earnings,stockholders_equity,False,retained_earnings,TOL
+"Treasury stock, at cost",stockholders_equity,False,treasury_stock,TOL
+Accumulated other comprehensive income,stockholders_equity,False,aoci,TOL
+Total stockholders' equity,stockholders_equity,True,total_parent_equity,TOL
+Noncontrolling interest,stockholders_equity,False,noncontrolling_interests,TOL
+Total equity,stockholders_equity,True,total_equity,TOL
+Total liabilities and equity,stockholders_equity,True,total_liabilities_and_equity,TOL

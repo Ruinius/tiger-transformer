@@ -1,0 +1,25 @@
+row_name,section,is_calculated,standardized_name,company
+Cash and cash equivalents,current_assets,false,cash_and_equivalents,HD
+"Receivables, net",current_assets,false,accounts_receivable_net,HD
+Merchandise inventories,current_assets,false,inventory,HD
+Other current assets,current_assets,false,other_current_assets,HD
+Total current assets,current_assets,true,total_current_assets,HD
+Net property and equipment,noncurrent_assets,false,property_plant_and_equipment,HD
+Operating lease right-of-use assets,noncurrent_assets,false,operating_lease_assets,HD
+Goodwill,noncurrent_assets,false,goodwill,HD
+"Intangible assets, net",noncurrent_assets,false,intangible_assets_net,HD
+Other assets,noncurrent_assets,false,other_noncurrent_assets,HD
+Total assets,noncurrent_assets,true,total_assets,HD
+Short-term debt,current_liabilities,false,short_term_debt,HD
+Accounts payable,current_liabilities,false,accounts_payable,HD
+Accrued salaries and related expenses,current_liabilities,false,accrued_compensation,HD
+Current installments of long-term debt,current_liabilities,false,current_debt,HD
+Current operating lease liabilities,current_liabilities,false,operating_lease_liabilities_current,HD
+Other current liabilities,current_liabilities,false,other_accrued_liabilities,HD
+Total current liabilities,current_liabilities,true,total_current_liabilities,HD
+"Long-term debt, excluding current installments",noncurrent_liabilities,false,long_term_debt,HD
+Long-term operating lease liabilities,noncurrent_liabilities,false,operating_lease_liabilities_noncurrent,HD
+Other long-term liabilities,noncurrent_liabilities,false,other_noncurrent_liabilities,HD
+Total liabilities,noncurrent_liabilities,true,total_liabilities,HD
+Total stockholders' equity,stockholders_equity,true,total_equity,HD
+Total liabilities and stockholders' equity,stockholders_equity,true,total_liabilities_and_equity,HD

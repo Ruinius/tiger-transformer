@@ -1,0 +1,21 @@
+row_name,section,is_calculated,standardized_name,company
+Merchant revenues,income_statement,false,revenue_merchant,BKNG
+Agency revenues,income_statement,false,revenue_agency,BKNG
+Advertising and other revenues,income_statement,false,revenue_advertising_and_other,BKNG
+Total revenues,income_statement,true,total_revenue,BKNG
+Marketing expenses,income_statement,false,marketing_expense,BKNG
+Sales and other expenses,income_statement,false,sales_and_other_operating_expense,BKNG
+Personnel,income_statement,false,personnel_expense,BKNG
+General and administrative,income_statement,false,general_and_administrative_expense,BKNG
+Information technology,income_statement,false,information_technology_expense,BKNG
+Depreciation and amortization,income_statement,false,depreciation_and_amortization_opex,BKNG
+Impairment,income_statement,false,impairment_charges_operating,BKNG
+Transformation costs,income_statement,false,restructuring_and_transformation_costs,BKNG
+Total operating expenses,income_statement,true,total_operating_expenses,BKNG
+Operating income,income_statement,true,operating_income,BKNG
+Interest expense,income_statement,false,interest_expense,BKNG
+Interest and dividend income,income_statement,false,interest_and_dividend_income,BKNG
+"Other income (expense), net",income_statement,false,other_non_operating_income_expense_net,BKNG
+Income before income taxes,income_statement,true,pretax_income,BKNG
+Income tax expense,income_statement,false,income_tax_provision,BKNG
+Net income,income_statement,true,net_income,BKNG

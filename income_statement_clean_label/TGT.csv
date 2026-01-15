@@ -1,0 +1,13 @@
+row_name,section,is_calculated,standardized_name,company
+Sales,income_statement,False,revenue,TGT
+Other revenue,income_statement,False,segment_revenue,TGT
+Total revenue,income_statement,True,total_revenue,TGT
+Cost of sales,income_statement,False,cost_of_revenue,TGT
+"Selling, general and administrative expenses",income_statement,False,sales_general_and_administrative_expense,TGT
+Depreciation and amortization (exclusive of depreciation included in cost of sales),income_statement,False,depreciation_expense,TGT
+Operating income,income_statement,True,operating_income,TGT
+Net interest expense,income_statement,False,interest_expense_net,TGT
+Net other income,income_statement,False,other_income_expense_net,TGT
+Earnings before income taxes,income_statement,True,income_before_taxes,TGT
+Provision for income taxes,income_statement,False,income_tax_provision,TGT
+Net earnings,income_statement,True,net_income,TGT

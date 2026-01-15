@@ -1,0 +1,38 @@
+row_name,section,is_calculated,standardized_name,company
+ASSETS,assets,False,assets_header,KO
+Current Assets,current_assets,False,current_assets_header,KO
+Cash and cash equivalents,current_assets,False,cash_and_equivalents,KO
+Short-term investments,current_assets,False,short_term_investments,KO
+"Total Cash, Cash Equivalents and Short-Term Investments",current_assets,True,total_cash_and_investments,KO
+Marketable securities,current_assets,False,short_term_investments,KO
+"Trade accounts receivable, net of allowance",current_assets,False,accounts_receivable,KO
+Inventories,current_assets,False,inventory,KO
+Prepaid expenses and other current assets,current_assets,False,prepaid_expenses,KO
+Total Current Assets,current_assets,True,total_current_assets,KO
+Equity method investments,noncurrent_assets,False,equity_method_investments,KO
+Deferred income tax assets,noncurrent_assets,False,deferred_tax_assets,KO
+"Property, plant and equipment, net",noncurrent_assets,False,property_plant_equipment,KO
+Trademarks with indefinite lives,noncurrent_assets,False,indefinite_lived_trademarks,KO
+Goodwill,noncurrent_assets,False,goodwill,KO
+Other noncurrent assets,noncurrent_assets,False,other_noncurrent_assets,KO
+Total Assets,noncurrent_assets,True,total_assets,KO
+LIABILITIES AND EQUITY,liabilities,False,liabilities_equity_header,KO
+Current Liabilities,current_liabilities,False,current_liabilities_header,KO
+Accounts payable and accrued expenses,current_liabilities,False,accounts_payable,KO
+Loans and notes payable,current_liabilities,False,short_term_debt,KO
+Current maturities of long-term debt,current_liabilities,False,current_portion_long_term_debt,KO
+Accrued income taxes,current_liabilities,False,current_income_taxes_payable,KO
+Total Current Liabilities,current_liabilities,True,total_current_liabilities,KO
+Long-term debt,noncurrent_liabilities,False,long_term_debt,KO
+Other noncurrent liabilities,noncurrent_liabilities,False,other_noncurrent_liabilities,KO
+Deferred income tax liabilities,noncurrent_liabilities,False,deferred_tax_liabilities,KO
+The Coca-Cola Company Shareowners' Equity,equity,False,equity_header,KO
+Common stock,equity,False,common_stock,KO
+Capital surplus,equity,False,additional_paid_in_capital,KO
+Reinvested earnings,equity,False,retained_earnings,KO
+Accumulated other comprehensive income (loss),equity,False,aoci,KO
+"Treasury stock, at cost",equity,False,treasury_stock,KO
+Equity Attributable to Shareowners,equity,True,total_parent_equity,KO
+Equity attributable to noncontrolling interests,equity,False,noncontrolling_interests,KO
+Total Equity,equity,True,total_equity,KO
+Total Liabilities and Equity,equity,True,total_liabilities_and_equity,KO

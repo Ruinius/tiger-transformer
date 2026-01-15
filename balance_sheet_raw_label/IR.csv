@@ -1,0 +1,30 @@
+row_name,section,is_calculated,standardized_name,company
+Cash and cash equivalents,current_assets,false,cash_and_equivalents,IR
+"Accounts receivable, net",current_assets,false,accounts_receivable_net,IR
+Inventories,current_assets,false,inventory,IR
+Other current assets,current_assets,false,other_current_assets,IR
+Total current assets,current_assets,true,total_current_assets,IR
+"Property, plant and equipment, net",noncurrent_assets,false,property_plant_and_equipment,IR
+Goodwill,noncurrent_assets,false,goodwill,IR
+"Other intangible assets, net",noncurrent_assets,false,intangible_assets_net,IR
+Deferred tax assets,noncurrent_assets,false,deferred_tax_assets_noncurrent,IR
+Other assets,noncurrent_assets,false,other_noncurrent_assets,IR
+Total assets,noncurrent_assets,true,total_assets,IR
+Short-term borrowings and current maturities of long-term debt,current_liabilities,false,current_debt,IR
+Accounts payable,current_liabilities,false,accounts_payable,IR
+Accrued liabilities,current_liabilities,false,accrued_liabilities,IR
+Total current liabilities,current_liabilities,true,total_current_liabilities,IR
+"Long-term debt, less current maturities",noncurrent_liabilities,false,long_term_debt,IR
+Pensions and other postretirement benefits,noncurrent_liabilities,false,pension_and_postretirement_benefits,IR
+Deferred income tax liabilities,noncurrent_liabilities,false,deferred_tax_liabilities,IR
+Other liabilities,noncurrent_liabilities,false,other_noncurrent_liabilities,IR
+Total liabilities,noncurrent_liabilities,true,total_liabilities,IR
+Common stock,stockholders_equity,false,common_stock,IR
+Capital in excess of par value,stockholders_equity,false,additional_paid_in_capital,IR
+Retained earnings,stockholders_equity,false,retained_earnings,IR
+Accumulated other comprehensive loss,stockholders_equity,false,accumulated_other_comprehensive_income,IR
+Treasury stock at cost,stockholders_equity,false,treasury_stock,IR
+Total Ingersoll Rand stockholders' equity,stockholders_equity,true,total_parent_equity,IR
+Noncontrolling interests,stockholders_equity,false,noncontrolling_interest,IR
+Total stockholders' equity,stockholders_equity,true,total_equity,IR
+Total liabilities and stockholders' equity,stockholders_equity,true,total_liabilities_and_equity,IR

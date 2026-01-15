@@ -1,0 +1,8 @@
+row_name,section,is_calculated,standardized_name,company
+Revenues,income_statement,False,revenue,DHI
+Cost of sales,income_statement,False,cost_of_revenue,DHI
+"Selling, general and administrative expense",income_statement,False,sales_general_and_administrative_expense,DHI
+Other (income) expense,income_statement,False,other_operating_income_expense_net,DHI
+Income before income taxes,income_statement,True,income_before_taxes,DHI
+Income tax expense,income_statement,False,income_tax_provision,DHI
+Net income,income_statement,True,net_income,DHI

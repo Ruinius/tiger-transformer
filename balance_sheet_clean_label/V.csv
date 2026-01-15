@@ -1,0 +1,37 @@
+row_name,section,is_calculated,standardized_name,company
+Cash and cash equivalents,current_assets,False,cash_and_equivalents,V
+Restricted cash equivalents-U.S. litigation escrow,current_assets,False,restricted_cash,V
+Investment securities (current),current_assets,False,short_term_investments,V
+Settlement receivable,current_assets,False,settlement_receivable,V
+Accounts receivable,current_assets,False,accounts_receivable,V
+Customer collateral,current_assets,False,customer_collateral_assets,V
+Current portion of client incentives,current_assets,False,client_incentives_current_asset,V
+Prepaid expenses and other current assets,current_assets,False,prepaid_expenses,V
+Total current assets,current_assets,True,total_current_assets,V
+Investment securities (non-current),noncurrent_assets,False,long_term_investments,V
+Client incentives (non-current),noncurrent_assets,False,client_incentives_noncurrent_asset,V
+"Property, equipment and technology, net",noncurrent_assets,False,property_plant_equipment,V
+Goodwill,noncurrent_assets,False,goodwill,V
+"Intangible assets, net",noncurrent_assets,False,intangibles_net,V
+Other assets,noncurrent_assets,False,other_noncurrent_assets,V
+Total assets,noncurrent_assets,True,total_assets,V
+Accounts payable,current_liabilities,False,accounts_payable,V
+Settlement payable,current_liabilities,False,settlement_payable,V
+Customer collateral (liability),current_liabilities,False,customer_collateral_liability,V
+Accrued compensation and benefits,current_liabilities,False,accrued_compensation,V
+Client incentives (liability),current_liabilities,False,client_incentives_liability,V
+Accrued liabilities,current_liabilities,False,accrued_liabilities,V
+Current maturities of debt,current_liabilities,False,current_portion_long_term_debt,V
+Accrued litigation,current_liabilities,False,accrued_litigation_current,V
+Total current liabilities,current_liabilities,True,total_current_liabilities,V
+Long-term debt,noncurrent_liabilities,False,long_term_debt,V
+Deferred tax liabilities,noncurrent_liabilities,False,deferred_tax_liabilities,V
+Other liabilities,noncurrent_liabilities,False,other_noncurrent_liabilities,V
+Total liabilities,noncurrent_liabilities,True,total_liabilities,V
+Preferred stock,stockholders_equity,False,preferred_stock,V
+Common stock,stockholders_equity,False,common_stock,V
+Additional paid-in capital,stockholders_equity,False,additional_paid_in_capital,V
+Accumulated income,stockholders_equity,False,retained_earnings,V
+Total accumulated other comprehensive income (loss),stockholders_equity,False,aoci,V
+Total equity,stockholders_equity,True,total_equity,V
+Total liabilities and equity,stockholders_equity,True,total_liabilities_and_equity,V

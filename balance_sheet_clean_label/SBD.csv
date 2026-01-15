@@ -1,0 +1,20 @@
+row_name,section,is_calculated,standardized_name,company
+Cash and cash equivalents,current_assets,False,cash_and_equivalents,SWK
+"Accounts receivable, net",current_assets,False,accounts_receivable,SWK
+"Inventories, net",current_assets,False,inventory,SWK
+Other current assets,current_assets,False,other_current_assets,SWK
+Total current assets,current_assets,True,total_current_assets,SWK
+"Property, plant and equipment, net",noncurrent_assets,False,property_plant_equipment,SWK
+"Goodwill and other intangibles, net",noncurrent_assets,False,goodwill,SWK
+Other assets,noncurrent_assets,False,other_noncurrent_assets,SWK
+Total assets,noncurrent_assets,True,total_assets,SWK
+Short-term borrowings,current_liabilities,False,short_term_debt,SWK
+Current maturities of long-term debt,current_liabilities,False,current_portion_long_term_debt,SWK
+Accounts payable,current_liabilities,False,accounts_payable,SWK
+Accrued expenses,current_liabilities,False,accrued_liabilities,SWK
+Total current liabilities,current_liabilities,True,total_current_liabilities,SWK
+Long-term debt,noncurrent_liabilities,False,long_term_debt,SWK
+Other long-term liabilities,noncurrent_liabilities,False,other_noncurrent_liabilities,SWK
+Total liabilities,noncurrent_liabilities,True,total_liabilities,SWK
+Shareowners' equity,stockholders_equity,True,total_equity,SWK
+Total liabilities and shareowners' equity,stockholders_equity,True,total_liabilities_and_equity,SWK

@@ -1,0 +1,23 @@
+row_name,section,is_calculated,standardized_name,company
+Cash and cash equivalents,current_assets,False,cash_and_equivalents,ABNB
+Short-term investments,current_assets,False,short_term_investments,ABNB
+Funds receivable and amounts held on behalf of customers,current_assets,False,funds_held_for_clients,ABNB
+Prepaids and other current assets,current_assets,False,prepaid_expenses,ABNB
+Total current assets,current_assets,True,total_current_assets,ABNB
+Deferred income tax assets,noncurrent_assets,False,deferred_tax_assets,ABNB
+"Goodwill and intangible assets, net",noncurrent_assets,False,goodwill,ABNB
+"Other assets, noncurrent",noncurrent_assets,False,other_noncurrent_assets,ABNB
+Total assets,noncurrent_assets,True,total_assets,ABNB
+"Accrued expenses, accounts payables, and other current liabilities",current_liabilities,False,accounts_payable,ABNB
+Funds payable and amounts payable to customers,current_liabilities,False,client_funds_obligations,ABNB
+Current portion of long-term debt,current_liabilities,False,current_portion_long_term_debt,ABNB
+Unearned fees,current_liabilities,False,current_deferred_revenue,ABNB
+Total current liabilities,current_liabilities,True,total_current_liabilities,ABNB
+Long-term debt,noncurrent_liabilities,False,long_term_debt,ABNB
+"Other liabilities, noncurrent",noncurrent_liabilities,False,other_noncurrent_liabilities,ABNB
+Total liabilities,noncurrent_liabilities,True,total_liabilities,ABNB
+Additional paid-in capital,stockholders_equity,False,additional_paid_in_capital,ABNB
+Accumulated other comprehensive income (loss),stockholders_equity,False,aoci,ABNB
+Accumulated deficit,stockholders_equity,False,aoci,ABNB
+Total stockholders' equity,stockholders_equity,True,total_equity,ABNB
+Total liabilities and stockholders' equity,stockholders_equity,True,total_liabilities_and_equity,ABNB

@@ -1,0 +1,41 @@
+row_name,section,is_calculated,standardized_name,company
+Cash and cash equivalents,current_assets,false,cash_and_equivalents,SNA
+Trade and other accounts receivable - net,current_assets,false,accounts_receivable_net,SNA
+Finance receivables - net (current),current_assets,false,current_finance_receivables_net,SNA
+Contract receivables - net (current),current_assets,false,current_contract_receivables_net,SNA
+Inventories - net,current_assets,false,inventory,SNA
+Prepaid expenses and other current assets,current_assets,false,prepaid_and_other_current_assets,SNA
+Total current assets,current_assets,true,total_current_assets,SNA
+Property and equipment - net,noncurrent_assets,false,property_plant_and_equipment,SNA
+Operating lease right-of-use assets,noncurrent_assets,false,operating_lease_assets,SNA
+Deferred income tax assets,noncurrent_assets,false,deferred_tax_assets_noncurrent,SNA
+Long-term finance receivables - net,noncurrent_assets,false,noncurrent_finance_receivables_net,SNA
+Long-term contract receivables - net,noncurrent_assets,false,noncurrent_contract_receivables_net,SNA
+Goodwill,noncurrent_assets,false,goodwill,SNA
+Other intangible assets - net,noncurrent_assets,false,intangible_assets_net,SNA
+Pension assets,noncurrent_assets,false,pension_assets,SNA
+Other long-term assets,noncurrent_assets,false,other_noncurrent_assets,SNA
+Total assets,noncurrent_assets,true,total_assets,SNA
+Notes payable,current_liabilities,false,short_term_debt,SNA
+Accounts payable,current_liabilities,false,accounts_payable,SNA
+Accrued benefits,current_liabilities,false,accrued_benefits_current,SNA
+Accrued compensation,current_liabilities,false,accrued_compensation,SNA
+Franchisee deposits,current_liabilities,false,franchisee_deposits_liability,SNA
+Other accrued liabilities,current_liabilities,false,other_accrued_liabilities,SNA
+Total current liabilities,current_liabilities,true,total_current_liabilities,SNA
+Long-term debt,noncurrent_liabilities,false,long_term_debt,SNA
+Deferred income tax liabilities,noncurrent_liabilities,false,deferred_tax_liabilities,SNA
+Retiree health care benefits,noncurrent_liabilities,false,postretirement_benefits_noncurrent,SNA
+Pension liabilities,noncurrent_liabilities,false,pension_liabilities_noncurrent,SNA
+Operating lease liabilities,noncurrent_liabilities,false,operating_lease_liabilities_noncurrent,SNA
+Other long-term liabilities,noncurrent_liabilities,false,other_noncurrent_liabilities,SNA
+Total liabilities,noncurrent_liabilities,true,total_liabilities,SNA
+Common stock,stockholders_equity,false,common_stock,SNA
+Additional paid-in capital,stockholders_equity,false,additional_paid_in_capital,SNA
+Retained earnings,stockholders_equity,false,retained_earnings,SNA
+Accumulated other comprehensive loss,stockholders_equity,false,accumulated_other_comprehensive_income,SNA
+Treasury stock at cost,stockholders_equity,false,treasury_stock,SNA
+Shareholders' equity attributable to Snap-on Incorporated,stockholders_equity,true,total_parent_equity,SNA
+Noncontrolling interests,stockholders_equity,false,noncontrolling_interest,SNA
+Total equity,stockholders_equity,true,total_equity,SNA
+Total liabilities and equity,stockholders_equity,true,total_liabilities_and_equity,SNA

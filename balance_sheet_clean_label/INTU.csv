@@ -1,0 +1,34 @@
+row_name,section,is_calculated,standardized_name,company
+Cash and cash equivalents,current_assets,False,cash_and_equivalents,INTU
+Investments,current_assets,False,short_term_investments,INTU
+"Accounts receivable, net",current_assets,False,accounts_receivable,INTU
+"Notes receivable held for investment, net",current_assets,False,current_notes_receivables,INTU
+Notes receivable held for sale,current_assets,False,current_notes_receivables,INTU
+Income taxes receivable,current_assets,False,current_income_tax_receivable,INTU
+Prepaid expenses and other current assets,current_assets,False,prepaid_expenses,INTU
+Current assets before funds receivable and amounts held for customers,current_assets,True,total_current_operating_assets,INTU
+Funds receivable and amounts held for customers,current_assets,False,funds_held_for_clients,INTU
+Total current assets,current_assets,True,total_current_assets,INTU
+Long-term investments,noncurrent_assets,False,long_term_investments,INTU
+"Property and equipment, net",noncurrent_assets,False,property_plant_equipment,INTU
+Operating lease right-of-use assets,noncurrent_assets,False,operating_lease_assets,INTU
+Goodwill,noncurrent_assets,False,goodwill,INTU
+"Acquired intangible assets, net",noncurrent_assets,False,intangibles_net,INTU
+Long-term deferred income tax assets,noncurrent_assets,False,deferred_tax_assets,INTU
+Other assets,noncurrent_assets,False,other_noncurrent_assets,INTU
+Total assets,noncurrent_assets,True,total_assets,INTU
+Accounts payable,current_liabilities,False,accounts_payable,INTU
+Accrued compensation and related liabilities,current_liabilities,False,accrued_compensation,INTU
+Deferred revenue,current_liabilities,False,current_deferred_revenue,INTU
+Income taxes payable,current_liabilities,False,current_income_taxes_payable,INTU
+Other current liabilities,current_liabilities,False,other_current_liabilities,INTU
+Current liabilities before funds payable and amounts due to customers,current_liabilities,True,total_current_operating_liabilities,INTU
+Funds payable and amounts due to customers,current_liabilities,False,client_funds_obligations,INTU
+Total current liabilities,current_liabilities,True,total_current_liabilities,INTU
+Long-term debt,noncurrent_liabilities,False,long_term_debt,INTU
+Long-term deferred income tax liabilities,noncurrent_liabilities,False,deferred_tax_liabilities,INTU
+Operating lease liabilities,noncurrent_liabilities,False,long_term_lease_liabilities,INTU
+Other long-term obligations,noncurrent_liabilities,False,other_noncurrent_liabilities,INTU
+Total liabilities,noncurrent_liabilities,True,total_liabilities,INTU
+Stockholders' equity,equity,True,total_equity,INTU
+Total liabilities and stockholders' equity,equity,True,total_liabilities_and_equity,INTU

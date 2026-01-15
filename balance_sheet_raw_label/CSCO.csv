@@ -1,0 +1,34 @@
+row_name,section,is_calculated,standardized_name,company
+Current Assets:,current_assets,False,current_assets_header,CSCO
+Cash and cash equivalents,current_assets,False,cash_and_equivalents,CSCO
+Investments,current_assets,False,short_term_investments,CSCO
+"Accounts receivable, net of allowance",current_assets,False,accounts_receivable,CSCO
+Inventories,current_assets,False,inventory,CSCO
+"Financing receivables, net",current_assets,False,current_financing_receivables,CSCO
+Other current assets,current_assets,False,other_current_assets,CSCO
+Total current assets,current_assets,True,total_current_assets,CSCO
+Non-current Assets:,noncurrent_assets,False,noncurrent_assets_header,CSCO
+"Property and equipment, net",noncurrent_assets,False,property_plant_equipment,CSCO
+"Financing receivables, net",noncurrent_assets,False,noncurrent_financing_receivables,CSCO
+Goodwill,noncurrent_assets,False,goodwill,CSCO
+"Purchased intangible assets, net",noncurrent_assets,False,intangibles_net,CSCO
+Deferred tax assets,noncurrent_assets,False,deferred_tax_assets,CSCO
+Other assets,noncurrent_assets,False,other_noncurrent_assets,CSCO
+Total assets,noncurrent_assets,True,total_assets,CSCO
+Current Liabilities:,current_liabilities,False,current_liabilities_header,CSCO
+Short-term debt,current_liabilities,False,short_term_debt,CSCO
+Accounts payable,current_liabilities,False,accounts_payable,CSCO
+Income taxes payable,current_liabilities,False,current_income_taxes_payable,CSCO
+Accrued compensation,current_liabilities,False,accrued_compensation,CSCO
+Deferred revenue,current_liabilities,False,current_deferred_revenue,CSCO
+Other current liabilities,current_liabilities,False,other_current_liabilities,CSCO
+Total current liabilities,current_liabilities,True,total_current_liabilities,CSCO
+Non-current Liabilities:,noncurrent_liabilities,False,noncurrent_liabilities_header,CSCO
+Long-term debt,noncurrent_liabilities,False,long_term_debt,CSCO
+Income taxes payable,noncurrent_liabilities,False,noncurrent_income_taxes_payable,CSCO
+Deferred revenue,noncurrent_liabilities,False,noncurrent_deferred_revenue,CSCO
+Other long-term liabilities,noncurrent_liabilities,False,other_noncurrent_liabilities,CSCO
+Total liabilities,noncurrent_liabilities,True,total_liabilities,CSCO
+Shareholders' Equity:,equity,False,equity_header,CSCO
+Total equity,equity,True,total_equity,CSCO
+Total liabilities and equity,equity,True,total_liabilities_and_equity,CSCO

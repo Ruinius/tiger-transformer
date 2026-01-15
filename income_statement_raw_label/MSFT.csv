@@ -1,0 +1,16 @@
+row_name,section,is_calculated,standardized_name,company
+Product Revenue,income_statement,false,revenue_product,MSFT
+Service and other Revenue,income_statement,false,revenue_service,MSFT
+Total revenue,income_statement,true,total_revenue,MSFT
+Cost of revenue: Product,income_statement,false,cost_of_revenue_product,MSFT
+Cost of revenue: Service and other,income_statement,false,cost_of_revenue_service,MSFT
+Total cost of revenue,income_statement,true,total_cost_of_revenue,MSFT
+Gross margin,income_statement,true,gross_profit,MSFT
+Research and development,income_statement,false,research_and_development_expense,MSFT
+Sales and marketing,income_statement,false,sales_and_marketing_expense,MSFT
+General and administrative,income_statement,false,general_and_administrative_expense,MSFT
+Operating income,income_statement,true,operating_income,MSFT
+"Other expense, net",income_statement,false,other_non_operating_expense,MSFT
+Income before income taxes,income_statement,true,pretax_income,MSFT
+Provision for income taxes,income_statement,false,income_tax_provision,MSFT
+Net income,income_statement,true,net_income,MSFT

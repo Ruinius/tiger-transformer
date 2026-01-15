@@ -1,0 +1,38 @@
+row_name,section,is_calculated,standardized_name,company
+Cash and cash items,current_assets,False,cash_and_equivalents,APD
+Short-term investments,current_assets,False,short_term_investments,APD
+"Trade receivables, net",current_assets,False,accounts_receivable,APD
+Inventories,current_assets,False,inventory,APD
+Prepaid expenses,current_assets,False,prepaid_expenses,APD
+Assets held for sale,current_assets,False,assets_held_for_sale,APD
+Other receivables and current assets,current_assets,False,other_current_assets,APD
+Total Current Assets,current_assets,True,total_current_assets,APD
+Investment in net assets of and advances to equity affiliates,noncurrent_assets,False,equity_method_investments,APD
+"Plant and equipment, at cost",noncurrent_assets,False,property_plant_equipment_gross,APD
+Less: accumulated depreciation,noncurrent_assets,False,accumulated_depreciation,APD
+"Plant and equipment, net",noncurrent_assets,True,property_plant_equipment_net,APD
+"Goodwill, net",noncurrent_assets,False,goodwill,APD
+"Intangible assets, net",noncurrent_assets,False,intangibles_net,APD
+"Operating lease right-of-use assets, net",noncurrent_assets,False,operating_lease_assets,APD
+Noncurrent lease receivables,noncurrent_assets,False,noncurrent_notes_receivables,APD
+Financing receivables,noncurrent_assets,False,noncurrent_notes_receivables,APD
+Other noncurrent assets,noncurrent_assets,False,other_noncurrent_assets,APD
+Total Noncurrent Assets,noncurrent_assets,True,total_noncurrent_assets,APD
+Total Assets,noncurrent_assets,True,total_assets,APD
+Payables and accrued liabilities,current_liabilities,False,accounts_payable,APD
+Accrued income taxes,current_liabilities,False,current_income_taxes_payable,APD
+Short-term borrowings,current_liabilities,False,short_term_debt,APD
+Current portion of long-term debt,current_liabilities,False,current_portion_long_term_debt,APD
+Liabilities held for sale,current_liabilities,False,liabilities_held_for_sale,APD
+Total Current Liabilities,current_liabilities,True,total_current_liabilities,APD
+Long-term debt,noncurrent_liabilities,False,long_term_debt,APD
+Long-term debt - related party,noncurrent_liabilities,False,long_term_debt_related_party,APD
+Noncurrent operating lease liabilities,noncurrent_liabilities,False,long_term_lease_liabilities,APD
+Other noncurrent liabilities,noncurrent_liabilities,False,other_noncurrent_liabilities,APD
+Deferred income taxes,noncurrent_liabilities,False,deferred_tax_liabilities,APD
+Total Noncurrent Liabilities,noncurrent_liabilities,True,total_noncurrent_liabilities,APD
+Total Liabilities,noncurrent_liabilities,True,total_liabilities,APD
+Air Products Shareholders' Equity,stockholders_equity,False,parent_equity,APD
+Noncontrolling Interests,stockholders_equity,False,noncontrolling_interests,APD
+Total Equity,stockholders_equity,True,total_equity,APD
+Total Liabilities and Equity,stockholders_equity,True,total_liabilities_and_equity,APD

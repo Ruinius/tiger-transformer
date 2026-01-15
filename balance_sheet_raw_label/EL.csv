@@ -1,0 +1,22 @@
+row_name,section,is_calculated,standardized_name,company
+Cash and cash equivalents,current_assets,False,cash_and_equivalents,EL
+"Accounts receivable, net",current_assets,False,accounts_receivable,EL
+Inventory and promotional merchandise,current_assets,False,inventory,EL
+Prepaid expenses and other current assets,current_assets,False,prepaid_expenses,EL
+Total current assets,current_assets,True,total_current_assets,EL
+"Property, plant and equipment, net",noncurrent_assets,False,property_plant_equipment,EL
+Operating lease right-of-use assets,noncurrent_assets,False,right_of_use_assets,EL
+Other assets,noncurrent_assets,False,other_noncurrent_assets,EL
+Total assets,noncurrent_assets,True,total_assets,EL
+Current debt,current_liabilities,False,short_term_debt,EL
+Accounts payable,current_liabilities,False,accounts_payable,EL
+Operating lease liabilities,current_liabilities,False,current_lease_liabilities,EL
+Other accrued liabilities,current_liabilities,False,accrued_liabilities,EL
+Total current liabilities,current_liabilities,True,total_current_liabilities,EL
+Long-term debt,noncurrent_liabilities,False,long_term_debt,EL
+Long-term operating lease liabilities,noncurrent_liabilities,False,long_term_lease_liabilities,EL
+Other noncurrent liabilities,noncurrent_liabilities,False,other_noncurrent_liabilities,EL
+Total noncurrent liabilities,noncurrent_liabilities,True,total_noncurrent_liabilities,EL
+Redeemable noncontrolling interest,equity,False,redeemable_noncontrolling_interests,EL
+Total equity,equity,True,total_equity,EL
+Total liabilities and equity,equity,True,total_liabilities_and_equity,EL

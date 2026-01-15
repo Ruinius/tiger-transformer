@@ -1,0 +1,34 @@
+row_name,section,is_calculated,standardized_name,company
+Cash and cash equivalents,current_assets,false,cash_and_equivalents,MSFT
+Short-term investments,current_assets,false,short_term_investments,MSFT
+"Total cash, cash equivalents, and short-term investments",current_assets,true,total_cash_and_investments,MSFT
+"Accounts receivable, net of allowance",current_assets,false,accounts_receivable_net,MSFT
+Inventories,current_assets,false,inventory,MSFT
+Other current assets,current_assets,false,other_current_assets,MSFT
+Total current assets,current_assets,true,total_current_assets,MSFT
+"Property and equipment, net",noncurrent_assets,false,property_plant_and_equipment,MSFT
+Operating lease right-of-use assets,noncurrent_assets,false,operating_lease_assets,MSFT
+Equity and other investments,noncurrent_assets,false,long_term_investments,MSFT
+Goodwill,noncurrent_assets,false,goodwill,MSFT
+"Intangible assets, net",noncurrent_assets,false,intangible_assets_net,MSFT
+Other long-term assets,noncurrent_assets,false,other_noncurrent_assets,MSFT
+Total assets,noncurrent_assets,true,total_assets,MSFT
+Accounts payable,current_liabilities,false,accounts_payable,MSFT
+Current portion of long-term debt,current_liabilities,false,current_debt,MSFT
+Accrued compensation,current_liabilities,false,accrued_compensation,MSFT
+Short-term income taxes,current_liabilities,false,taxes_payable_current,MSFT
+Short-term unearned revenue,current_liabilities,false,deferred_revenue_current,MSFT
+Other current liabilities,current_liabilities,false,other_current_liabilities,MSFT
+Total current liabilities,current_liabilities,true,total_current_liabilities,MSFT
+Long-term debt,noncurrent_liabilities,false,long_term_debt,MSFT
+Long-term income taxes,noncurrent_liabilities,false,taxes_payable_noncurrent,MSFT
+Long-term unearned revenue,noncurrent_liabilities,false,deferred_revenue_noncurrent,MSFT
+Deferred income taxes,noncurrent_liabilities,false,deferred_tax_liabilities,MSFT
+Operating lease liabilities,noncurrent_liabilities,false,operating_lease_liabilities,MSFT
+Other long-term liabilities,noncurrent_liabilities,false,other_noncurrent_liabilities,MSFT
+Total liabilities,noncurrent_liabilities,true,total_liabilities,MSFT
+Common stock and paid-in capital,stockholders_equity,false,common_stock_and_paid_in_capital,MSFT
+Retained earnings,stockholders_equity,false,retained_earnings,MSFT
+Accumulated other comprehensive loss,stockholders_equity,false,accumulated_other_comprehensive_income,MSFT
+Total stockholders' equity,stockholders_equity,true,total_equity,MSFT
+Total liabilities and stockholders' equity,stockholders_equity,true,total_liabilities_and_equity,MSFT

@@ -1,0 +1,34 @@
+row_name,section,is_calculated,standardized_name,company
+ASSETS,assets,False,assets_header,DIS
+Current assets,current_assets,False,current_assets_header,DIS
+Cash and cash equivalents,current_assets,False,cash_and_equivalents,DIS
+"Receivables, net",current_assets,False,accounts_receivable,DIS
+Inventories,current_assets,False,inventory,DIS
+Content advances,current_assets,False,content_advances,DIS
+Other current assets,current_assets,False,other_current_assets,DIS
+Total current assets,current_assets,True,total_current_assets,DIS
+Produced and licensed content costs,noncurrent_assets,False,content_costs_noncurrent,DIS
+Investments,noncurrent_assets,False,long_term_investments,DIS
+"Parks, resorts and other property, net",noncurrent_assets,False,property_plant_equipment,DIS
+"Intangible assets, net",noncurrent_assets,False,intangibles_net,DIS
+Goodwill,noncurrent_assets,False,goodwill,DIS
+Other assets,noncurrent_assets,False,other_noncurrent_assets,DIS
+Total assets,noncurrent_assets,True,total_assets,DIS
+LIABILITIES AND EQUITY,liabilities,False,liabilities_equity_header,DIS
+Current liabilities,current_liabilities,False,current_liabilities_header,DIS
+Accounts payable and other accrued liabilities,current_liabilities,False,accounts_payable,DIS
+Current portion of borrowings,current_liabilities,False,short_term_debt,DIS
+Deferred revenue and other,current_liabilities,False,current_deferred_revenue,DIS
+Total current liabilities,current_liabilities,True,total_current_liabilities,DIS
+Borrowings,noncurrent_liabilities,False,long_term_debt,DIS
+Deferred income taxes,noncurrent_liabilities,False,deferred_tax_liabilities,DIS
+Other long-term liabilities,noncurrent_liabilities,False,other_noncurrent_liabilities,DIS
+Shareholders' equity,equity,False,equity_header,DIS
+Common stock,equity,False,common_stock,DIS
+Retained earnings,equity,False,retained_earnings,DIS
+Accumulated other comprehensive loss,equity,False,aoci,DIS
+"Treasury stock, at cost",equity,False,treasury_stock,DIS
+Total Disney Shareholders' equity,equity,True,total_equity_parent,DIS
+Noncontrolling interests,equity,False,noncontrolling_interest,DIS
+Total equity,equity,True,total_equity,DIS
+Total liabilities and equity,equity,True,total_liabilities_and_equity,DIS

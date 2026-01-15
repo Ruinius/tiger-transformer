@@ -1,0 +1,15 @@
+row_name,section,is_calculated,standardized_name,company
+Net sales,income_statement,false,revenue,SNA
+Cost of goods sold,income_statement,false,cost_of_goods_sold,SNA
+Gross profit,income_statement,true,gross_profit,SNA
+Operating expenses,income_statement,false,operating_expenses,SNA
+Operating earnings before financial services,income_statement,true,operating_income_operations,SNA
+Financial services revenue,income_statement,false,revenue_financial_services,SNA
+Financial services expenses,income_statement,false,cost_of_revenue_financial_services,SNA
+Operating earnings from financial services,income_statement,true,operating_income_financial_services,SNA
+Operating earnings,income_statement,true,operating_income,SNA
+Interest expense,income_statement,false,interest_expense,SNA
+Other income (expense) - net,income_statement,false,other_non_operating_income_expense_net,SNA
+Earnings before income taxes,income_statement,true,pretax_income,SNA
+Income tax expense,income_statement,false,income_tax_provision,SNA
+Net earnings,income_statement,true,net_income,SNA

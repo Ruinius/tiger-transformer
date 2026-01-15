@@ -1,0 +1,22 @@
+row_name,section,is_calculated,standardized_name,company
+"Cash, cash equivalents and marketable securities",current_assets,false,cash_and_marketable_securities,NVDA
+"Accounts receivable, net",current_assets,false,accounts_receivable_net,NVDA
+Inventories,current_assets,false,inventory,NVDA
+Prepaid expenses and other current assets,current_assets,false,prepaid_and_other_current_assets,NVDA
+Total current assets,current_assets,true,total_current_assets,NVDA
+"Property and equipment, net",noncurrent_assets,false,property_plant_and_equipment,NVDA
+Operating lease assets,noncurrent_assets,false,operating_lease_right_of_use_assets,NVDA
+Goodwill,noncurrent_assets,false,goodwill,NVDA
+"Intangible assets, net",noncurrent_assets,false,intangible_assets_net,NVDA
+Deferred income tax assets,noncurrent_assets,false,deferred_tax_assets_noncurrent,NVDA
+Other assets,noncurrent_assets,false,other_noncurrent_assets,NVDA
+Total assets,noncurrent_assets,true,total_assets,NVDA
+Accounts payable,current_liabilities,false,accounts_payable,NVDA
+Accrued and other current liabilities,current_liabilities,false,accrued_and_other_current_liabilities,NVDA
+Short-term debt,current_liabilities,false,short_term_debt,NVDA
+Total current liabilities,current_liabilities,true,total_current_liabilities,NVDA
+Long-term debt,noncurrent_liabilities,false,long_term_debt,NVDA
+Long-term operating lease liabilities,noncurrent_liabilities,false,operating_lease_liabilities_noncurrent,NVDA
+Other long-term liabilities,noncurrent_liabilities,false,other_noncurrent_liabilities,NVDA
+Total liabilities,noncurrent_liabilities,true,total_liabilities,NVDA
+Shareholders' equity,stockholders_equity,true,total_equity,NVDA

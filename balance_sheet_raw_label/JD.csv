@@ -1,0 +1,46 @@
+row_name,section,is_calculated,standardized_name,company
+Cash and cash equivalents,current_assets,False,cash_and_equivalents,JD
+Restricted cash,current_assets,False,restricted_cash,JD
+Short-term investments,current_assets,False,short_term_investments,JD
+"Accounts receivable, net",current_assets,False,accounts_receivable,JD
+Advance to suppliers,current_assets,False,advances_to_suppliers,JD
+"Inventories, net",current_assets,False,inventory,JD
+Prepayments and other current assets,current_assets,False,prepaid_expenses,JD
+Amount due from related parties,current_assets,False,due_from_related_parties_current,JD
+Assets held for sale,current_assets,False,assets_held_for_sale,JD
+Total current assets,current_assets,True,total_current_assets,JD
+"Property, equipment and software, net",noncurrent_assets,False,property_plant_equipment,JD
+Construction in progress,noncurrent_assets,False,construction_in_progress,JD
+"Intangible assets, net",noncurrent_assets,False,intangible_assets,JD
+"Land use rights, net",noncurrent_assets,False,land_use_rights,JD
+Operating lease right-of-use assets,noncurrent_assets,False,right_of_use_assets,JD
+Goodwill,noncurrent_assets,False,goodwill,JD
+Investment in equity investees,noncurrent_assets,False,equity_method_investments,JD
+Marketable securities and other investments,noncurrent_assets,False,long_term_investments,JD
+Deferred tax assets,noncurrent_assets,False,deferred_tax_assets,JD
+Other non-current assets,noncurrent_assets,False,other_noncurrent_assets,JD
+Total non-current assets,noncurrent_assets,True,total_noncurrent_assets,JD
+Total assets,noncurrent_assets,True,total_assets,JD
+Short-term debts,current_liabilities,False,short_term_debt,JD
+Accounts payable,current_liabilities,False,accounts_payable,JD
+Advance from customers,current_liabilities,False,advances_from_customers,JD
+Deferred revenues,current_liabilities,False,current_deferred_revenue,JD
+Taxes payable,current_liabilities,False,current_income_tax_payable,JD
+Amount due to related parties,current_liabilities,False,due_to_related_parties_current,JD
+Accrued expenses and other current liabilities,current_liabilities,False,accrued_liabilities,JD
+Operating lease liabilities,current_liabilities,False,current_lease_liabilities,JD
+Liabilities held for sale,current_liabilities,False,liabilities_held_for_sale,JD
+Total current liabilities,current_liabilities,True,total_current_liabilities,JD
+Deferred revenues,noncurrent_liabilities,False,long_term_deferred_revenue,JD
+Unsecured senior notes,noncurrent_liabilities,False,long_term_debt,JD
+Deferred tax liabilities,noncurrent_liabilities,False,deferred_tax_liabilities,JD
+Long-term borrowings,noncurrent_liabilities,False,long_term_debt,JD
+Operating lease liabilities,noncurrent_liabilities,False,long_term_lease_liabilities,JD
+Other non-current liabilities,noncurrent_liabilities,False,other_noncurrent_liabilities,JD
+Total non-current liabilities,noncurrent_liabilities,True,total_noncurrent_liabilities,JD
+Total liabilities,noncurrent_liabilities,True,total_liabilities,JD
+Mezzanine equity,equity,False,mezzanine_equity,JD
+"Total JD.com, Inc. shareholders' equity",equity,False,parent_equity,JD
+Non-controlling interests,equity,False,noncontrolling_interests,JD
+Total shareholders' equity,equity,True,total_equity,JD
+"Total liabilities, mezzanine equity and shareholders' equity",equity,True,total_liabilities_and_equity,JD

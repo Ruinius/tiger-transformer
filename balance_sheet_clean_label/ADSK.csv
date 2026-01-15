@@ -1,0 +1,33 @@
+row_name,section,is_calculated,standardized_name,company
+Cash and cash equivalents,current_assets,False,cash_and_equivalents,ADSK
+Marketable securities (current),current_assets,False,short_term_investments,ADSK
+"Accounts receivable, net",current_assets,False,accounts_receivable,ADSK
+Prepaid expenses and other current assets,current_assets,False,prepaid_expenses,ADSK
+Total current assets,current_assets,True,total_current_assets,ADSK
+Long-term marketable securities,noncurrent_assets,False,long_term_investments,ADSK
+"Computer equipment, software, furniture and leasehold improvements, net",noncurrent_assets,False,property_plant_equipment,ADSK
+Operating lease right-of-use assets,noncurrent_assets,False,operating_lease_assets,ADSK
+"Intangible assets, net",noncurrent_assets,False,intangibles_net,ADSK
+Goodwill,noncurrent_assets,False,goodwill,ADSK
+"Deferred income taxes, net",noncurrent_assets,False,deferred_tax_assets,ADSK
+Long-term other assets,noncurrent_assets,False,other_noncurrent_assets,ADSK
+Total assets,noncurrent_assets,True,total_assets,ADSK
+Accounts payable,current_liabilities,False,accounts_payable,ADSK
+Accrued compensation,current_liabilities,False,accrued_compensation,ADSK
+Accrued income taxes,current_liabilities,False,current_income_taxes_payable,ADSK
+Deferred revenue (current),current_liabilities,False,current_deferred_revenue,ADSK
+Operating lease liabilities (current),current_liabilities,False,current_lease_liabilities,ADSK
+"Current portion of long-term notes payable, net",current_liabilities,False,current_portion_long_term_debt,ADSK
+Other accrued liabilities,current_liabilities,False,other_current_liabilities,ADSK
+Total current liabilities,current_liabilities,True,total_current_liabilities,ADSK
+Long-term deferred revenue,noncurrent_liabilities,False,long_term_deferred_revenue,ADSK
+Long-term operating lease liabilities,noncurrent_liabilities,False,long_term_lease_liabilities,ADSK
+Long-term income taxes payable,noncurrent_liabilities,False,long_term_income_taxes_payable,ADSK
+Long-term deferred income taxes,noncurrent_liabilities,False,deferred_tax_liabilities,ADSK
+"Long-term notes payable, net",noncurrent_liabilities,False,long_term_debt,ADSK
+Long-term other liabilities,noncurrent_liabilities,False,other_noncurrent_liabilities,ADSK
+Common stock and additional paid-in capital,stockholders_equity,False,common_stock,ADSK
+Accumulated other comprehensive loss,stockholders_equity,False,aoci,ADSK
+Accumulated deficit,stockholders_equity,False,aoci,ADSK
+Total stockholders' equity,stockholders_equity,True,total_equity,ADSK
+Total liabilities and stockholders' equity,stockholders_equity,True,total_liabilities_and_equity,ADSK

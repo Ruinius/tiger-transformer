@@ -1,0 +1,13 @@
+row_name,section,is_calculated,standardized_name,company
+Revenues,income_statement,False,revenue,NKE
+Cost of sales,income_statement,False,cost_of_goods_sold,NKE
+Gross profit,income_statement,True,gross_profit,NKE
+Selling and administrative expense:,income_statement,False,operating_expenses_header,NKE
+Demand creation expense,income_statement,False,marketing_and_demand_creation_expense,NKE
+Operating overhead expense,income_statement,False,operating_overhead_expense,NKE
+Total selling and administrative expense,income_statement,True,total_operating_expenses,NKE
+"Interest (income) expense, net",income_statement,False,interest_income_expense_net,NKE
+"Other (income) expense, net",income_statement,False,other_income_expense_net,NKE
+Income before income taxes,income_statement,True,income_before_taxes,NKE
+Income tax expense,income_statement,False,income_tax_provision,NKE
+NET INCOME,income_statement,True,net_income,NKE

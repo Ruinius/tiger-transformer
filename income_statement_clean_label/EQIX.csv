@@ -1,0 +1,22 @@
+row_name,section,is_calculated,standardized_name,company
+Recurring revenues,income_statement,False,segment_revenue,EQIX
+Non-recurring revenues,income_statement,False,segment_revenue,EQIX
+Revenues,income_statement,True,total_revenue,EQIX
+Cost of revenues,income_statement,False,cost_of_revenue,EQIX
+Gross profit,income_statement,True,gross_profit,EQIX
+Sales and marketing,income_statement,False,sales_and_marketing_expense,EQIX
+General and administrative,income_statement,False,general_and_administrative_expense,EQIX
+Restructuring charges,income_statement,False,restructuring_and_impairment_charges,EQIX
+Transaction costs,income_statement,False,merger_and_acquisition_costs,EQIX
+Impairment charges,income_statement,False,restructuring_and_impairment_charges,EQIX
+(Gain) loss on asset sales,income_statement,False,gain_loss_divestitures,EQIX
+Total operating expenses,income_statement,True,total_operating_expenses,EQIX
+Income from operations,income_statement,True,operating_income,EQIX
+Interest income,income_statement,False,interest_income,EQIX
+Interest expense,income_statement,False,interest_expense,EQIX
+Other income (expense),income_statement,False,other_income_expense_net,EQIX
+Gain (loss) on debt extinguishment,income_statement,False,debt_extinguishment_gain_loss,EQIX
+"Total interest and other, net",income_statement,True,total_other_income_expense_net,EQIX
+Income before income taxes,income_statement,True,income_before_taxes,EQIX
+Income tax expense,income_statement,False,income_tax_provision,EQIX
+Net income from continuing operations,income_statement,True,net_income,EQIX

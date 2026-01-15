@@ -1,0 +1,29 @@
+row_name,section,is_calculated,standardized_name,company
+Cash and cash equivalents,current_assets,False,cash_and_equivalents,ACN
+Short-term investments,current_assets,False,short_term_investments,ACN
+Receivables and contract assets,current_assets,False,accounts_receivable,ACN
+Other current assets,current_assets,False,other_current_assets,ACN
+Total current assets,current_assets,True,total_current_assets,ACN
+Contract assets (non-current),noncurrent_assets,False,accrued_revenue,ACN
+Investments,noncurrent_assets,False,long_term_investments,ACN
+"Property and equipment, net",noncurrent_assets,False,property_plant_equipment,ACN
+Lease assets,noncurrent_assets,False,operating_lease_assets,ACN
+Goodwill,noncurrent_assets,False,goodwill,ACN
+Other non-current assets,noncurrent_assets,False,other_noncurrent_assets,ACN
+Total non-current assets,noncurrent_assets,True,total_noncurrent_assets,ACN
+TOTAL ASSETS,noncurrent_assets,True,total_assets,ACN
+Current portion of long-term debt and bank borrowings,current_liabilities,False,current_portion_long_term_debt,ACN
+Accounts payable,current_liabilities,False,accounts_payable,ACN
+Deferred revenues (current),current_liabilities,False,current_deferred_revenue,ACN
+Accrued payroll and related benefits,current_liabilities,False,accrued_compensation,ACN
+Lease liabilities (current),current_liabilities,False,current_lease_liabilities,ACN
+Other accrued liabilities,current_liabilities,False,other_current_liabilities,ACN
+Total current liabilities,current_liabilities,True,total_current_liabilities,ACN
+Long-term debt,noncurrent_liabilities,False,long_term_debt,ACN
+Lease liabilities (non-current),noncurrent_liabilities,False,long_term_lease_liabilities,ACN
+Other non-current liabilities,noncurrent_liabilities,False,other_noncurrent_liabilities,ACN
+Total non-current liabilities,noncurrent_liabilities,True,total_noncurrent_liabilities,ACN
+Total Accenture plc shareholders' equity,stockholders_equity,False,parent_equity,ACN
+Noncontrolling interest,stockholders_equity,False,noncontrolling_interests,ACN
+Total Shareholders' Equity,stockholders_equity,True,total_equity,ACN
+TOTAL LIABILITIES AND SHAREHOLDERS' EQUITY,stockholders_equity,True,total_liabilities_and_equity,ACN

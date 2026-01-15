@@ -1,0 +1,31 @@
+row_name,section,is_calculated,standardized_name,company
+Cash and cash equivalents,current_assets,false,cash_and_equivalents,BKNG
+"Accounts receivable, net",current_assets,false,accounts_receivable_net,BKNG
+"Prepaid expenses, net",current_assets,false,prepaid_expenses,BKNG
+Other current assets,current_assets,false,other_current_assets,BKNG
+Total current assets,current_assets,true,total_current_assets,BKNG
+"Property and equipment, net",noncurrent_assets,false,property_plant_and_equipment,BKNG
+Operating lease assets,noncurrent_assets,false,operating_lease_assets,BKNG
+"Intangible assets, net",noncurrent_assets,false,intangible_assets_net,BKNG
+Goodwill,noncurrent_assets,false,goodwill,BKNG
+Long-term investments,noncurrent_assets,false,long_term_investments,BKNG
+"Other assets, net",noncurrent_assets,false,other_noncurrent_assets,BKNG
+Total assets,noncurrent_assets,true,total_assets,BKNG
+Accounts payable,current_liabilities,false,accounts_payable,BKNG
+Accrued expenses and other current liabilities,current_liabilities,false,accrued_liabilities,BKNG
+Deferred merchant bookings,current_liabilities,false,deferred_revenue_current,BKNG
+Short-term debt,current_liabilities,false,short_term_debt,BKNG
+Total current liabilities,current_liabilities,true,total_current_liabilities,BKNG
+Deferred income taxes,noncurrent_liabilities,false,deferred_tax_liabilities,BKNG
+Operating lease liabilities,noncurrent_liabilities,false,operating_lease_liabilities_noncurrent,BKNG
+Long-term U.S. transition tax liability,noncurrent_liabilities,false,taxes_payable_noncurrent,BKNG
+Other long-term liabilities,noncurrent_liabilities,false,other_noncurrent_liabilities,BKNG
+Long-term debt,noncurrent_liabilities,false,long_term_debt,BKNG
+Total liabilities,noncurrent_liabilities,true,total_liabilities,BKNG
+Common stock,stockholders_equity,false,common_stock,BKNG
+Treasury stock,stockholders_equity,false,treasury_stock,BKNG
+Additional paid-in capital,stockholders_equity,false,additional_paid_in_capital,BKNG
+Retained earnings,stockholders_equity,false,retained_earnings,BKNG
+Accumulated other comprehensive loss,stockholders_equity,false,accumulated_other_comprehensive_income,BKNG
+Total stockholders' deficit,stockholders_equity,true,total_equity,BKNG
+Total liabilities and stockholders' deficit,stockholders_equity,true,total_liabilities_and_equity,BKNG

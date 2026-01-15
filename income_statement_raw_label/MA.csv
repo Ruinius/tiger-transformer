@@ -1,0 +1,16 @@
+row_name,section,is_calculated,standardized_name,company
+Net Revenue,income_statement,false,revenue,MA
+General and administrative,income_statement,false,general_and_administrative_expense,MA
+Advertising and marketing,income_statement,false,sales_and_marketing_expense,MA
+Depreciation and amortization,income_statement,false,depreciation_and_amortization_opex,MA
+Provision for litigation,income_statement,false,litigation_provision_operating,MA
+Total operating expenses,income_statement,true,total_operating_expenses,MA
+Operating income,income_statement,true,operating_income,MA
+Investment income,income_statement,false,investment_income_non_operating,MA
+"Gains (losses) on equity investments, net",income_statement,false,gain_loss_on_equity_investments,MA
+Interest expense,income_statement,false,interest_expense,MA
+"Other income (expense), net",income_statement,false,other_non_operating_income_expense_net,MA
+Total other income (expense),income_statement,true,total_non_operating_income_expense,MA
+Income before income taxes,income_statement,true,pretax_income,MA
+Income tax expense,income_statement,false,income_tax_provision,MA
+Net Income,income_statement,true,net_income,MA

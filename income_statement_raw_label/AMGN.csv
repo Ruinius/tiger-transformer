@@ -1,0 +1,18 @@
+row_name,section,is_calculated,standardized_name,company
+Revenues:,income_statement,False,revenue_header,AMGN
+Product sales,income_statement,False,product_revenue,AMGN
+Other revenues,income_statement,False,other_operating_revenue,AMGN
+Total revenues,income_statement,True,total_revenue,AMGN
+Operating expenses:,income_statement,False,operating_expenses_header,AMGN
+Cost of sales,income_statement,False,cost_of_goods_sold,AMGN
+Research and development,income_statement,False,research_and_development_expense,AMGN
+"Selling, general and administrative",income_statement,False,selling_general_and_administrative_expense,AMGN
+Other,income_statement,False,other_operating_expense,AMGN
+Total operating expenses,income_statement,True,total_operating_expenses,AMGN
+Operating income,income_statement,True,operating_income,AMGN
+Other income (expense):,income_statement,False,non_operating_header,AMGN
+"Interest expense, net",income_statement,False,interest_expense_net,AMGN
+"Other income, net",income_statement,False,other_income_expense_net,AMGN
+Income before income taxes,income_statement,True,income_before_taxes,AMGN
+Provision for income taxes,income_statement,False,income_tax_provision,AMGN
+Net income,income_statement,True,net_income,AMGN

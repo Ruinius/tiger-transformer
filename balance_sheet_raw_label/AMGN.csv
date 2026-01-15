@@ -1,0 +1,24 @@
+row_name,section,is_calculated,standardized_name,company
+Assets:,assets,False,assets_header,AMGN
+Current assets:,current_assets,False,current_assets_header,AMGN
+Cash and cash equivalents,current_assets,False,cash_and_equivalents,AMGN
+"Trade receivables, net",current_assets,False,accounts_receivable,AMGN
+Inventories,current_assets,False,inventory,AMGN
+Other current assets,current_assets,False,other_current_assets,AMGN
+Total current assets,current_assets,True,total_current_assets,AMGN
+"Property, plant and equipment, net",noncurrent_assets,False,property_plant_equipment,AMGN
+"Intangible assets, net",noncurrent_assets,False,intangibles_net,AMGN
+Goodwill,noncurrent_assets,False,goodwill,AMGN
+Other noncurrent assets,noncurrent_assets,False,other_noncurrent_assets,AMGN
+Total assets,noncurrent_assets,True,total_assets,AMGN
+Liabilities and Stockholders' Equity:,liabilities,False,liabilities_equity_header,AMGN
+Current liabilities:,current_liabilities,False,current_liabilities_header,AMGN
+Accounts payable and accrued liabilities,current_liabilities,False,accounts_payable,AMGN
+Current portion of long-term debt,current_liabilities,False,current_portion_long_term_debt,AMGN
+Total current liabilities,current_liabilities,True,total_current_liabilities,AMGN
+Long-term debt,noncurrent_liabilities,False,long_term_debt,AMGN
+Long-term deferred tax liabilities,noncurrent_liabilities,False,deferred_tax_liabilities,AMGN
+Long-term tax liabilities,noncurrent_liabilities,False,noncurrent_income_tax_liabilities,AMGN
+Other noncurrent liabilities,noncurrent_liabilities,False,other_noncurrent_liabilities,AMGN
+Total stockholders' equity,equity,True,total_equity,AMGN
+Total liabilities and stockholders' equity,equity,True,total_liabilities_and_equity,AMGN

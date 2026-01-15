@@ -1,0 +1,33 @@
+row_name,section,is_calculated,standardized_name,company
+Cash and cash equivalents,current_assets,False,cash_and_equivalents,GOOG
+Marketable securities,current_assets,False,short_term_investments,GOOG
+"Total cash, cash equivalents, and marketable securities",current_assets,True,total_cash_and_investments,GOOG
+"Accounts receivable, net",current_assets,False,accounts_receivable,GOOG
+Other current assets,current_assets,False,other_current_assets,GOOG
+Total current assets,current_assets,True,total_current_assets,GOOG
+Non-marketable securities,noncurrent_assets,False,long_term_investments,GOOG
+Deferred income taxes,noncurrent_assets,False,deferred_tax_assets,GOOG
+"Property and equipment, net",noncurrent_assets,False,property_plant_equipment,GOOG
+Operating lease assets,noncurrent_assets,False,right_of_use_assets,GOOG
+Goodwill,noncurrent_assets,False,goodwill,GOOG
+Other non-current assets,noncurrent_assets,False,other_noncurrent_assets,GOOG
+Total assets,noncurrent_assets,True,total_assets,GOOG
+Accounts payable,current_liabilities,False,accounts_payable,GOOG
+Accrued compensation and benefits,current_liabilities,False,accrued_compensation,GOOG
+Accrued expenses and other current liabilities,current_liabilities,False,accrued_liabilities,GOOG
+Accrued revenue share,current_liabilities,False,accrued_revenue_share,GOOG
+Deferred revenue,current_liabilities,False,current_deferred_revenue,GOOG
+Total current liabilities,current_liabilities,True,total_current_liabilities,GOOG
+Long-term debt,noncurrent_liabilities,False,long_term_debt,GOOG
+"Deferred revenue, non-current",noncurrent_liabilities,False,long_term_deferred_revenue,GOOG
+"Income taxes payable, non-current",noncurrent_liabilities,False,long_term_income_tax_payable,GOOG
+Deferred income taxes,noncurrent_liabilities,False,deferred_tax_liabilities,GOOG
+Operating lease liabilities,noncurrent_liabilities,False,long_term_lease_liabilities,GOOG
+Other long-term liabilities,noncurrent_liabilities,False,other_noncurrent_liabilities,GOOG
+Total liabilities,noncurrent_liabilities,True,total_liabilities,GOOG
+Preferred stock,equity,False,preferred_stock,GOOG
+"Class A, Class B, and Class C stock and APIC",equity,False,common_stock_and_apic,GOOG
+Accumulated other comprehensive income (loss),equity,False,aoci,GOOG
+Retained earnings,equity,False,retained_earnings,GOOG
+Total stockholders' equity,equity,True,total_equity,GOOG
+Total liabilities and stockholders' equity,equity,True,total_liabilities_and_equity,GOOG

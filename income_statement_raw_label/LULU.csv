@@ -1,0 +1,13 @@
+row_name,section,is_calculated,standardized_name,company
+Net revenue,income_statement,False,revenue,LULU
+Costs of goods sold,income_statement,False,cost_of_goods_sold,LULU
+Gross profit,income_statement,True,gross_profit,LULU
+"Selling, general and administrative expenses",income_statement,False,selling_general_and_administrative_expense,LULU
+"Impairment of goodwill and other assets, restructuring costs",income_statement,False,impairment_and_restructuring_charges,LULU
+Amortization of intangible assets,income_statement,False,amortization_of_intangibles_operating,LULU
+Gain on disposal of assets,income_statement,False,operating_gains_other,LULU
+Income from operations,income_statement,True,operating_income,LULU
+"Other income (expense), net",income_statement,False,other_income_expense_net,LULU
+Income before income tax expense,income_statement,True,income_before_taxes,LULU
+Income tax expense,income_statement,False,income_tax_provision,LULU
+Net income,income_statement,True,net_income,LULU

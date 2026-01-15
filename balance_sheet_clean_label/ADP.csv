@@ -1,0 +1,38 @@
+row_name,section,is_calculated,standardized_name,company
+Cash and cash equivalents,current_assets,False,cash_and_equivalents,ADP
+Short-term marketable securities,current_assets,False,short_term_investments,ADP
+"Accounts receivable, net",current_assets,False,accounts_receivable,ADP
+Other current assets,current_assets,False,other_current_assets,ADP
+Total current assets before funds held for clients,current_assets,True,total_current_operating_assets,ADP
+Funds held for clients,current_assets,False,funds_held_for_clients,ADP
+Total current assets,current_assets,True,total_current_assets,ADP
+"Property, plant and equipment, net",noncurrent_assets,False,property_plant_equipment,ADP
+Operating lease right-of-use asset,noncurrent_assets,False,operating_lease_assets,ADP
+Deferred contract costs,noncurrent_assets,False,deferred_contract_costs,ADP
+Other assets,noncurrent_assets,False,other_noncurrent_assets,ADP
+Goodwill,noncurrent_assets,False,goodwill,ADP
+"Intangible assets, net",noncurrent_assets,False,intangibles_net,ADP
+Total assets,noncurrent_assets,True,total_assets,ADP
+Accounts payable,current_liabilities,False,accounts_payable,ADP
+Accrued expenses and other current liabilities,current_liabilities,False,accrued_liabilities,ADP
+Accrued payroll and payroll-related expenses,current_liabilities,False,accrued_compensation,ADP
+Dividends payable,current_liabilities,False,dividends_payable,ADP
+Obligations under reverse repurchase agreements,current_liabilities,False,short_term_debt,ADP
+Obligations under commercial paper borrowings,current_liabilities,False,short_term_debt,ADP
+Income taxes payable,current_liabilities,False,current_income_taxes_payable,ADP
+Total current liabilities before client funds obligations,current_liabilities,True,total_current_operating_liabilities,ADP
+Client funds obligations,current_liabilities,False,client_funds_obligations,ADP
+Total current liabilities,current_liabilities,True,total_current_liabilities,ADP
+Long-term debt,noncurrent_liabilities,False,long_term_debt,ADP
+Operating lease liabilities,noncurrent_liabilities,False,long_term_lease_liabilities,ADP
+Other liabilities,noncurrent_liabilities,False,other_noncurrent_liabilities,ADP
+Deferred income taxes,noncurrent_liabilities,False,deferred_tax_liabilities,ADP
+Long-term deferred revenues,noncurrent_liabilities,False,long_term_deferred_revenue,ADP
+Total liabilities,noncurrent_liabilities,True,total_liabilities,ADP
+Common stock,stockholders_equity,False,common_stock,ADP
+Capital in excess of par value,stockholders_equity,False,additional_paid_in_capital,ADP
+Retained earnings,stockholders_equity,False,retained_earnings,ADP
+Treasury stock at cost,stockholders_equity,False,treasury_stock,ADP
+Accumulated other comprehensive loss,stockholders_equity,False,aoci,ADP
+Total stockholders' equity,stockholders_equity,True,total_equity,ADP
+Total liabilities and stockholders' equity,stockholders_equity,True,total_liabilities_and_equity,ADP

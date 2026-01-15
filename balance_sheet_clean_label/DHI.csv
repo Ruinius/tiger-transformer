@@ -1,0 +1,26 @@
+row_name,section,is_calculated,standardized_name,company
+Cash and cash equivalents,current_assets,False,cash_and_equivalents,DHI
+Restricted cash,current_assets,False,restricted_cash,DHI
+"Total cash, cash equivalents and restricted cash",current_assets,True,total_cash_and_investments,DHI
+Construction in progress and finished homes,current_assets,False,inventory,DHI
+"Residential land and lots developed, under development, held for development and held for sale",current_assets,False,inventory,DHI
+Rental properties,current_assets,False,inventory,DHI
+Total inventory,current_assets,True,total_inventory,DHI
+Mortgage loans held for sale,current_assets,False,mortgage_inventory,DHI
+"Deferred income taxes, net",noncurrent_assets,False,deferred_tax_assets,DHI
+"Property and equipment, net",noncurrent_assets,False,property_plant_equipment,DHI
+Other assets,noncurrent_assets,False,other_noncurrent_assets,DHI
+Goodwill,noncurrent_assets,False,goodwill,DHI
+Total assets,noncurrent_assets,True,total_assets,DHI
+Accounts payable,current_liabilities,False,accounts_payable,DHI
+Accrued expenses and other liabilities,current_liabilities,False,accrued_liabilities,DHI
+Notes payable,noncurrent_liabilities,False,long_term_debt,DHI
+Total liabilities,noncurrent_liabilities,True,total_liabilities,DHI
+Common stock,stockholders_equity,False,common_stock,DHI
+Additional paid-in capital,stockholders_equity,False,additional_paid_in_capital,DHI
+Retained earnings,stockholders_equity,False,retained_earnings,DHI
+"Treasury stock, at cost",stockholders_equity,False,treasury_stock,DHI
+Stockholders' equity,stockholders_equity,True,total_parent_equity,DHI
+Noncontrolling interests,stockholders_equity,False,noncontrolling_interests,DHI
+Total equity,stockholders_equity,True,total_equity,DHI
+Total liabilities and equity,stockholders_equity,True,total_liabilities_and_equity,DHI

@@ -1,0 +1,19 @@
+row_name,section,is_calculated,standardized_name,company
+Operating Revenues,income_statement,False,revenue_header,UNP
+Freight revenues,income_statement,False,segment_revenue,UNP
+Other revenues,income_statement,False,segment_revenue,UNP
+Total operating revenues,income_statement,True,total_revenue,UNP
+Operating Expenses,income_statement,False,operating_expenses_header,UNP
+Compensation and benefits,income_statement,False,cost_of_revenue,UNP
+Purchased services and materials,income_statement,False,cost_of_revenue,UNP
+Fuel,income_statement,False,cost_of_revenue,UNP
+Depreciation,income_statement,False,depreciation_expense,UNP
+Equipment and other rents,income_statement,False,cost_of_revenue,UNP
+Other,income_statement,False,other_operating_expense,UNP
+Total operating expenses,income_statement,True,total_operating_expenses,UNP
+Operating Income,income_statement,True,operating_income,UNP
+"Other income, net",income_statement,False,other_income_expense_net,UNP
+Interest expense,income_statement,False,interest_expense,UNP
+Income before income taxes,income_statement,True,income_before_taxes,UNP
+Income tax expense,income_statement,False,income_tax_provision,UNP
+Net Income,income_statement,True,net_income,UNP

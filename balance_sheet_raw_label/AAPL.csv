@@ -1,0 +1,28 @@
+row_name,section,is_calculated,standardized_name,company
+Cash and cash equivalents,current_assets,false,cash_and_equivalents,AAPL
+Marketable securities (current),current_assets,false,short_term_investments,AAPL
+"Accounts receivable, net",current_assets,false,accounts_receivable_net,AAPL
+Vendor non-trade receivables,current_assets,false,vendor_non_trade_receivables,AAPL
+Inventories,current_assets,false,inventory,AAPL
+Other current assets,current_assets,false,other_current_assets,AAPL
+Total current assets,current_assets,true,total_current_assets,AAPL
+Marketable securities (non-current),noncurrent_assets,false,long_term_marketable_securities,AAPL
+"Property, plant and equipment, net",noncurrent_assets,false,property_plant_and_equipment,AAPL
+Other non-current assets,noncurrent_assets,false,other_noncurrent_assets,AAPL
+Total non-current assets,noncurrent_assets,true,total_noncurrent_assets,AAPL
+Total assets,noncurrent_assets,true,total_assets,AAPL
+Accounts payable,current_liabilities,false,accounts_payable,AAPL
+Other current liabilities,current_liabilities,false,other_current_liabilities,AAPL
+Deferred revenue (current),current_liabilities,false,deferred_revenue_current,AAPL
+Commercial paper,current_liabilities,false,commercial_paper,AAPL
+Term debt (current),current_liabilities,false,current_debt,AAPL
+Total current liabilities,current_liabilities,true,total_current_liabilities,AAPL
+Term debt (non-current),noncurrent_liabilities,false,long_term_debt,AAPL
+Other non-current liabilities,noncurrent_liabilities,false,other_noncurrent_liabilities,AAPL
+Total non-current liabilities,noncurrent_liabilities,true,total_noncurrent_liabilities,AAPL
+Total liabilities,noncurrent_liabilities,true,total_liabilities,AAPL
+Common stock and additional paid-in capital,stockholders_equity,false,common_stock_and_paid_in_capital,AAPL
+Accumulated deficit,stockholders_equity,false,accumulated_deficit,AAPL
+Accumulated other comprehensive loss,stockholders_equity,false,accumulated_other_comprehensive_income,AAPL
+Total shareholders' equity,stockholders_equity,true,total_equity,AAPL
+Total liabilities and shareholders' equity,stockholders_equity,true,total_liabilities_and_equity,AAPL
