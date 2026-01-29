@@ -1,0 +1,34 @@
+row_name,section,is_calculated,standardized_name,company
+Cash and cash equivalents,current_assets,False,cash_and_equivalents,ADBE_2
+Short-term investments,current_assets,False,short_term_investments,ADBE_2
+"Trade receivables, net of allowances for doubtful accounts of $14 for both periods",current_assets,False,accounts_receivable,ADBE_2
+Prepaid expenses and other current assets,current_assets,False,prepaid_expenses,ADBE_2
+Total current assets,current_assets,True,total_current_assets,ADBE_2
+"Property and equipment, net",noncurrent_assets,False,property_plant_equipment,ADBE_2
+"Operating lease right-of-use assets, net",noncurrent_assets,False,operating_lease_assets,ADBE_2
+Goodwill,noncurrent_assets,False,goodwill,ADBE_2
+"Other intangibles, net",noncurrent_assets,False,intangibles_net,ADBE_2
+Deferred income taxes,noncurrent_assets,False,deferred_tax_assets,ADBE_2
+Other assets,noncurrent_assets,False,other_noncurrent_assets,ADBE_2
+Total assets,noncurrent_assets,True,total_assets,ADBE_2
+Trade payables,current_liabilities,False,accounts_payable,ADBE_2
+Accrued expenses,current_liabilities,False,accrued_liabilities,ADBE_2
+Debt,current_liabilities,False,short_term_debt,ADBE_2
+Deferred revenue,current_liabilities,False,current_deferred_revenue,ADBE_2
+Income taxes payable,current_liabilities,False,current_income_taxes_payable,ADBE_2
+Operating lease liabilities,current_liabilities,False,current_lease_liabilities,ADBE_2
+Total current liabilities,current_liabilities,True,total_current_liabilities,ADBE_2
+Debt,noncurrent_liabilities,False,long_term_debt,ADBE_2
+Deferred revenue,noncurrent_liabilities,False,long_term_deferred_revenue,ADBE_2
+Income taxes payable,noncurrent_liabilities,False,long_term_income_taxes_payable,ADBE_2
+Operating lease liabilities,noncurrent_liabilities,False,long_term_lease_liabilities,ADBE_2
+Other liabilities,noncurrent_liabilities,False,other_noncurrent_liabilities,ADBE_2
+Total liabilities,noncurrent_liabilities,True,total_liabilities,ADBE_2
+Preferred stock,equity,False,preferred_stock,ADBE_2
+Common stock,equity,False,common_stock,ADBE_2
+Additional paid-in capital,equity,False,additional_paid_in_capital,ADBE_2
+Retained earnings,equity,False,retained_earnings,ADBE_2
+Accumulated other comprehensive income (loss),equity,False,aoci,ADBE_2
+"Treasury stock, at cost",equity,False,treasury_stock,ADBE_2
+Total stockholders' equity,equity,True,total_equity,ADBE_2
+Total liabilities and stockholders' equity,equity,True,total_liabilities_and_equity,ADBE_2

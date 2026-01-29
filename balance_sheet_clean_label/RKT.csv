@@ -1,0 +1,39 @@
+row_name,section,is_calculated,standardized_name,company
+Cash and cash equivalents,current_assets,False,cash_and_equivalents,RKT
+Restricted cash,current_assets,False,restricted_cash,RKT
+"Mortgage loans held for sale, at fair value",current_assets,False,mortgage_inventory,RKT
+"Derivative assets, at fair value",current_assets,False,short_term_investments,RKT
+"Mortgage servicing rights (“MSRs”), at fair value",current_assets,False,short_term_investments,RKT
+Notes receivable and due from affiliates,current_assets,False,current_notes_receivables,RKT
+"Property and equipment, net",noncurrent_assets,False,property_plant_equipment,RKT
+"Deferred tax asset, net",noncurrent_assets,False,deferred_tax_assets,RKT
+Lease right of use assets,noncurrent_assets,False,operating_lease_assets,RKT
+Loans subject to repurchase right from Ginnie Mae,noncurrent_assets,False,ginnie_mae_loans_asset,RKT
+"Goodwill and intangible assets, net",noncurrent_assets,False,goodwill,RKT
+Other assets,noncurrent_assets,False,other_noncurrent_assets,RKT
+Total assets,noncurrent_assets,True,total_assets,RKT
+Funding facilities,current_liabilities,False,short_term_debt,RKT
+"Senior Notes, net",current_liabilities,False,short_term_debt,RKT
+Early buy out facility,current_liabilities,False,short_term_debt,RKT
+Accounts payable,current_liabilities,False,accounts_payable,RKT
+Lease liabilities,noncurrent_liabilities,False,long_term_lease_liabilities,RKT
+"Derivative liabilities, at fair value",noncurrent_liabilities,False,noncurrent_deferred_revenue,RKT
+Investor reserves,noncurrent_liabilities,False,client_funds_obligations,RKT
+Notes payable and due to affiliates,noncurrent_liabilities,False,long_term_debt_related_party,RKT
+Tax receivable agreement liability,noncurrent_liabilities,False,long_term_income_taxes_payable,RKT
+Loans subject to repurchase right from Ginnie Mae,noncurrent_liabilities,False,ginnie_mae_loans_liability,RKT
+Deferred tax liability,noncurrent_liabilities,False,deferred_tax_liabilities,RKT
+Other liabilities,noncurrent_liabilities,False,other_noncurrent_liabilities,RKT
+Total liabilities,noncurrent_liabilities,True,total_liabilities,RKT
+Preferred stock,stockholders_equity,False,preferred_stock,RKT
+Class A common stock,stockholders_equity,False,common_stock,RKT
+Class B common stock,stockholders_equity,False,common_stock,RKT
+Class C common stock,stockholders_equity,False,common_stock,RKT
+Class D common stock,stockholders_equity,False,common_stock,RKT
+Class L common stock,stockholders_equity,False,common_stock,RKT
+Additional paid-in capital,stockholders_equity,False,additional_paid_in_capital,RKT
+Retained earnings,stockholders_equity,False,retained_earnings,RKT
+Accumulated other comprehensive loss,stockholders_equity,False,aoci,RKT
+Non-controlling interest,stockholders_equity,False,noncontrolling_interests,RKT
+Total equity,stockholders_equity,True,total_equity,RKT
+Total liabilities and equity,stockholders_equity,True,total_liabilities_and_equity,RKT

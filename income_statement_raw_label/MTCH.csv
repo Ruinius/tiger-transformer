@@ -1,0 +1,17 @@
+row_name,section,is_calculated,standardized_name,company
+Revenue,income_statement,FALSE,revenue,MTCH
+Cost of revenue,income_statement,FALSE,cost_of_revenue,MTCH
+Selling and marketing expense,income_statement,FALSE,sales_and_marketing_expense,MTCH
+General and administrative expense,income_statement,FALSE,general_and_administrative_expense,MTCH
+Product development expense,income_statement,FALSE,research_and_development_expense,MTCH
+Depreciation,income_statement,FALSE,depreciation_expense,MTCH
+Amortization of intangibles,income_statement,FALSE,amortization_acquired,MTCH
+Total operating costs and expenses,income_statement,TRUE,total_operating_expenses,MTCH
+Operating income,income_statement,TRUE,operating_income,MTCH
+Interest expense,income_statement,FALSE,interest_expense,MTCH
+"Other (expense) income, net",income_statement,FALSE,other_income_expense_net,MTCH
+Earnings before income taxes,income_statement,TRUE,income_before_taxes,MTCH
+Income tax provision,income_statement,FALSE,income_tax_provision,MTCH
+Net earnings,income_statement,TRUE,net_income,MTCH
+"Loss from discontinued operations, net of tax",income_statement,FALSE,discontinued_operations,MTCH
+Net earnings,income_statement,TRUE,net_income_parent,MTCH

@@ -16,5 +16,5 @@ Interest expense,income_statement,False,interest_expense,AMZN
 Total non-operating income (expense),income_statement,True,total_other_income_expense_net,AMZN
 Income before income taxes,income_statement,True,income_before_taxes,AMZN
 Provision for income taxes,income_statement,False,income_tax_provision,AMZN
-"Equity-method investment activity, net of tax",income_statement,False,investment_income_net,AMZN
+"Equity-method investment activity, net of tax",income_statement,False,equity_method_income_loss,AMZN
 Net income,income_statement,True,net_income,AMZN

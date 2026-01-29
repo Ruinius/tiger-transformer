@@ -1,7 +1,7 @@
 row_name,section,is_calculated,standardized_name,company
 Subscription (Net revenue),income_statement,False,segment_revenue,ADSK
 Maintenance (Net revenue),income_statement,False,segment_revenue,ADSK
-Total subscription and maintenance revenue,income_statement,True,revenue_subtotal,ADSK
+Total subscription and maintenance revenue,income_statement,True,segment_revenue_subtotal,ADSK
 Other (Net revenue),income_statement,False,segment_revenue,ADSK
 Total net revenue,income_statement,True,total_revenue,ADSK
 Cost of subscription and maintenance revenue,income_statement,False,segment_cost_of_revenue,ADSK

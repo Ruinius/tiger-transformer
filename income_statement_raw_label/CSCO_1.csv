@@ -1,0 +1,21 @@
+row_name,section,is_calculated,standardized_name,company
+Revenues:,income_statement,FALSE,revenue_header,CSCO_1
+Gross sales,income_statement,FALSE,gross_revenue,CSCO_1
+Sales returns and damaged goods,income_statement,FALSE,revenue_adjustments,CSCO_1
+Volume-based rebates and discounts,income_statement,FALSE,sales_discounts,CSCO_1
+Total net sales,income_statement,TRUE,total_revenue,CSCO_1
+Cost of Goods Sold:,income_statement,FALSE,cost_of_goods_sold_header,CSCO_1
+Inventory purchase costs,income_statement,FALSE,merchandise_expense,CSCO_1
+Inbound freight and duty,income_statement,FALSE,freight_in_expense,CSCO_1
+Total cost of goods sold,income_statement,TRUE,total_cost_of_goods_sold,CSCO_1
+Gross profit,income_statement,TRUE,gross_profit,CSCO_1
+Operating Expenses:,income_statement,FALSE,operating_expenses_header,CSCO_1
+Selling and marketing,income_statement,FALSE,selling_marketing_expense,CSCO_1
+General and administrative,income_statement,FALSE,general_administrative_expense,CSCO_1
+Total operating expenses,income_statement,TRUE,total_operating_expenses,CSCO_1
+Operating income,income_statement,TRUE,operating_income,CSCO_1
+Non-Operating Items:,income_statement,FALSE,non_operating_header,CSCO_1
+"Interest and other, net",income_statement,FALSE,interest_expense_net,CSCO_1
+Income before income taxes,income_statement,TRUE,income_before_taxes,CSCO_1
+Income tax expense,income_statement,FALSE,income_tax_provision,CSCO_1
+Net income,income_statement,TRUE,net_income,CSCO_1

@@ -1,0 +1,16 @@
+row_name,section,is_calculated,standardized_name,company
+Net sales,income_statement,FALSE,revenue,EL_1
+Cost of sales,income_statement,FALSE,cost_of_goods_sold,EL_1
+Gross profit,income_statement,TRUE,gross_profit,EL_1
+Operating expenses:,income_statement,FALSE,operating_expenses_header,EL_1
+"Selling, general and administrative",income_statement,FALSE,selling_general_and_administrative_expense,EL_1
+Talcum litigation settlement agreements,income_statement,FALSE,litigation_settlement_expense,EL_1
+Restructuring and other charges,income_statement,FALSE,restructuring_charges,EL_1
+Total operating expenses,income_statement,TRUE,total_operating_expenses,EL_1
+Operating income (loss),income_statement,TRUE,operating_income,EL_1
+Interest expense,income_statement,FALSE,interest_expense,EL_1
+"Interest income and investment income, net",income_statement,FALSE,interest_and_investment_income,EL_1
+Other components of net periodic benefit cost,income_statement,FALSE,other_pension_benefit_costs,EL_1
+Earnings (loss) before income taxes,income_statement,TRUE,income_before_taxes,EL_1
+Provision for income taxes,income_statement,FALSE,income_tax_provision,EL_1
+Net earnings (loss),income_statement,TRUE,net_income,EL_1

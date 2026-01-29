@@ -1,0 +1,29 @@
+row_name,section,is_calculated,standardized_name,company
+Cash and cash equivalents,current_assets,False,cash_and_equivalents,MTCH
+Short-term investments,current_assets,False,short_term_investments,MTCH
+"Accounts receivable, net",current_assets,False,accounts_receivable,MTCH
+Other current assets,current_assets,False,other_current_assets,MTCH
+Total current assets,current_assets,True,total_current_assets,MTCH
+"Property and equipment, net",noncurrent_assets,False,property_plant_equipment,MTCH
+Goodwill,noncurrent_assets,False,goodwill,MTCH
+"Intangible assets, net",noncurrent_assets,False,intangibles_net,MTCH
+Deferred income taxes,noncurrent_assets,False,deferred_tax_assets,MTCH
+Other non-current assets,noncurrent_assets,False,other_noncurrent_assets,MTCH
+TOTAL ASSETS,noncurrent_assets,True,total_assets,MTCH
+"Current maturities of long-term debt, net",current_liabilities,False,current_portion_long_term_debt,MTCH
+Accounts payable,current_liabilities,False,accounts_payable,MTCH
+Deferred revenue,current_liabilities,False,current_deferred_revenue,MTCH
+Accrued expenses and other current liabilities,current_liabilities,False,accrued_liabilities,MTCH
+Total current liabilities,current_liabilities,True,total_current_liabilities,MTCH
+"Long-term debt, net of current maturities",noncurrent_liabilities,False,long_term_debt,MTCH
+Income taxes payable,noncurrent_liabilities,False,long_term_income_taxes_payable,MTCH
+Deferred income taxes,noncurrent_liabilities,False,deferred_tax_liabilities,MTCH
+Other long-term liabilities,noncurrent_liabilities,False,other_noncurrent_liabilities,MTCH
+Common stock,stockholders_equity,False,common_stock,MTCH
+Additional paid-in capital,stockholders_equity,False,additional_paid_in_capital,MTCH
+Retained deficit,stockholders_equity,False,retained_earnings,MTCH
+Accumulated other comprehensive loss,stockholders_equity,False,aoci,MTCH
+Treasury stock,stockholders_equity,False,treasury_stock,MTCH
+"Total Match Group, Inc. shareholders' equity",stockholders_equity,True,total_parent_equity,MTCH
+Noncontrolling interests,stockholders_equity,False,noncontrolling_interests,MTCH
+Total shareholders' equity,stockholders_equity,True,total_equity,MTCH

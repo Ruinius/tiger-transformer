@@ -1,0 +1,20 @@
+row_name,section,is_calculated,standardized_name,company
+Revenues:,income_statement,FALSE,revenue_header,BA_1
+Sales of products,income_statement,FALSE,product_revenue,BA_1
+Sales of services,income_statement,FALSE,service_revenue,BA_1
+Total revenues,income_statement,TRUE,total_revenue,BA_1
+Costs and Expenses:,income_statement,FALSE,costs_and_expenses_header,BA_1
+Cost of products,income_statement,FALSE,cost_of_products,BA_1
+Cost of services,income_statement,FALSE,cost_of_services,BA_1
+Total costs and expenses,income_statement,TRUE,total_costs_and_expenses,BA_1
+"Income/(loss) from operating investments, net",income_statement,FALSE,operating_investment_income_loss,BA_1
+General and administrative expense,income_statement,FALSE,general_and_administrative_expense,BA_1
+"Research and development expense, net",income_statement,FALSE,research_and_development_expense,BA_1
+"Gain/(loss) on dispositions, net",income_statement,FALSE,operating_gain_loss_dispositions,BA_1
+Loss from operations,income_statement,TRUE,operating_income_loss,BA_1
+Non-Operating Items:,income_statement,FALSE,non_operating_header,BA_1
+"Other income, net",income_statement,FALSE,other_income_expense_net,BA_1
+Interest and debt expense,income_statement,FALSE,interest_expense,BA_1
+Loss before income taxes,income_statement,TRUE,income_before_taxes,BA_1
+Income tax (expense)/benefit,income_statement,FALSE,income_tax_provision,BA_1
+Net loss,income_statement,TRUE,net_income_loss,BA_1

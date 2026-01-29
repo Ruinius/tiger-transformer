@@ -1,0 +1,20 @@
+row_name,section,is_calculated,standardized_name,company
+Commercial Airplanes,income_statement,False,segment_revenue,BA_2
+"Defense, Space & Security",income_statement,False,segment_revenue,BA_2
+Global Services,income_statement,False,segment_revenue,BA_2
+"Unallocated items, eliminations and other",income_statement,False,eliminations,BA_2
+Total revenues,income_statement,True,total_revenue,BA_2
+Commercial Airplanes,income_statement,False,segment_cost_of_revenue,BA_2
+"Defense, Space & Security",income_statement,False,segment_cost_of_revenue,BA_2
+Global Services,income_statement,False,segment_cost_of_revenue,BA_2
+Segment operating loss,income_statement,True,operating_income,BA_2
+"Unallocated items, eliminations and other",income_statement,False,eliminations,BA_2
+FAS/CAS service cost adjustment,income_statement,False,cost_of_revenue,BA_2
+Loss from operations,income_statement,True,operating_income,BA_2
+"Other income, net",income_statement,False,other_income_expense_net,BA_2
+Interest and debt expense,income_statement,False,interest_expense,BA_2
+Loss before income taxes,income_statement,True,income_before_taxes,BA_2
+Income tax (expense)/benefit,income_statement,False,income_tax_provision,BA_2
+Net loss,income_statement,True,net_income,BA_2
+Less: net earnings/(loss) attributable to noncontrolling interest,income_statement,False,net_income_noncontrolling,BA_2
+Net loss attributable to Boeing shareholders,income_statement,True,net_income_parent,BA_2

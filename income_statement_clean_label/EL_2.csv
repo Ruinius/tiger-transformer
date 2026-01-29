@@ -1,0 +1,18 @@
+row_name,section,is_calculated,standardized_name,company
+Net sales,income_statement,False,revenue,EL_2
+Cost of sales,income_statement,False,cost_of_revenue,EL_2
+Gross profit,income_statement,True,gross_profit,EL_2
+Operating expenses:,income_statement,False,operating_expenses_header,EL_2
+"Selling, general and administrative",income_statement,False,sales_general_and_administrative_expense,EL_2
+Talcum litigation settlement agreements,income_statement,False,litigation_expense,EL_2
+Restructuring and other charges,income_statement,False,restructuring_and_impairment_charges,EL_2
+Total operating expenses,income_statement,True,total_operating_expenses,EL_2
+Operating income (loss),income_statement,True,operating_income,EL_2
+Interest expense,income_statement,False,interest_expense,EL_2
+"Interest income and investment income, net",income_statement,False,interest_income,EL_2
+Other components of net periodic benefit cost,income_statement,False,other_pension_benefit_costs,EL_2
+Earnings (loss) before income taxes,income_statement,True,income_before_taxes,EL_2
+Provision for income taxes,income_statement,False,income_tax_provision,EL_2
+Net earnings (loss),income_statement,True,net_income,EL_2
+Net loss (earnings) attributable to redeemable noncontrolling interest,income_statement,False,net_income_noncontrolling,EL_2
+Net (loss) earnings attributable to The Estée Lauder Companies Inc.,income_statement,True,net_income_parent,EL_2

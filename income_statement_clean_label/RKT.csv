@@ -1,0 +1,24 @@
+row_name,section,is_calculated,standardized_name,company
+"Gain on sale of loans excluding fair value of originated MSRs, net",income_statement,False,segment_revenue,RKT
+Fair value of originated MSRs,income_statement,False,segment_revenue,RKT
+"Gain on sale of loans, net",income_statement,True,segment_revenue_subtotal,RKT
+Servicing fee income,income_statement,False,segment_revenue,RKT
+Change in fair value of MSRs,income_statement,False,segment_revenue,RKT
+"Loan servicing (loss) income, net",income_statement,True,segment_revenue_subtotal,RKT
+Interest income,income_statement,False,interest_income_banking,RKT
+Interest expense on funding facilities,income_statement,False,interest_expense_banking,RKT
+"Interest income, net",income_statement,True,net_interest_income_banking,RKT
+Other income,income_statement,False,other_operating_income_expense_net,RKT
+"Total revenue, net",income_statement,True,total_revenue,RKT
+"Salaries, commissions and team member benefits",income_statement,False,cost_of_revenue,RKT
+General and administrative expenses,income_statement,False,general_and_administrative_expense,RKT
+Marketing and advertising expenses,income_statement,False,sales_and_marketing_expense,RKT
+Depreciation and amortization,income_statement,False,depreciation_expense,RKT
+Interest and amortization expense on non-funding debt,income_statement,False,interest_expense,RKT
+Other expenses,income_statement,False,other_income_expense_net,RKT
+Total expenses,income_statement,True,total_other_income_expense_net,RKT
+Loss before income taxes,income_statement,True,income_before_taxes,RKT
+Benefit from (provision for) income taxes,income_statement,False,income_tax_provision,RKT
+Net loss,income_statement,True,net_income,RKT
+Net loss attributable to non-controlling interest,income_statement,False,net_income_noncontrolling,RKT
+Net loss attributable to Rocket Companies,income_statement,True,net_income_parent,RKT

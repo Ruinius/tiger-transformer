@@ -13,5 +13,5 @@ Loss on extinguishment of debt,income_statement,False,debt_extinguishment_gain_l
 "Other income, net",income_statement,False,other_income_expense_net,IR
 Income Before Income Taxes,income_statement,True,income_before_taxes,IR
 Provision for income taxes,income_statement,False,income_tax_provision,IR
-Loss on equity method investments,income_statement,False,investment_income_net,IR
+Loss on equity method investments,income_statement,False,equity_method_income_loss,IR
 Net Income,income_statement,True,net_income,IR

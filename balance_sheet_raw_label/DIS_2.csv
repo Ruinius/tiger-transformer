@@ -1,0 +1,35 @@
+row_name,section,is_calculated,standardized_name,company
+Cash and cash equivalents,current_assets,FALSE,cash_and_equivalents,DIS_2
+"Receivables, net",current_assets,FALSE,accounts_receivable,DIS_2
+Inventories,current_assets,FALSE,inventory,DIS_2
+Content advances,current_assets,FALSE,prepaid_expenses,DIS_2
+Other current assets,current_assets,FALSE,other_current_assets,DIS_2
+Total current assets,current_assets,TRUE,total_current_assets,DIS_2
+Produced and licensed content costs,noncurrent_assets,FALSE,produced_content,DIS_2
+Investments,noncurrent_assets,FALSE,long_term_investments,DIS_2
+"Attractions, buildings and equipment",noncurrent_assets,FALSE,property_plant_equipment_gross,DIS_2
+Accumulated depreciation,noncurrent_assets,FALSE,accumulated_depreciation,DIS_2
+"Parks, resorts and other property",noncurrent_assets,TRUE,property_plant_equipment_net,DIS_2
+Projects in progress,noncurrent_assets,FALSE,construction_in_progress,DIS_2
+Land,noncurrent_assets,FALSE,land,DIS_2
+"Parks, resorts and other property",noncurrent_assets,TRUE,property_plant_equipment_net,DIS_2
+"Intangible assets, net",noncurrent_assets,FALSE,intangibles_net,DIS_2
+Goodwill,noncurrent_assets,FALSE,goodwill,DIS_2
+Other assets,noncurrent_assets,FALSE,other_noncurrent_assets,DIS_2
+Total assets,noncurrent_assets,TRUE,total_assets,DIS_2
+Accounts payable and other accrued liabilities,current_liabilities,FALSE,accounts_payable,DIS_2
+Current portion of borrowings,current_liabilities,FALSE,short_term_debt,DIS_2
+Deferred revenue and other,current_liabilities,FALSE,current_deferred_revenue,DIS_2
+Total current liabilities,current_liabilities,TRUE,total_current_liabilities,DIS_2
+Borrowings,noncurrent_liabilities,FALSE,long_term_debt,DIS_2
+Deferred income taxes,noncurrent_liabilities,FALSE,deferred_tax_liabilities,DIS_2
+Other long-term liabilities,noncurrent_liabilities,FALSE,other_noncurrent_liabilities,DIS_2
+Preferred stock,equity,FALSE,preferred_stock,DIS_2
+"Common stock, $0.01 par value, Authorized – 4.6 billion shares, Issued – 1.9 billion shares",equity,FALSE,common_stock,DIS_2
+Retained earnings,equity,FALSE,retained_earnings,DIS_2
+Accumulated other comprehensive loss,equity,FALSE,aoci,DIS_2
+"Treasury stock, at cost, 79 million shares at September 27, 2025 and 47 million shares at September 28, 2024",equity,FALSE,treasury_stock,DIS_2
+Total Disney Shareholders’ equity,equity,TRUE,total_parent_equity,DIS_2
+Noncontrolling interests,equity,FALSE,noncontrolling_interests,DIS_2
+Total equity,equity,TRUE,total_equity,DIS_2
+Total liabilities and equity,equity,TRUE,total_liabilities_and_equity,DIS_2

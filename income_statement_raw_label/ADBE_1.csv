@@ -1,0 +1,28 @@
+row_name,section,is_calculated,standardized_name,company
+Revenue:,income_statement,FALSE,revenue_header,ADBE_1
+Subscription,income_statement,FALSE,subscription_revenue,ADBE_1
+Product,income_statement,FALSE,product_revenue,ADBE_1
+Services and other,income_statement,FALSE,services_and_other_revenue,ADBE_1
+Total revenue,income_statement,TRUE,total_revenue,ADBE_1
+Cost of revenue:,income_statement,FALSE,cost_of_revenue_header,ADBE_1
+Subscription,income_statement,FALSE,cost_of_subscription_revenue,ADBE_1
+Product,income_statement,FALSE,cost_of_product_revenue,ADBE_1
+Services and other,income_statement,FALSE,cost_of_services_and_other_revenue,ADBE_1
+Total cost of revenue,income_statement,TRUE,total_cost_of_revenue,ADBE_1
+Gross profit,income_statement,TRUE,gross_profit,ADBE_1
+Operating expenses:,income_statement,FALSE,operating_expenses_header,ADBE_1
+Research and development,income_statement,FALSE,research_and_development_expense,ADBE_1
+Sales and marketing,income_statement,FALSE,sales_and_marketing_expense,ADBE_1
+General and administrative,income_statement,FALSE,general_and_administrative_expense,ADBE_1
+Acquisition termination fee,income_statement,FALSE,acquisition_termination_fee,ADBE_1
+Amortization of intangibles,income_statement,FALSE,amortization_of_intangibles_operating,ADBE_1
+Total operating expenses,income_statement,TRUE,total_operating_expenses,ADBE_1
+Operating income,income_statement,TRUE,operating_income,ADBE_1
+Non-operating income (expense):,income_statement,FALSE,non_operating_header,ADBE_1
+Interest expense,income_statement,FALSE,interest_expense,ADBE_1
+"Investment gains (losses), net",income_statement,FALSE,investment_income_net,ADBE_1
+"Other income (expense), net",income_statement,FALSE,other_income_expense_net,ADBE_1
+"Total non-operating income (expense), net",income_statement,TRUE,total_non_operating_income_expense,ADBE_1
+Income before income taxes,income_statement,TRUE,income_before_taxes,ADBE_1
+Provision for income taxes,income_statement,FALSE,income_tax_provision,ADBE_1
+Net income,income_statement,TRUE,net_income,ADBE_1

@@ -8,7 +8,7 @@ Operating Income,income_statement,True,operating_income,KO
 Interest and other income (loss) - net:,income_statement,False,non_operating_header,KO
 Interest income,income_statement,False,interest_income,KO
 Interest expense,income_statement,False,interest_expense,KO
-Equity income (loss) - net,income_statement,False,investment_income_net,KO
+Equity income (loss) - net,income_statement,False,equity_method_income_loss,KO
 Other income (loss) - net,income_statement,False,other_income_expense_net,KO
 Income Before Income Taxes,income_statement,True,income_before_taxes,KO
 Income taxes,income_statement,False,income_tax_provision,KO

@@ -1,0 +1,34 @@
+row_name,section,is_calculated,standardized_name,company
+ASSETS,assets,False,assets_header,DIS_1
+Current assets,current_assets,False,current_assets_header,DIS_1
+Cash and cash equivalents,current_assets,False,cash_and_equivalents,DIS_1
+"Receivables, net",current_assets,False,accounts_receivable,DIS_1
+Inventories,current_assets,False,inventory,DIS_1
+Content advances,current_assets,False,prepaid_expenses,DIS_1
+Other current assets,current_assets,False,other_current_assets,DIS_1
+Total current assets,current_assets,True,total_current_assets,DIS_1
+Produced and licensed content costs,noncurrent_assets,False,content_assets_net,DIS_1
+Investments,noncurrent_assets,False,long_term_investments,DIS_1
+"Parks, resorts and other property, net",noncurrent_assets,False,property_plant_equipment,DIS_1
+"Intangible assets, net",noncurrent_assets,False,intangibles_net,DIS_1
+Goodwill,noncurrent_assets,False,goodwill,DIS_1
+Other assets,noncurrent_assets,False,other_noncurrent_assets,DIS_1
+Total assets,noncurrent_assets,True,total_assets,DIS_1
+LIABILITIES AND EQUITY,liabilities,False,liabilities_equity_header,DIS_1
+Current liabilities,current_liabilities,False,current_liabilities_header,DIS_1
+Accounts payable and other accrued liabilities,current_liabilities,False,accounts_payable,DIS_1
+Current portion of borrowings,current_liabilities,False,short_term_debt,DIS_1
+Deferred revenue and other,current_liabilities,False,current_deferred_revenue,DIS_1
+Total current liabilities,current_liabilities,True,total_current_liabilities,DIS_1
+Borrowings,noncurrent_liabilities,False,long_term_debt,DIS_1
+Deferred income taxes,noncurrent_liabilities,False,deferred_tax_liabilities,DIS_1
+Other long-term liabilities,noncurrent_liabilities,False,other_noncurrent_liabilities,DIS_1
+Shareholders' equity,equity,False,equity_header,DIS_1
+Common stock,equity,False,common_stock,DIS_1
+Retained earnings,equity,False,retained_earnings,DIS_1
+Accumulated other comprehensive loss,equity,False,aoci,DIS_1
+"Treasury stock, at cost",equity,False,treasury_stock,DIS_1
+Total Disney Shareholders' equity,equity,True,total_parent_equity,DIS_1
+Noncontrolling interests,equity,False,noncontrolling_interests,DIS_1
+Total equity,equity,True,total_equity,DIS_1
+Total liabilities and equity,equity,True,total_liabilities_and_equity,DIS_1

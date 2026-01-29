@@ -7,7 +7,7 @@ Provision for litigation,income_statement,False,litigation_expense,MA
 Total operating expenses,income_statement,True,total_operating_expenses,MA
 Operating income,income_statement,True,operating_income,MA
 Investment income,income_statement,False,investment_income_net,MA
-"Gains (losses) on equity investments, net",income_statement,False,investment_income_net,MA
+"Gains (losses) on equity investments, net",income_statement,False,equity_method_income_loss,MA
 Interest expense,income_statement,False,interest_expense,MA
 "Other income (expense), net",income_statement,False,other_income_expense_net,MA
 Total other income (expense),income_statement,True,total_other_income_expense_net,MA

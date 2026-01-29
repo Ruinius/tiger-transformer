@@ -13,5 +13,5 @@ Interest expense,income_statement,False,interest_expense,AMD
 "Other income (expense), net",income_statement,False,other_income_expense_net,AMD
 Income from continuing operations before income taxes and equity income,income_statement,True,income_before_taxes,AMD
 Income tax provision (benefit),income_statement,False,income_tax_provision,AMD
-Equity income in investee,income_statement,False,investment_income_net,AMD
+Equity income in investee,income_statement,False,equity_method_income_loss,AMD
 "Income from continuing operations, net of tax",income_statement,True,net_income,AMD

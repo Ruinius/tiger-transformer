@@ -10,7 +10,7 @@ Research and development,income_statement,False,research_and_development_expense
 General and administrative,income_statement,False,general_and_administrative_expense,LOW
 Gain on sale of development properties,income_statement,False,gain_loss_divestitures,LOW
 Income from operations,income_statement,True,operating_income,LOW
-Share of results of equity investees,income_statement,False,investment_income_net,LOW
+Share of results of equity investees,income_statement,False,equity_method_income_loss,LOW
 Interest expense,income_statement,False,interest_expense,LOW
 "Others, net",income_statement,False,other_income_expense_net,LOW
 Income before tax,income_statement,True,income_before_taxes,LOW

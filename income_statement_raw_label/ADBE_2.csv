@@ -1,0 +1,24 @@
+row_name,section,is_calculated,standardized_name,company
+Subscription,income_statement,FALSE,segment_revenue,ADBE_2
+Product,income_statement,FALSE,segment_revenue,ADBE_2
+Services and other,income_statement,FALSE,segment_revenue,ADBE_2
+Total revenue,income_statement,TRUE,total_revenue,ADBE_2
+Subscription,income_statement,FALSE,segment_cost_of_revenue,ADBE_2
+Product,income_statement,FALSE,segment_cost_of_revenue,ADBE_2
+Services and other,income_statement,FALSE,segment_cost_of_revenue,ADBE_2
+Total cost of revenue,income_statement,TRUE,total_cost_of_revenue,ADBE_2
+Gross profit,income_statement,TRUE,gross_profit,ADBE_2
+Research and development,income_statement,FALSE,research_and_development_expense,ADBE_2
+Sales and marketing,income_statement,FALSE,sales_and_marketing_expense,ADBE_2
+General and administrative,income_statement,FALSE,general_and_administrative_expense,ADBE_2
+Acquisition termination fee,income_statement,FALSE,merger_and_acquisition_costs,ADBE_2
+Amortization of intangibles,income_statement,FALSE,amortization_acquired,ADBE_2
+Total operating expenses,income_statement,TRUE,total_operating_expenses,ADBE_2
+Operating income,income_statement,TRUE,operating_income,ADBE_2
+Interest expense,income_statement,FALSE,interest_expense,ADBE_2
+"Investment gains (losses), net",income_statement,FALSE,investment_income_net,ADBE_2
+"Other income (expense), net",income_statement,FALSE,other_income_expense_net,ADBE_2
+"Total non-operating income (expense), net",income_statement,TRUE,total_other_income_expense_net,ADBE_2
+Income before income taxes,income_statement,TRUE,income_before_taxes,ADBE_2
+Provision for income taxes,income_statement,FALSE,income_tax_provision,ADBE_2
+Net income,income_statement,TRUE,net_income,ADBE_2

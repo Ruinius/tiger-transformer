@@ -7,7 +7,7 @@ Research and development,income_statement,False,research_and_development_expense
 Business optimization and other charges,income_statement,False,restructuring_and_impairment_charges,APD
 "Other income (expense), net",income_statement,False,other_operating_income_expense_net,APD
 Operating Income (Loss),income_statement,True,operating_income,APD
-Equity affiliates' income,income_statement,False,investment_income_net,APD
+Equity affiliates' income,income_statement,False,equity_method_income_loss,APD
 Interest expense,income_statement,False,interest_expense,APD
 Interest income,income_statement,False,interest_income,APD
 Income From Continuing Operations Before Taxes,income_statement,True,income_before_taxes,APD

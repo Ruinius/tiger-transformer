@@ -9,7 +9,7 @@ Gross margin - home sales,income_statement,True,segment_gross_profit,TOL
 Gross margin - land sales and other,income_statement,True,segment_gross_profit,TOL
 "Selling, general and administrative expenses",income_statement,False,sales_general_and_administrative_expense,TOL
 Income from operations,income_statement,True,operating_income,TOL
-Income (loss) from unconsolidated entities,income_statement,False,investment_income_net,TOL
+Income (loss) from unconsolidated entities,income_statement,False,equity_method_income_loss,TOL
 Other income - net,income_statement,False,other_income_expense_net,TOL
 Income before income taxes,income_statement,True,income_before_taxes,TOL
 Income tax provision,income_statement,False,income_tax_provision,TOL

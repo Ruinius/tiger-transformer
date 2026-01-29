@@ -1,0 +1,28 @@
+row_name,section,is_calculated,standardized_name,company
+Revenue:,income_statement,False,revenue_header,ADBE_1
+Subscription,income_statement,False,segment_revenue,ADBE_1
+Product,income_statement,False,segment_revenue,ADBE_1
+Services and other,income_statement,False,segment_revenue,ADBE_1
+Total revenue,income_statement,True,total_revenue,ADBE_1
+Cost of revenue:,income_statement,False,cost_of_revenue_header,ADBE_1
+Subscription,income_statement,False,segment_cost_of_revenue,ADBE_1
+Product,income_statement,False,segment_cost_of_revenue,ADBE_1
+Services and other,income_statement,False,segment_cost_of_revenue,ADBE_1
+Total cost of revenue,income_statement,True,total_cost_of_revenue,ADBE_1
+Gross profit,income_statement,True,gross_profit,ADBE_1
+Operating expenses:,income_statement,False,operating_expenses_header,ADBE_1
+Research and development,income_statement,False,research_and_development_expense,ADBE_1
+Sales and marketing,income_statement,False,sales_and_marketing_expense,ADBE_1
+General and administrative,income_statement,False,general_and_administrative_expense,ADBE_1
+Acquisition termination fee,income_statement,False,merger_and_acquisition_costs,ADBE_1
+Amortization of intangibles,income_statement,False,amortization_acquired,ADBE_1
+Total operating expenses,income_statement,True,total_operating_expenses,ADBE_1
+Operating income,income_statement,True,operating_income,ADBE_1
+Non-operating income (expense):,income_statement,False,non_operating_header,ADBE_1
+Interest expense,income_statement,False,interest_expense,ADBE_1
+"Investment gains (losses), net",income_statement,False,investment_income_net,ADBE_1
+"Other income (expense), net",income_statement,False,other_income_expense_net,ADBE_1
+"Total non-operating income (expense), net",income_statement,True,total_other_income_expense_net,ADBE_1
+Income before income taxes,income_statement,True,income_before_taxes,ADBE_1
+Provision for income taxes,income_statement,False,income_tax_provision,ADBE_1
+Net income,income_statement,True,net_income,ADBE_1

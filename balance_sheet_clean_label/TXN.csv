@@ -1,0 +1,38 @@
+row_name,section,is_calculated,standardized_name,company
+Cash and cash equivalents,current_assets,False,cash_and_equivalents,TXN
+Short-term investments,current_assets,False,short_term_investments,TXN
+Accounts receivable,current_assets,False,accounts_receivable,TXN
+Raw materials,current_assets,False,inventory,TXN
+Work in process,current_assets,False,inventory,TXN
+Finished goods,current_assets,False,inventory,TXN
+Inventories,current_assets,True,total_inventory,TXN
+Prepaid expenses and other current assets,current_assets,False,prepaid_expenses,TXN
+Total current assets,current_assets,True,total_current_assets,TXN
+"Property, plant and equipment at cost",noncurrent_assets,False,property_plant_equipment_gross,TXN
+Accumulated depreciation,noncurrent_assets,False,accumulated_depreciation,TXN
+"Property, plant and equipment",noncurrent_assets,True,property_plant_equipment_net,TXN
+Goodwill,noncurrent_assets,False,goodwill,TXN
+Deferred tax assets,noncurrent_assets,False,deferred_tax_assets,TXN
+Capitalized software licenses,noncurrent_assets,False,computer_hardware_and_software,TXN
+Overfunded retirement plans,noncurrent_assets,False,pension_liabilities,TXN
+Other long-term assets,noncurrent_assets,False,other_noncurrent_assets,TXN
+Total assets,noncurrent_assets,True,total_assets,TXN
+Current portion of long-term debt,current_liabilities,False,current_portion_long_term_debt,TXN
+Accounts payable,current_liabilities,False,accounts_payable,TXN
+Accrued compensation,current_liabilities,False,accrued_compensation,TXN
+Income taxes payable,current_liabilities,False,current_income_taxes_payable,TXN
+Accrued expenses and other liabilities,current_liabilities,False,accrued_liabilities,TXN
+Total current liabilities,current_liabilities,True,total_current_liabilities,TXN
+Long-term debt,noncurrent_liabilities,False,long_term_debt,TXN
+Underfunded retirement plans,noncurrent_liabilities,False,pension_liabilities,TXN
+Deferred tax liabilities,noncurrent_liabilities,False,deferred_tax_liabilities,TXN
+Other long-term liabilities,noncurrent_liabilities,False,other_noncurrent_liabilities,TXN
+Total liabilities,noncurrent_liabilities,True,total_liabilities,TXN
+Preferred stock,equity,False,preferred_stock,TXN
+Common stock,equity,False,common_stock,TXN
+Paid-in capital,equity,False,additional_paid_in_capital,TXN
+Retained earnings,equity,False,retained_earnings,TXN
+Treasury common stock at cost,equity,False,treasury_stock,TXN
+"Accumulated other comprehensive income (loss), net of taxes (AOCI)",equity,False,aoci,TXN
+Total stockholders' equity,equity,True,total_equity,TXN
+Total liabilities and stockholders' equity,equity,True,total_liabilities_and_equity,TXN

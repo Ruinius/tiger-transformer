@@ -1,0 +1,17 @@
+row_name,section,is_calculated,standardized_name,company
+Premiums,income_statement,FALSE,premium_revenue,UNH_1
+Products,income_statement,FALSE,product_revenue,UNH_1
+Services,income_statement,FALSE,service_revenue,UNH_1
+Investment and other income,income_statement,FALSE,segment_revenue,UNH_1
+Total revenues,income_statement,TRUE,total_revenue,UNH_1
+Medical costs,income_statement,FALSE,medical_costs,UNH_1
+Operating costs,income_statement,FALSE,operating_expenses,UNH_1
+Cost of products sold,income_statement,FALSE,cost_of_products_sold,UNH_1
+Depreciation and amortization,income_statement,FALSE,depreciation_and_amortization,UNH_1
+Total operating costs,income_statement,TRUE,total_operating_expenses,UNH_1
+Earnings from operations,income_statement,TRUE,operating_income,UNH_1
+Interest expense,income_statement,FALSE,interest_expense,UNH_1
+Loss on sale of subsidiary and subsidiaries held for sale,income_statement,FALSE,loss_on_sale_of_subsidiaries,UNH_1
+Earnings before income taxes,income_statement,TRUE,pretax_income,UNH_1
+Provision for income taxes,income_statement,FALSE,income_tax_provision,UNH_1
+Net earnings (loss),income_statement,TRUE,net_income,UNH_1

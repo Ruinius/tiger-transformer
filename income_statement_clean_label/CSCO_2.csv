@@ -1,0 +1,22 @@
+row_name,section,is_calculated,standardized_name,company
+Product revenue,income_statement,False,segment_revenue,CSCO_2
+Services revenue,income_statement,False,segment_revenue,CSCO_2
+Total revenue,income_statement,True,total_revenue,CSCO_2
+Product cost of sales,income_statement,False,segment_cost_of_revenue,CSCO_2
+Services cost of sales,income_statement,False,segment_cost_of_revenue,CSCO_2
+Total cost of sales,income_statement,True,total_cost_of_revenue,CSCO_2
+GROSS MARGIN,income_statement,True,gross_profit,CSCO_2
+Research and development,income_statement,False,research_and_development_expense,CSCO_2
+Sales and marketing,income_statement,False,sales_and_marketing_expense,CSCO_2
+General and administrative,income_statement,False,general_and_administrative_expense,CSCO_2
+Amortization of purchased intangible assets,income_statement,False,amortization_acquired,CSCO_2
+Restructuring and other charges,income_statement,False,restructuring_and_impairment_charges,CSCO_2
+Total operating expenses,income_statement,True,total_operating_expenses,CSCO_2
+OPERATING INCOME,income_statement,True,operating_income,CSCO_2
+Interest income,income_statement,False,interest_income,CSCO_2
+Interest expense,income_statement,False,interest_expense,CSCO_2
+"Other income (loss), net",income_statement,False,other_income_expense_net,CSCO_2
+"Interest and other income (loss), net",income_statement,True,total_other_income_expense_net,CSCO_2
+INCOME BEFORE PROVISION FOR INCOME TAXES,income_statement,True,income_before_taxes,CSCO_2
+Provision for (benefit from) income taxes,income_statement,False,income_tax_provision,CSCO_2
+NET INCOME,income_statement,True,net_income,CSCO_2

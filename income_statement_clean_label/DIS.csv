@@ -5,7 +5,7 @@ Restructuring and impairment charges,income_statement,False,restructuring_and_im
 Operating Income,income_statement,True,operating_income,DIS
 Non-Operating Items:,income_statement,False,non_operating_header,DIS
 "Interest expense, net",income_statement,False,interest_expense_net,DIS
-Equity in the income of investees,income_statement,False,investment_income_net,DIS
+Equity in the income of investees,income_statement,False,equity_method_income_loss,DIS
 Other expense,income_statement,False,other_income_expense_net,DIS
 Income before income taxes,income_statement,True,income_before_taxes,DIS
 Income taxes,income_statement,False,income_tax_provision,DIS

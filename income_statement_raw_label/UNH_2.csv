@@ -1,0 +1,19 @@
+row_name,section,is_calculated,standardized_name,company
+Premiums,income_statement,FALSE,premium_revenue,UNH_2
+Products,income_statement,FALSE,product_revenue,UNH_2
+Services,income_statement,FALSE,service_revenue,UNH_2
+Investment and other income,income_statement,FALSE,segment_revenue,UNH_2
+Total revenues,income_statement,TRUE,total_revenue,UNH_2
+Medical costs,income_statement,FALSE,medical_costs,UNH_2
+Operating costs,income_statement,FALSE,operating_expenses,UNH_2
+Cost of products sold,income_statement,FALSE,cost_of_products_sold,UNH_2
+Depreciation and amortization,income_statement,FALSE,depreciation_and_amortization,UNH_2
+Total operating costs,income_statement,TRUE,total_operating_expenses,UNH_2
+Earnings from operations,income_statement,TRUE,operating_income,UNH_2
+Interest expense,income_statement,FALSE,interest_expense,UNH_2
+Loss on sale of subsidiary and subsidiaries held for sale,income_statement,FALSE,loss_on_sale_of_subsidiaries,UNH_2
+Earnings before income taxes,income_statement,TRUE,pretax_income,UNH_2
+Provision for income taxes,income_statement,FALSE,income_tax_provision,UNH_2
+Net earnings (loss),income_statement,TRUE,net_income,UNH_2
+Earnings attributable to noncontrolling interests,income_statement,FALSE,net_income_noncontrolling,UNH_2
+Net earnings attributable to UnitedHealth Group common shareholders,income_statement,TRUE,net_income_parent,UNH_2
