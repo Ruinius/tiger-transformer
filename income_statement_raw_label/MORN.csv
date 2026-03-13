@@ -1,0 +1,16 @@
+row_name,section,is_calculated,standardized_name,company
+Revenue,income_statement,FALSE,revenue,MORN
+Cost of revenue,income_statement,FALSE,cost_of_revenue,MORN
+Sales and marketing,income_statement,FALSE,sales_and_marketing_expense,MORN
+General and administrative,income_statement,FALSE,general_and_administrative_expense,MORN
+Depreciation and amortization,income_statement,FALSE,depreciation_expense,MORN
+Other operating income,income_statement,FALSE,other_operating_expense,MORN
+Operating income,income_statement,TRUE,operating_income,MORN
+"Interest expense, net",income_statement,FALSE,interest_expense_net,MORN
+Gain on sale of business,income_statement,FALSE,gain_loss_divestitures,MORN
+"Other income (expense), net",income_statement,FALSE,other_income_expense_net,MORN
+"Non-operating income (expense), net",income_statement,TRUE,total_other_income_expense_net,MORN
+Income before income taxes and equity in investments of unconsolidated entities,income_statement,TRUE,income_before_taxes,MORN
+Equity in investments of unconsolidated entities,income_statement,FALSE,equity_method_income_loss,MORN
+Income tax expense,income_statement,FALSE,income_tax_provision,MORN
+Consolidated net income,income_statement,TRUE,net_income,MORN

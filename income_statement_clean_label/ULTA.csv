@@ -1,0 +1,13 @@
+row_name,section,is_calculated,standardized_name,company
+Net sales,income_statement,False,revenue,ULTA
+Cost of sales,income_statement,False,cost_of_revenue,ULTA
+Gross profit,income_statement,True,gross_profit,ULTA
+"Selling, general and administrative expenses",income_statement,False,sales_general_and_administrative_expense,ULTA
+Pre-opening expenses,income_statement,False,other_operating_expense,ULTA
+Operating income,income_statement,True,operating_income,ULTA
+"Interest expense (income), net",income_statement,False,interest_expense_net,ULTA
+Income before income taxes and equity net loss of affiliate,income_statement,True,income_before_taxes,ULTA
+Income tax expense,income_statement,False,income_tax_provision,ULTA
+Income before equity net loss of affiliate,income_statement,True,net_income_parent,ULTA
+Equity net loss of affiliate,income_statement,False,equity_method_income_loss,ULTA
+Net income,income_statement,True,net_income,ULTA

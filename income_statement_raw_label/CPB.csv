@@ -1,0 +1,17 @@
+row_name,section,is_calculated,standardized_name,company
+Net sales,income_statement,FALSE,revenue,CPB
+Cost of products sold,income_statement,FALSE,cost_of_revenue,CPB
+Marketing and selling expenses,income_statement,FALSE,sales_and_marketing_expense,CPB
+Administrative expenses,income_statement,FALSE,general_and_administrative_expense,CPB
+Research and development expenses,income_statement,FALSE,research_and_development_expense,CPB
+Other expenses / (income),income_statement,FALSE,other_operating_income_expense_net,CPB
+Restructuring charges,income_statement,FALSE,restructuring_and_impairment_charges,CPB
+Total costs and expenses,income_statement,TRUE,total_operating_expenses,CPB
+Earnings before interest and taxes,income_statement,TRUE,ebit,CPB
+Interest expense,income_statement,FALSE,interest_expense,CPB
+Interest income,income_statement,FALSE,interest_income,CPB
+Earnings before taxes,income_statement,TRUE,income_before_taxes,CPB
+Taxes on earnings,income_statement,FALSE,income_tax_provision,CPB
+Net earnings,income_statement,TRUE,net_income,CPB
+Less: Net earnings (loss) attributable to noncontrolling interests,income_statement,FALSE,net_income_noncontrolling,CPB
+Net earnings attributable to The Campbell's Company,income_statement,TRUE,net_income_parent,CPB

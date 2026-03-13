@@ -1,0 +1,26 @@
+row_name,section,is_calculated,standardized_name,company
+Company sales,income_statement,False,segment_revenue,YUMC
+Franchise fees and income,income_statement,False,segment_revenue,YUMC
+Revenues from transactions with franchisees,income_statement,False,segment_revenue,YUMC
+Other revenues,income_statement,False,segment_revenue,YUMC
+Total revenues,income_statement,True,total_revenue,YUMC
+Food and paper,income_statement,False,cost_of_revenue,YUMC
+Payroll and employee benefits,income_statement,False,cost_of_revenue,YUMC
+Occupancy and other operating expenses,income_statement,False,cost_of_revenue,YUMC
+Company restaurant expenses,income_statement,True,total_cost_of_revenue,YUMC
+General and administrative expenses,income_statement,False,general_and_administrative_expense,YUMC
+Franchise expenses,income_statement,False,segment_cost_of_revenue,YUMC
+Expenses for transactions with franchisees,income_statement,False,merger_and_acquisition_costs,YUMC
+Other operating costs and expenses,income_statement,False,other_operating_expense,YUMC
+"Closures and impairment expenses, net",income_statement,False,restructuring_and_impairment_charges,YUMC
+"Other income, net",income_statement,False,other_operating_income_expense_net,YUMC
+"Total costs and expenses, net",income_statement,True,total_operating_expenses,YUMC
+Operating Profit,income_statement,True,operating_income,YUMC
+"Interest income, net",income_statement,False,interest_income,YUMC
+Investment gain (loss),income_statement,False,investment_income_net,YUMC
+Income Before Income Taxes and Equity in Net Earnings (Losses) from Equity Method Investments,income_statement,True,income_before_taxes,YUMC
+Income tax provision,income_statement,False,income_tax_provision,YUMC
+Equity in net earnings (losses) from equity method investments,income_statement,False,equity_method_income_loss,YUMC
+Net income – including noncontrolling interests,income_statement,True,net_income_parent,YUMC
+Net income – noncontrolling interests,income_statement,False,net_income_noncontrolling,YUMC
+"Net Income – Yum China Holdings, Inc.",income_statement,True,net_income,YUMC

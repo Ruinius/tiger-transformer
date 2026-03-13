@@ -1,0 +1,18 @@
+row_name,section,is_calculated,standardized_name,company
+Creative Subscriptions,income_statement,False,segment_revenue,WIX_1
+Business Solutions,income_statement,False,segment_revenue,WIX_1
+Revenues,income_statement,True,total_revenue,WIX_1
+Creative Subscriptions,income_statement,False,segment_cost_of_revenue,WIX_1
+Business Solutions,income_statement,False,segment_cost_of_revenue,WIX_1
+Cost of Revenues,income_statement,True,total_cost_of_revenue,WIX_1
+Gross Profit,income_statement,True,gross_profit,WIX_1
+Research and development,income_statement,False,research_and_development_expense,WIX_1
+Selling and marketing,income_statement,False,sales_and_marketing_expense,WIX_1
+General and administrative,income_statement,False,general_and_administrative_expense,WIX_1
+Total operating expenses,income_statement,True,total_operating_expenses,WIX_1
+Operating income,income_statement,True,operating_income,WIX_1
+"Financial income (expenses), net",income_statement,False,other_income_expense_net,WIX_1
+"Other income, net",income_statement,False,other_income_expense_net,WIX_1
+Income (loss) before taxes on income,income_statement,True,income_before_taxes,WIX_1
+Income tax expenses (benefit),income_statement,False,income_tax_provision,WIX_1
+Net income,income_statement,True,net_income,WIX_1

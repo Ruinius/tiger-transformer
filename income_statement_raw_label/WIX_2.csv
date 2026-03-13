@@ -1,0 +1,19 @@
+row_name,section,is_calculated,standardized_name,company
+Creative Subscriptions,income_statement,FALSE,segment_revenue,WIX_2
+Business Solutions,income_statement,FALSE,segment_revenue,WIX_2
+Revenues,income_statement,TRUE,total_revenue,WIX_2
+Creative Subscriptions,income_statement,FALSE,segment_cost_of_revenue,WIX_2
+Business Solutions,income_statement,FALSE,segment_cost_of_revenue,WIX_2
+Cost of Revenues,income_statement,TRUE,total_cost_of_revenue,WIX_2
+Gross Profit,income_statement,TRUE,gross_profit,WIX_2
+Research and development,income_statement,FALSE,research_and_development_expense,WIX_2
+Selling and marketing,income_statement,FALSE,sales_and_marketing_expense,WIX_2
+General and administrative,income_statement,FALSE,general_and_administrative_expense,WIX_2
+"Impairment, restructuring and other costs",income_statement,FALSE,restructuring_and_impairment_charges,WIX_2
+Total operating expenses,income_statement,TRUE,total_operating_expenses,WIX_2
+Operating income,income_statement,TRUE,operating_income,WIX_2
+"Financial income (expenses), net",income_statement,FALSE,other_income_expense_net,WIX_2
+"Other income, net",income_statement,FALSE,other_income_expense_net,WIX_2
+Income (loss) before taxes on income,income_statement,TRUE,income_before_taxes,WIX_2
+Income tax expenses (benefit),income_statement,FALSE,income_tax_provision,WIX_2
+Net income,income_statement,TRUE,net_income,WIX_2

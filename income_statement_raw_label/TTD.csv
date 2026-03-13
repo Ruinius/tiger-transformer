@@ -1,0 +1,12 @@
+row_name,section,is_calculated,standardized_name,company
+Revenue,income_statement,FALSE,revenue,TTD
+Platform operations,income_statement,FALSE,cost_of_revenue,TTD
+Sales and marketing,income_statement,FALSE,sales_and_marketing_expense,TTD
+Technology and development,income_statement,FALSE,research_and_development_expense,TTD
+General and administrative,income_statement,FALSE,general_and_administrative_expense,TTD
+Total operating expenses,income_statement,TRUE,total_operating_expenses,TTD
+Income from operations,income_statement,TRUE,operating_income,TTD
+"Total other income, net",income_statement,FALSE,other_income_expense_net,TTD
+Income before income taxes,income_statement,TRUE,income_before_taxes,TTD
+Provision for income taxes,income_statement,FALSE,income_tax_provision,TTD
+Net income,income_statement,TRUE,net_income,TTD
