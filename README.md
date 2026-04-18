@@ -1,5 +1,13 @@
 # Tiger Transformer
 
+[![License: Apache 2.0](https://img.shields.io/badge/License-Apache_2.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)
+[![Python](https://img.shields.io/badge/Python-3.x-3776AB.svg?logo=python&logoColor=white)](https://www.python.org/)
+[![Hugging Face](https://img.shields.io/badge/%F0%9F%A4%97_Hugging_Face-Model-orange)](https://huggingface.co/Ruinius/tiger-transformer)
+[![GitHub stars](https://img.shields.io/github/stars/Ruinius/tiger-transformer?style=social)](https://github.com/Ruinius/tiger-transformer/stargazers)
+[![GitHub last commit](https://img.shields.io/github/last-commit/Ruinius/tiger-transformer)](https://github.com/Ruinius/tiger-transformer/commits)
+[![GitHub repo size](https://img.shields.io/github/repo-size/Ruinius/tiger-transformer)](https://github.com/Ruinius/tiger-transformer)
+[![Fork Only](https://img.shields.io/badge/Contributions-Fork_Only-lightgrey)](https://github.com/Ruinius/tiger-transformer/fork)
+
 A fine-tuned transformer model designed to standardize financial statement line items (Balance Sheet and Income Statement).
 
 [🤗 Model on Hugging Face](https://huggingface.co/Ruinius/tiger-transformer)

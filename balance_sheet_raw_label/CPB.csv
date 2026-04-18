@@ -1,0 +1,33 @@
+row_name,section,is_calculated,standardized_name,company
+Cash and cash equivalents,current_assets,FALSE,cash_and_equivalents,CPB
+"Accounts receivable, net",current_assets,FALSE,accounts_receivable,CPB
+Inventories,current_assets,FALSE,inventory,CPB
+Other current assets,current_assets,FALSE,other_current_assets,CPB
+Assets of business held for sale,current_assets,FALSE,assets_held_for_sale,CPB
+Total current assets,current_assets,TRUE,total_current_assets,CPB
+"Plant assets, net of depreciation",noncurrent_assets,FALSE,property_plant_equipment,CPB
+Goodwill,noncurrent_assets,FALSE,goodwill,CPB
+"Other intangible assets, net of amortization",noncurrent_assets,FALSE,intangibles_net,CPB
+Other assets,noncurrent_assets,FALSE,other_noncurrent_assets,CPB
+Total assets,noncurrent_assets,TRUE,total_assets,CPB
+Short-term borrowings,current_liabilities,FALSE,short_term_debt,CPB
+Accounts payable,current_liabilities,FALSE,accounts_payable,CPB
+Accrued liabilities,current_liabilities,FALSE,accrued_liabilities,CPB
+Dividends payable,current_liabilities,FALSE,dividends_payable,CPB
+Accrued income taxes,current_liabilities,FALSE,current_income_taxes_payable,CPB
+Liabilities of business held for sale,current_liabilities,FALSE,liabilities_held_for_sale,CPB
+Total current liabilities,current_liabilities,TRUE,total_current_liabilities,CPB
+Long-term debt,noncurrent_liabilities,FALSE,long_term_debt,CPB
+Deferred taxes,noncurrent_liabilities,FALSE,deferred_tax_liabilities,CPB
+Other liabilities,noncurrent_liabilities,FALSE,other_noncurrent_liabilities,CPB
+Total liabilities,noncurrent_liabilities,TRUE,total_liabilities,CPB
+Preferred stock; authorized 40 shares; none issued,stockholders_equity,FALSE,preferred_stock,CPB
+"Capital stock, $.0375 par value; authorized 560 shares; issued 323 shares",stockholders_equity,FALSE,additional_paid_in_capital,CPB
+Additional paid-in capital,stockholders_equity,FALSE,additional_paid_in_capital,CPB
+Earnings retained in the business,stockholders_equity,FALSE,retained_earnings,CPB
+"Capital stock in treasury, at cost",stockholders_equity,FALSE,additional_paid_in_capital,CPB
+Accumulated other comprehensive income (loss),stockholders_equity,FALSE,aoci,CPB
+Total The Campbell's Company shareholders' equity,stockholders_equity,TRUE,total_parent_equity,CPB
+Noncontrolling interests,stockholders_equity,FALSE,noncontrolling_interests,CPB
+Total equity,stockholders_equity,TRUE,total_equity,CPB
+Total liabilities and equity,stockholders_equity,TRUE,total_liabilities_and_equity,CPB
